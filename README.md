@@ -11,15 +11,15 @@ Furthermore, we have included information on the best secure coding practices th
 - ### The Development Lifecycle
   The engineering lifecycle refers to the series of processes and activities that an engineering project undergoes from its conceptualization and design to its development, testing, deployment, and maintenance.
 
-  - [Discovery]
+  - #### Discovery
   
-  - [Build]
+  - #### Build
   
-  - [Quality Control]
+  - #### Quality Control
 
-  - [Deployment]
+  - #### Deployment
   
-  - [Support]
+  - #### Support
 
  
 

@@ -11,4 +11,7 @@ Furthermore, we have included information on the best secure coding practices th
 - [The Development Lifecycle](./tbc/tbc.md)
 
 - [Development Process Risk Assessment](./tbc/tbc.md)
-  - [Development Process Risk Assessment](./tbc/tbc.md)
+  - [User Authentication](./tbc/tbc.md)
+  - [Access types](./tbc/tbc.md)
+  - [Informing users on process](./tbc/tbc.md)
+  - [Informing users on responsibility](./tbc/tbc.md)

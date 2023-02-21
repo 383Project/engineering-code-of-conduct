@@ -28,13 +28,22 @@ Furthermore, we have included information on the best secure coding practices th
     - [Secure Coding Practices Guide](/)
     - [Development Environments Guide](/)
     - [Deployment Guide](/)
+    - [Recording Technical Debt Guide](/)
+    - [Documentation creation Guide](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
+    
     - [Backend Engineering Team Operation Guide](/)
     - [Frontend Engineering Team Operation Guide](/)
   
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.
+    
+    - [Test Strategy Guide](/)
+    - [Compatability testing Guide](/)
+    - [Resgression testing Guide](/)
+    - [Defect Creation Guide](/)
+    - [User Acceptance testing Guide](/)
     
      As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Quality Assurance Team Operation Guide](/)
@@ -42,11 +51,16 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Deployment
     Deployment in the engineering lifecycle refers to the phase where the final product or solution is released, installed, and made available for use by the end-users, including the necessary training, documentation, and support to ensure a successful adoption.
     
+    - [Prelaunch Checklist Guide](/)
+    
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Support Team Operation Guide](/)
   
   - #### Support
     Support in the engineering lifecycle refers to the ongoing maintenance and enhancement of the product or solution, including bug fixes, upgrades, and additional features, to ensure that it continues to meet the changing needs and requirements of the end-users.
+    
+    - [Maintainance Guide](/)
+    - [Security and Compliance Guide](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Support Team Operation Guide](/)

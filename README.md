@@ -9,3 +9,6 @@ Furthermore, we have included information on the best secure coding practices th
 ## Table of contents
 
 - [The Development Lifecycle](./tbc/tbc.md)
+
+- [Development Process Risk Assessment](./tbc/tbc.md)
+  - [Development Process Risk Assessment](./tbc/tbc.md)

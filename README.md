@@ -128,10 +128,10 @@ Furthermore, we have included information on the best secure coding practices th
       - [Changed business requirements]
       - [Retirement of service] 
   - [Engineering Risk Assessment Policy](/)
-    - [Development Process Risk Assessment](./tbc/tbc.md)
-      - [User Authentication](./tbc/tbc.md)
-      - [Access types](./tbc/tbc.md)
-      - [Informing users on process](./tbc/tbc.md)
-      - [Informing users on responsibility](./tbc/tbc.md)
-      - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.](./tbc/tbc.md)
-      - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ](./tbc/tbc.md)
+    - [Development Process Risk Assessment]
+      - [User Authentication]
+      - [Access types]
+      - [Informing users on process]
+      - [Informing users on responsibility]
+      - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.]
+      - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ]

@@ -8,7 +8,10 @@ Furthermore, we have included information on the best secure coding practices th
 
 ## Table of contents
 
-- [The Development Lifecycle](./tbc/tbc.md)
+- [The Development Lifecycle](./tbc/tbc.md)\
+The engineering lifecycle refers to the series of processes and activities that an engineering project undergoes from its conceptualization and design to its development, testing, deployment, and maintenance.
+
+
   - [Operating Procedures](./tbc/tbc.md)
     - [Communication Facilities ](./tbc/tbc.md)
       - [Issue Tracking]

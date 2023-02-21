@@ -15,6 +15,7 @@ Furthermore, we have included information on the best secure coding practices th
     Discovery in the engineering lifecycle refers to the initial phase of the project where requirements are gathered, the problem is defined, and the feasibility of the project is assessed to determine whether it is worth pursuing.
   
   - #### Build
+    Build in the engineering lifecycle refers to the phase where the design and development of the project take place, including the creation of prototypes and the implementation of software and hardware.
   
   - #### Quality Control
 

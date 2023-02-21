@@ -17,9 +17,17 @@ Furthermore, we have included information on the best secure coding practices th
     - [Process of creating a formal estimation](/)
     - [Process of creating a formal infrastructure quote](/)
     - [Creation of Software requirements specification](/)
+    - [Creation of Network Diagrams](/)
+    - [Creation of Flow Diagrams](/)
   
   - #### Build
     Build in the engineering lifecycle refers to the phase where the design and development of the project take place, including the creation of prototypes and the implementation of software and hardware.
+    
+    - [Version Control Guide](/)
+    - [Code Review Guide](/)
+    - [Secure Coding Practices Guide](/)
+    - [Development Environments Guide](/)
+    - [Deployment Guide](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Backend Engineering Team Operation Guide](/)

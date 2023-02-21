@@ -17,6 +17,7 @@ Furthermore, we have included information on the best secure coding practices th
     - [Process of creating a formal estimation](/)
     - [Process of creating a formal infrastructure quote](/)
     - [Creation of Software requirements specification](/)
+      - [security requirements in the design phase] 
     - [Creation of Network Diagrams](/)
     - [Creation of Flow Diagrams](/)
   
@@ -24,10 +25,16 @@ Furthermore, we have included information on the best secure coding practices th
     Build in the engineering lifecycle refers to the phase where the design and development of the project take place, including the creation of prototypes and the implementation of software and hardware.
     
     - [Version Control Policy](/)
+      - [secure repositories] 
     - [Code Review Policy](/)
     - [Secure Coding Practices Policy](/)
+      - [secure coding guidelines for each programming language]
+      - [security checkpoints in project milestones]
+      - [ensuring developers are capable of avoiding, finding and resolving vulnerabilities]
+    - [Error handling and exceptions Policy](/) 
     - [Development Environments Policy](/)
-    - [Deployment Policy](/)
+      - [the security of the development environment]
+      - [security in the software development methodology]
     - [Recording Technical Debt Policy](/)
     - [Documentation creation Policy](/)
     
@@ -52,6 +59,11 @@ Furthermore, we have included information on the best secure coding practices th
     Deployment in the engineering lifecycle refers to the phase where the final product or solution is released, installed, and made available for use by the end-users, including the necessary training, documentation, and support to ensure a successful adoption.
     
     - [Prelaunch Checklist Policy](/)
+    - [Infrastructure Logging Policy]
+      - [90 days of logs for servers, what todo for serverless]
+      - [protection of Log documents]
+      - [where do we store all our logs for 90 days] 
+    - [Deployment Policy](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Support Team Operation Policy](/)
@@ -60,8 +72,16 @@ Furthermore, we have included information on the best secure coding practices th
     Support in the engineering lifecycle refers to the ongoing maintenance and enhancement of the product or solution, including bug fixes, upgrades, and additional features, to ensure that it continues to meet the changing needs and requirements of the end-users.
     
     - [Maintainance Policy](/)
+      - [server maintainance procedures]
     - [Security and Compliance Policy](/)
+      - [Intrusion detection]
+      - [Server Clock on servers]
+      - [Vulnerabilities]
+        - [Timelines are defined to react to notification]
+      - [required application security knowledge]
     - [Infrastructure Creation Policy](/)
+      - [installation and configuration of systems]
+      - [IT infrastructure upgrades]
     - [Infrastructure backups and restoration Policy](/)
       - [backup schedule]
       - [backup frequency]
@@ -72,8 +92,18 @@ Furthermore, we have included information on the best secure coding practices th
       - [Automating backups]
       - [performing backups]
       - [performing restores]
+      - [system restart and recovery percedures]
     - [Infrastructure monitoring Policy](/)
+      - [Monitoring Procedures]  
     - [Handling of information Policy](/)
+      - [processing and handling of information]
+      - [Stripping Sensitive data on QA Servers]
+      - [IP Restrictions around access Staging and QA Servers to  protect content] 
+    - [Infrastructure scheduling policy](/)
+      - [scheduling requirements] 
+      - [SLA Coverage and issue scoring]
+    - [Auditing Policy](/)
+      - Audit Trails for System access to sensitive data
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Support Team Operation Policy](/)
@@ -86,73 +116,22 @@ Furthermore, we have included information on the best secure coding practices th
     - [Pull Requests]
     - [Slack]
     - [Email]
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- WIP TOPICS BELOW ARE TO BE INCLUDED WITHIN THE GUIDE SOMEHOW
-
-
-  - [Operating Procedures](./tbc/tbc.md)
-    
-        
-    - [Monitoring Procedures]
-    - [server maintainance procedures]
-    - [installation and configuration of systems]
-    - [processing and handling of information]
-    - [scheduling requirements]
-    - [Inderdependancies]
-    - [error handling and exceptions]
-    - [system restart and recovery percedures]
-    - [Stripping Sensitive data on QA Servers]
-    - [IP Restrictions around access Staging and QA Servers to  protect content] 
-    - [Secure Coding practices]
-    - [logging]
-      - [90 days of logs for servers, what todo for serverless]
-      - [protection of Log documents]
-      - [where do we store all our logs for 90 days]
-    - [Intrusion detection]
-    - [Server Clock on servers]
-    - [Vulnerabilities]
-      - [Timelines are defined to react to notification]
-    - [Audit Trails for System access to sensitive data]
-    - [Change Request]
-      - [An incident or problem]
+  - [Contractor and Third Parties Policy](/)
+    - [the use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers] 
+  - [Engineering Change Request Policy](/)
+    - [An incident or problem]
       - [New software functionality]
         - [Git Commit messaging]
         - [pull request and code review]
-        - [Major functionality roll back plan]
-      - [IT infrastructure upgrades]
+        - [Major functionality roll back plan] 
       - [New or changed legislation]
       - [Changed business requirements]
-      - [Retirement of service]
-      - [the security of the development environment]
-      - [guidance on security in the development lifecycle]
-      - [security in the software development methodology]
-      - [secure coding guidelines for each programming language]
-      - [security requirements in the design phase]
-      - [security checkpoints in project milestones]
-      - [secure repositories]
-      - [version control]
-      - [required application security knowledge]
-      - [ensuring developers are capable of avoiding, finding and resolving vulnerabilities]
-      - [he use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers]
-      
-
-- [Development Process Risk Assessment](./tbc/tbc.md)
-  - [User Authentication](./tbc/tbc.md)
-  - [Access types](./tbc/tbc.md)
-  - [Informing users on process](./tbc/tbc.md)
-  - [Informing users on responsibility](./tbc/tbc.md)
-  - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.](./tbc/tbc.md)
-  - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ](./tbc/tbc.md)
-
-
+      - [Retirement of service] 
+  - [Engineering Risk Assessment Policy](/)
+    - [Development Process Risk Assessment](./tbc/tbc.md)
+      - [User Authentication](./tbc/tbc.md)
+      - [Access types](./tbc/tbc.md)
+      - [Informing users on process](./tbc/tbc.md)
+      - [Informing users on responsibility](./tbc/tbc.md)
+      - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.](./tbc/tbc.md)
+      - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ](./tbc/tbc.md)

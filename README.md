@@ -10,9 +10,65 @@ Furthermore, we have included information on the best secure coding practices th
 
 - [The Development Lifecycle](./tbc/tbc.md)
   - [Operating Procedures](./tbc/tbc.md)
-    - [Operating Procedures](./tbc/tbc.md)
-   
-    
+    - [Communication Facilities ](./tbc/tbc.md)
+      - [Issue Tracking]
+      - [Jira Commenting and linking]
+      - [Pull Requests]
+      - [Slack]
+      - [Email]
+    - [Backup procedures]
+      - [backup  process]
+        - [backup schedule]
+        - [backup frequency]
+        - [where are they stored]
+        - [backup testing process in an isolated environment]
+        - [backup integrity varifification]
+        - [S3 Asset versioning and verification]
+        - [Automating backups]
+        - [performing backups]
+        - [performing restores]
+    - [Monitoring Procedures]
+    - [server maintainance procedures]
+    - [installation and configuration of systems]
+    - [processing and handling of information]
+    - [scheduling requirements]
+    - [Inderdependancies]
+    - [error handling and exceptions]
+    - [system restart and recovery percedures]
+    - [Stripping Sensitive data on QA Servers]
+    - [IP Restrictions around access Staging and QA Servers to  protect content] 
+    - [Secure Coding practices]
+    - [logging]
+      - [90 days of logs for servers, what todo for serverless]
+      - [protection of Log documents]
+      - [where do we store all our logs for 90 days]
+    - [Intrusion detection]
+    - [Server Clock on servers]
+    - [Vulnerabilities]
+      - [Timelines are defined to react to notification]
+    - [Audit Trails for System access to sensitive data]
+    - [Change Request]
+      - [An incident or problem]
+      - [New software functionality]
+        - [Git Commit messaging]
+        - [pull request and code review]
+        - [Major functionality roll back plan]
+      - [IT infrastructure upgrades]
+      - [New or changed legislation]
+      - [Changed business requirements]
+      - [Retirement of service]
+      - [the security of the development environment]
+      - [guidance on security in the development lifecycle]
+      - [security in the software development methodology]
+      - [secure coding guidelines for each programming language]
+      - [security requirements in the design phase]
+      - [security checkpoints in project milestones]
+      - [secure repositories]
+      - [version control]
+      - [required application security knowledge]
+      - [ensuring developers are capable of avoiding, finding and resolving vulnerabilities]
+      - [he use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers]
+      
 
 - [Development Process Risk Assessment](./tbc/tbc.md)
   - [User Authentication](./tbc/tbc.md)
@@ -21,3 +77,5 @@ Furthermore, we have included information on the best secure coding practices th
   - [Informing users on responsibility](./tbc/tbc.md)
   - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.](./tbc/tbc.md)
   - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ](./tbc/tbc.md)
+
+

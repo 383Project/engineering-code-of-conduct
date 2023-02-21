@@ -15,3 +15,5 @@ Furthermore, we have included information on the best secure coding practices th
   - [Access types](./tbc/tbc.md)
   - [Informing users on process](./tbc/tbc.md)
   - [Informing users on responsibility](./tbc/tbc.md)
+  - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.](./tbc/tbc.md)
+  - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ](./tbc/tbc.md)

@@ -23,51 +23,69 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Build
     Build in the engineering lifecycle refers to the phase where the design and development of the project take place, including the creation of prototypes and the implementation of software and hardware.
     
-    - [Version Control Guide](/)
-    - [Code Review Guide](/)
-    - [Secure Coding Practices Guide](/)
-    - [Development Environments Guide](/)
-    - [Deployment Guide](/)
-    - [Recording Technical Debt Guide](/)
-    - [Documentation creation Guide](/)
+    - [Version Control Policy](/)
+    - [Code Review Policy](/)
+    - [Secure Coding Practices Policy](/)
+    - [Development Environments Policy](/)
+    - [Deployment Policy](/)
+    - [Recording Technical Debt Policy](/)
+    - [Documentation creation Policy](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     
-    - [Backend Engineering Team Operation Guide](/)
-    - [Frontend Engineering Team Operation Guide](/)
+    - [Backend Engineering Team Operation Policy](/)
+    - [Frontend Engineering Team Operation Policy](/)
   
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.
     
-    - [Test Strategy Guide](/)
-    - [Compatability testing Guide](/)
-    - [Resgression testing Guide](/)
-    - [Defect Creation Guide](/)
-    - [User Acceptance testing Guide](/)
+    - [Test Strategy Policy](/)
+    - [Compatability testing Policy](/)
+    - [Resgression testing Policy](/)
+    - [Defect Creation Policy](/)
+    - [User Acceptance testing Policy](/)
     
      As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Quality Assurance Team Operation Guide](/)
+    - [Quality Assurance Team Operation Policy](/)
 
   - #### Deployment
     Deployment in the engineering lifecycle refers to the phase where the final product or solution is released, installed, and made available for use by the end-users, including the necessary training, documentation, and support to ensure a successful adoption.
     
-    - [Prelaunch Checklist Guide](/)
+    - [Prelaunch Checklist Policy](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Support Team Operation Guide](/)
+    - [Support Team Operation Policy](/)
   
   - #### Support
     Support in the engineering lifecycle refers to the ongoing maintenance and enhancement of the product or solution, including bug fixes, upgrades, and additional features, to ensure that it continues to meet the changing needs and requirements of the end-users.
     
-    - [Maintainance Guide](/)
-    - [Security and Compliance Guide](/)
+    - [Maintainance Policy](/)
+    - [Security and Compliance Policy](/)
+    - [Infrastructure Creation Policy](/)
+    - [Infrastructure backups and restoration Policy](/)
+      - [backup schedule]
+      - [backup frequency]
+      - [where are they stored]
+      - [backup testing process in an isolated environment]
+      - [backup integrity varifification]
+      - [S3 Asset versioning and verification]
+      - [Automating backups]
+      - [performing backups]
+      - [performing restores]
+    - [Infrastructure monitoring Policy](/)
+    - [Handling of information Policy](/)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Support Team Operation Guide](/)
+    - [Support Team Operation Policy](/)
 
- 
- 
- 
+- ### General Engineering Operation Procedures
+
+  - [Engineering Communication Policy](/)
+    - [Issue Tracking]
+    - [Jira Commenting and linking]
+    - [Pull Requests]
+    - [Slack]
+    - [Email]
  
  
  
@@ -84,23 +102,8 @@ Furthermore, we have included information on the best secure coding practices th
 
 
   - [Operating Procedures](./tbc/tbc.md)
-    - [Communication Facilities ](./tbc/tbc.md)
-      - [Issue Tracking]
-      - [Jira Commenting and linking]
-      - [Pull Requests]
-      - [Slack]
-      - [Email]
-    - [Backup procedures]
-      - [backup  process]
-        - [backup schedule]
-        - [backup frequency]
-        - [where are they stored]
-        - [backup testing process in an isolated environment]
-        - [backup integrity varifification]
-        - [S3 Asset versioning and verification]
-        - [Automating backups]
-        - [performing backups]
-        - [performing restores]
+    
+        
     - [Monitoring Procedures]
     - [server maintainance procedures]
     - [installation and configuration of systems]

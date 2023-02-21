@@ -40,6 +40,21 @@ Furthermore, we have included information on the best secure coding practices th
     - [Support Team Operation Guide](/)
 
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ WIP TOPICS BELOW ARE TO BE INCLUDED WITHIN THE GUIDE SOMEHOW
 
 
   - [Operating Procedures](./tbc/tbc.md)

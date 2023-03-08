@@ -15,28 +15,21 @@ Furthermore, we have included information on the best secure coding practices th
     Discovery in the engineering lifecycle refers to the initial phase of the project where requirements are gathered, the problem is defined, and the feasibility of the project is assessed to determine whether it is worth pursuing. The following information for discovery is for a guide purpose only as not every project requires these documents this varies to a project complexity and needs. 
     
     - [Process of creating a formal estimation](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/estimation-process.md)
-    - [Process of creating a formal infrastructure quote](/)
-    - [Creation of Software requirements specification](/)
-      - [security requirements in the design phase] 
-    - [Creation of Network Diagrams](/)
-    - [Creation of Flow Diagrams](/)
+    - [Process of creating a formal infrastructure quote](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/infrastructure-quote.md)
+    - [Creation of Software requirements specification](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/software-requirements-specification.md)
+    - [Creation of Network Diagrams](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/network-diagrams.md)
+    - [Creation of Flow Diagrams](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/flow-diagrams.md)
   
   - #### Build
     Build in the engineering lifecycle refers to the phase where the design and development of the project take place, including the creation of prototypes and the implementation of software and hardware.
     
-    - [Version Control Policy](/)
-      - [secure repositories] 
-    - [Code Review Policy](/)
-    - [Secure Coding Practices Policy](/)
-      - [secure coding guidelines for each programming language]
-      - [security checkpoints in project milestones]
-      - [ensuring developers are capable of avoiding, finding and resolving vulnerabilities]
-    - [Error handling and exceptions Policy](/) 
-    - [Development Environments Policy](/)
-      - [the security of the development environment]
-      - [security in the software development methodology]
-    - [Recording Technical Debt Policy](/)
-    - [Documentation creation Policy](/)
+    - [Version Control Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/version-control-policy.md)
+    - [Code Review Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/code-review-policy.md)
+    - [Secure Coding Practices Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/secure-coding-practices-policy.md)
+    - [Error handling and exceptions Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/error-handling-exceptions-policy.md)
+    - [Development Environments Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/development-enviroments-policy.md)
+    - [Recording Technical Debt Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/recording-technical-debt-policy.md)
+    - [Documentation creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/documentation-policy.md)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     
@@ -46,11 +39,11 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.
     
-    - [Test Strategy Policy](/)
-    - [Compatability testing Policy](/)
-    - [Resgression testing Policy](/)
-    - [Defect Creation Policy](/)
-    - [User Acceptance testing Policy](/)
+    - [Test Strategy Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/testing-strategy-policy.md)
+    - [Compatability testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/compatabillity-testing-policy.md)
+    - [Resgression testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/regression-testing-policy.md)
+    - [Defect Creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/defect-creation-policy.md)
+    - [User Acceptance testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/user-acceptance-testing-policy.md)
     
      As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Quality Assurance Team Operation Policy](/)
@@ -58,12 +51,9 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Deployment
     Deployment in the engineering lifecycle refers to the phase where the final product or solution is released, installed, and made available for use by the end-users, including the necessary training, documentation, and support to ensure a successful adoption.
     
-    - [Prelaunch Checklist Policy](/)
-    - [Infrastructure Logging Policy]
-      - [90 days of logs for servers, what todo for serverless]
-      - [protection of Log documents]
-      - [where do we store all our logs for 90 days] 
-    - [Deployment Policy](/)
+    - [Prelaunch Checklist Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/deployment/prelaunch-checklist-policy.md)
+    - [Infrastructure Logging Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/deployment/infrastructure-logging-policy.md)
+    - [Deployment Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/deployment/deployment-policy.md)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Support Team Operation Policy](/)
@@ -71,47 +61,14 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Support
     Support in the engineering lifecycle refers to the ongoing maintenance and enhancement of the product or solution, including bug fixes, upgrades, and additional features, to ensure that it continues to meet the changing needs and requirements of the end-users.
     
-    - [Maintainance Policy](/)
-      - [server maintainance procedures]
-    - [Security and Compliance Policy](/)
-      - [Intrusion detection]
-      - [Server Clock on servers]
-      - [Vulnerabilities]
-        - [Logging Vulnerabilities - Document to register them in]
-          - [Description of the issue]
-          - [Date, time, and location of the issue.]
-          - [Person who discovered the issue.]
-          - [How the issue was discovered.]
-          - [Known evidence of the issue.]
-          - [The affected system(s).]
-          - [Affected number of users.]
-        - [Timelines are defined to react to notification]
-      - [required application security knowledge]
-    - [Infrastructure Creation Policy](/)
-      - [installation and configuration of systems]
-      - [IT infrastructure upgrades]
-    - [Infrastructure backups and restoration Policy](/)
-      - [backup schedule]
-      - [backup frequency]
-      - [where are they stored]
-      - [backup testing process in an isolated environment]
-      - [backup integrity varifification]
-      - [S3 Asset versioning and verification]
-      - [Automating backups]
-      - [performing backups]
-      - [performing restores]
-      - [system restart and recovery percedures]
-    - [Infrastructure monitoring Policy](/)
-      - [Monitoring Procedures]  
-    - [Handling of information Policy](/)
-      - [processing and handling of information]
-      - [Stripping Sensitive data on QA Servers]
-      - [IP Restrictions around access Staging and QA Servers to  protect content] 
-    - [Infrastructure scheduling policy](/)
-      - [scheduling requirements] 
-      - [SLA Coverage and issue scoring]
-    - [Auditing Policy](/)
-      - Audit Trails for System access to sensitive data
+    - [Maintainance Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/maintainance-policy.md)
+    - [Security and Compliance Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/security-and-compliance-policy.md)
+    - [Infrastructure Creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-monitoring-policy.md)
+    - [Infrastructure backups and restoration Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-backups-and-restoration-policy.md)
+    - [Infrastructure monitoring Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-monitoring-policy.md)
+    - [Handling of information Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/information-policy.md)
+    - [Infrastructure scheduling policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/schedulling-policy.md)
+    - [Auditing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/auditing-policy.md)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Support Team Operation Policy](/)

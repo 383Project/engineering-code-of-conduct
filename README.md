@@ -14,7 +14,7 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Discovery
     Discovery in the engineering lifecycle refers to the initial phase of the project where requirements are gathered, the problem is defined, and the feasibility of the project is assessed to determine whether it is worth pursuing. The following information for discovery is for a guide purpose only as not every project requires these documents this varies to a project complexity and needs. 
     
-    - [Process of creating a formal estimation](/)
+    - [Process of creating a formal estimation](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/estimation-process.md)
     - [Process of creating a formal infrastructure quote](/)
     - [Creation of Software requirements specification](/)
       - [security requirements in the design phase] 

@@ -17,3 +17,6 @@ h)  The organisation’s audit rights over development processes and controls
 i)    Documentation of the build environment
 j)   Division of responsibility for compliance]
 
+    - [the use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers] 
+    
+

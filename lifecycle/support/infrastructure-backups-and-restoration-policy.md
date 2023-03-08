@@ -5,3 +5,14 @@
 The backup schedule runs every 24 hours.
 The backups are stored on AWS’ RDS service managed by Amazon which are encrypted.
 Backups are tested regularly by restoring the data to an isolated environment and restoring to verify integrity.
+
+      - [backup schedule]
+      - [backup frequency]
+      - [where are they stored]
+      - [backup testing process in an isolated environment]
+      - [backup integrity varifification]
+      - [S3 Asset versioning and verification]
+      - [Automating backups]
+      - [performing backups]
+      - [performing restores]
+      - [system restart and recovery percedures]

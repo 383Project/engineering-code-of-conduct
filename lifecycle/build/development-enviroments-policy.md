@@ -10,3 +10,9 @@ No personal data should be stored in the development environment.
 No backups from any other environment should be restored to the development environment.
 No backups are taken from the development environment.
 No direct access to the development environment from any other environment and vice versa.
+
+
+- [the security of the development environment]
+      - [security in the software development methodology]
+
+

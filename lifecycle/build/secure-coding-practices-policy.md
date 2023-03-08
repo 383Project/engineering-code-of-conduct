@@ -11,3 +11,8 @@ version control,
 required application security knowledge,
 ensuring developers are capable of avoiding, finding and resolving vulnerabilities,
 the use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers. 
+
+
+      - [secure coding guidelines for each programming language]
+      - [security checkpoints in project milestones]
+      - [ensuring developers are capable of avoiding, finding and resolving vulnerabilities]

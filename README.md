@@ -75,28 +75,7 @@ Furthermore, we have included information on the best secure coding practices th
 
 - ### General Engineering Operation Procedures
 
-  - [Engineering Communication Policy](/)
-    - [Issue Tracking]
-    - [Jira Commenting and linking]
-    - [Pull Requests]
-    - [Slack]
-    - [Email]
-  - [Contractor and Third Parties Policy](/)
-    - [the use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers] 
-  - [Engineering Change Request Policy](/)
-    - [An incident or problem]
-      - [New software functionality]
-        - [Git Commit messaging]
-        - [pull request and code review]
-        - [Major functionality roll back plan] 
-      - [New or changed legislation]
-      - [Changed business requirements]
-      - [Retirement of service] 
-  - [Engineering Risk Assessment Policy](/)
-    - [Development Process Risk Assessment]
-      - [User Authentication]
-      - [Access types]
-      - [Informing users on process]
-      - [Informing users on responsibility]
-      - [Requirements derived from buisness processes such as transaction logging, monitoring, non-repudiation requirements.]
-      - [Requirements mandated by other security controls, e.g. interfaces to logging and monitoring or data leakage detection systems. ]
+  - [Engineering Communication Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/communication-policy.md)
+  - [Contractor and Third Parties Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/contractor-and-third-parties-policy.md)
+  - [Engineering Change Request Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/change-request-policy.md)
+  - [Engineering Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/edit/main/operations/risk-assessment-policy.md)

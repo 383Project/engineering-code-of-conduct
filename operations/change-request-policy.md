@@ -54,3 +54,12 @@ Once the change has been reviewed and is proved to be effective (working in line
 Standard changes - these are “business as usual” changes which are expected to make up the majority of the change requests that are logged and handled through the change management process as described in this document. Although not emergencies, they will be prioritised in order that resources can be allocated in as effective a manner as possible.
 Major changes will be logged within the change management process but referred to the Project Stakeholders as their scope and implications will generally encompass a wider audience. They can be raised as Epic Jira ticket with their own user story and acceptance criteria in which sub tasks can be added to. However, note that a Epic may generate further change requests that may be managed within the change management process as normal changes.
 Emergency changes - whilst all changes likely to be required should be foreseen and planned, there will be occasions when business requirements demand that changes be made in an emergency situation.  Such changes are those requests which impact on internal or external ‘live’ systems and require implementation in order to resolve (or prevent) a current high priority incident or problem.  In such cases a change request must be raised immediately within the Jira service desk or directly with the 383 employee who can escalate the issue and create a jira support ticket. If the full change details are not available the Lead Support Engineer must be notified.  This is to ensure that all parties are aware at the earliest opportunity.  From initial logging of the change, the principles of the normal change management process should be observed as far as is realistic, however, emergency changes may require swift approval from the Lead Support Engineer.  If an emergency change cannot be formally authorised after reasonable efforts have been made to follow the process (e.g. out of hours) a decision may be made as to whether this change will be implemented.  However, details of the change must still be recorded and the change management process followed retrospectively to ensure that records are maintained accurately and the success or failure of the change can be reviewed.
+
+    - [An incident or problem]
+      - [New software functionality]
+        - [Git Commit messaging]
+        - [pull request and code review]
+        - [Major functionality roll back plan] 
+      - [New or changed legislation]
+      - [Changed business requirements]
+      - [Retirement of service] 

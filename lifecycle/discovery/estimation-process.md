@@ -1,0 +1,3 @@
+# Process of creating a formal engineering estimation
+
+A formal estimation is an essential aspect of the [383 Projects Engineering Code of Conduct](https://github.com/383Project/engineering-code-of-conduct). A formal estimation is a crucial document that provides accurate information on the cost, resources, and timelines required for a project. It is important to follow a well-defined process to create a comprehensive estimation that considers all aspects of the project. This process involves conducting a risk assessment, determining the necessary team composition, and granting access to non-engineering team members. By following this process, we can ensure that our estimations are accurate, reliable, and transparent.

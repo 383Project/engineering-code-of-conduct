@@ -1,3 +1,3 @@
-Notes for this policy document 
+# Software Verion Control Policy
 
-- [secure repositories] 
+Software development is a critical activity at 383 Project, and the management of software code repositories is essential to ensuring the quality, security, and reliability of our software products. This policy is part of the [Engineering code of conduct](https://github.com/383Project/engineering-code-of-conduct) and sets out guidelines for the version control of software code repositories using Github, with a focus on the Gitflow methodology. By following these guidelines, we can ensure that all code changes are tracked and recorded, and that the code is backed up and protected from unauthorized access or modification. This policy also establishes procedures for managing user access and security, and for ensuring compliance with relevant standards and regulations.

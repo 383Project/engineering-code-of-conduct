@@ -44,6 +44,3 @@ This policy applies to all software code repositories in our organization that a
 - 7.1 This policy will be reviewed and updated on a regular basis by the Engineering Team to ensure that it remains relevant and effective.
 
 By following this policy, we can ensure that all our software code repositories are managed securely and in a controlled manner, with changes tracked and recorded in accordance with the Gitflow methodology. We can also ensure that any third-party code is managed securely and in accordance with our standards, protecting our code repositories from unauthorized access or modification.
-
-
-

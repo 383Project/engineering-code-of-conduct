@@ -10,14 +10,15 @@ This policy applies to all code changes made to software products in 383 Project
 
 ## 3. Code Review Process
 - 3.1 All code changes must be peer-reviewed by another developer before being merged into the master/main branch.
-- 3.2 Code review must be completed via a pull request within Github.
+- 3.2 Code review must be completed via a pull request that is created within Github.
 - 3.3 A pull request must be approved by at least one developer before being merged into the master/main branch.
-- 3.4 A pull request can be approved, rejected, or changes requested.
+- 3.4 A pull request can be approved, rejected or request neccessary changes before the code is reviewed again.
 - 3.5 All change requests must be written onto a pull request.
 - 3.6 Code reviews should be requested through slack on the channel called "pr-review-requests" using the defined workflow or the specific engineer required for the review must be contacted directly.
 - 3.7 All engineers are responsible for monitoring the "pr-review-request" channel and responding in a timely manner or providing an update as to when they are able to review the pull request.
 - 3.8 A pull request can be merged into a master/main branch only once approved.
-- 3.9 It is the responsibility of the code author to ensure that their code has been reviewed.
+- 3.9 It is the responsibility of the code author to ensure that their code has been reviewed by another developer.
+- 3.10 The developer reviewing the code does this to the best of their ability and knowledge of the codebase and platform.
 
 ## 4. Code Review Standards
 - 4.1 Code reviews must ensure that the code is written to high quality standards, is maintainable, and is free of defects.

@@ -33,7 +33,7 @@ This policy applies to all code changes made to software products in 383 Project
 - 5.4 Third-party code must be licensed appropriately, and license compliance must be verified before the code is integrated into our codebase.
 - 5.5 Code authors must document any third-party code used in their code changes, along with the source, version, and license information.
 - 5.6 Managers and team leads must ensure that third-party code is reviewed promptly and that all issues or defects are addressed before the code is integrated into our codebase.
-- 5.7 All developers are responsible for actively participating in the review of third-party code and providing constructive feedback to their peers.
+- 5.7 All developers are responsible for actively participating in the review of third-party code that relates to the project and team they are working within and have a responsibility to provide constructive feedback around this area to their peers.
 
 ## 6.Outsourced Code and Contractors
 - 6.1 Any outsourced code or code produced by contractors must be reviewed by at least one internal developer before being integrated into our codebase.

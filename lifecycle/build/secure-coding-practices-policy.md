@@ -49,5 +49,30 @@ At 383 Project, we recognize that secure coding practices are essential to ensur
 Note: These guidelines are not exhaustive and should be supplemented with specific best practices based on the project's needs and context. The Engineering teams individual departments has further expantion in this area which details can be found here:
 
 [Frontend Engineering Code of Conduct](/)
+
 [Backend Engineering Code of Conduct](/)
+
 [Support Engineering Code of Conduct](/)
+
+## 4. Security Checkpoints
+
+## 5. Development Environment
+
+## 6. Design Phase
+
+## 7. Code Repositories
+
+## 8. Secure Code Training
+
+## 9. Outsourced Development
+
+## 10. Third-Party Code
+
+
+By following this policy, we can ensure that our software products are developed using secure coding practices and protect our customers' data from security vulnerabilities.
+
+
+
+
+
+

@@ -16,7 +16,7 @@ This policy applies to all code changes made to software products in 383 Project
 - 3.5 All change requests must be written onto a pull request.
 - 3.6 Code reviews should be requested through slack on the channel called "pr-review-requests" using the defined workflow or the specific engineer required for the review must be contacted directly.
 - 3.7 All engineers are responsible for monitoring the "pr-review-request" channel and responding in a timely manner or providing an update as to when they are able to review the pull request.
-- 3.8 An approved pull request can be merged into a master/main branch only once approved.
+- 3.8 A pull request can be merged into a master/main branch only once approved.
 - 3.9 It is the responsibility of the code author to ensure that their code has been reviewed.
 
 ## 4. Code Review Standards

@@ -58,9 +58,9 @@ Note: These guidelines are not exhaustive and should be supplemented with specif
 
 - 4.1 Security checkpoints are implemented throughout the development lifecycle to ensure that security is a fundamental part of the development process. These checkpoints serve as milestones to identify and address potential security issues at each stage of the process.
 - 4.2 Security Requirements Analysis: Security requirements analysis must be conducted in the design phase of the development process. This analysis will identify the necessary security controls to be implemented throughout the application's lifecycle.
-- 4.3 Secure Coding Guidelines: Secure coding guidelines must be followed by all developers during the development phase. These guidelines will ensure that the code is written securely and minimize the risk of introducing vulnerabilities or exploits. 
-- 4.4 Code Reviews and Testing: Code reviews and testing must be conducted before and after deployment to identify and address any security issues. Regular vulnerability scanning and testing must also be performed post-deployment.
-- 4.5 Where applicable and a client is subscribed to 383 Projects maintainance offering Ongoing Vulnerability Scanning and Testing: Regular vulnerability scanning and testing must be performed post-deployment to identify and address any security issues that may arise.
+- 4.3 [Secure Coding Guidelines](): Secure coding guidelines must be followed by all developers during the development phase. These guidelines will ensure that the code is written securely and minimize the risk of introducing vulnerabilities or exploits. 
+- 4.4 [Code Reviews and Testing](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/code-review-policy.md): Code reviews and testing must be conducted before and after deployment to identify and address any security issues. Regular vulnerability scanning and testing must also be performed post-deployment.
+- 4.5 Where applicable and a client is subscribed to 383 Projects [maintainance](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/maintainance-policy.md) offering Ongoing Vulnerability Scanning and Testing: Regular vulnerability scanning and testing must be performed post-deployment to identify and address any security issues that may arise.
 
 ## 5. Development Environment
 

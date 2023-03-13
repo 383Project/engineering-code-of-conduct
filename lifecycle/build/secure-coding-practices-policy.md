@@ -56,7 +56,15 @@ Note: These guidelines are not exhaustive and should be supplemented with specif
 
 ## 4. Security Checkpoints
 
-- 4.1 Security checkpoints are implemented throughout the development lifecycle to ensure that security is a fundamental part of the development process. These checkpoints serve as milestones to identify and address potential security issues at each stage of the process.
+- 4.1 Security checkpoints are implemented throughout the development lifecycle to ensure that security is a fundamental part of the development process. These checkpoints serve as milestones to identify and address potential security issues at each stage of the process. The check points vary for each product but as a rule happen durring the following stages:
+
+ - 4.1.1 Manual QA Testing within a QA enviroments throughout the build cycle.
+ - 4.1.2 Automated security scan across the Staging enviroment prior to feature deployment.
+ - 4.1.2 Post deployment security scan. 
+ - 4.1.3 Depending if the client is paying for active maintainance or a security plan we will perform the neccessary scans to the plan purchased.
+ - 4.1.4 All clients are made aware of the risks that are associated without undertaking maintainance.
+ - 4.1.5 Clients are free to use their own securirty providers and third parties to perform any pentesting task as long as they provide prior warning.
+
 - 4.2 Security Requirements Analysis: Security requirements analysis must be conducted in the design phase of the development process. This analysis will identify the necessary security controls to be implemented throughout the application's lifecycle.
 - 4.3 [Secure Coding Guidelines](): Secure coding guidelines must be followed by all developers during the development phase. These guidelines will ensure that the code is written securely and minimize the risk of introducing vulnerabilities or exploits. 
 - 4.4 [Code Reviews and Testing](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/code-review-policy.md): Code reviews and testing must be conducted before and after deployment to identify and address any security issues. Regular vulnerability scanning and testing must also be performed post-deployment.

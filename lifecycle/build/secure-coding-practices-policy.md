@@ -87,6 +87,12 @@ The following are examples of how secure coding practices that are in place howe
 - 6.5 Design decisions must be documented and reviewed regularly to ensure they meet the organization's security requirements.
 
 ## 7. Code Repositories
+- 7.1 Code repositories should be hosted on a secure platform, such as GitHub, with appropriate access controls in place. All code managed by clients on behalf of 383 must be only stored in 383 Projects github account and the appropriate controls must be applied. The controls for github can be found [here](https://docs.google.com/spreadsheets/d/1FMMUOr2p9ogBBPHKf4qSvZTrQyCUd1Z0cudHJ8x2KdA). 
+- 7.2 All code changes must be tracked through version control to maintain a clear audit trail.
+- 7.3 Developers should follow secure coding practices when committing code to the repository, including avoiding hard-coded passwords or sensitive information, using parameterized queries to prevent SQL injection attacks, and avoiding the use of insecure functions or libraries.
+- 7.4 Only authorized personnel should be granted access to code repositories, and access should be granted on a need-to-know basis.
+- 7.5 Developers should use strong passwords and two-factor authentication when accessing code repositories to prevent unauthorized access.
+- 7.6 Third-party code and libraries must be regularly reviewed if a project is in current active development or has any preventative measured maintainance package applied to it.
 
 ## 8. Secure Code Training
 

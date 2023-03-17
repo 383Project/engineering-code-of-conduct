@@ -113,7 +113,11 @@ The following are examples of how secure coding practices that are in place howe
 - 9.8 The organization must ensure that outsourced development teams are aware of their responsibilities with respect to the security of data and the protection of privacy.
 
 ## 10. Third-Party Code
-
+- 10.1 Third-party code should be reviewed for security vulnerabilities before being integrated into the project.
+- 10.2 Only trusted and reputable third-party code should be used in the project.
+- 10.3 Regular updates should be made to third-party code across projects that are actively worked across or clients who have maintainance programmes with us to ensure any security vulnerabilities are patched.
+- 10.4 All third-party code should be documented, including version numbers and where it is being used in the project.
+- 10.5 Third-party code should not be modified unless it is absolutely necessary, and any modifications should be thoroughly tested and reviewed for security vulnerabilities.
 
 By following this policy, we can ensure that our software products are developed using secure coding practices and protect our customers' data from security vulnerabilities.
 

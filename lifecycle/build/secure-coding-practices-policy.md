@@ -95,6 +95,12 @@ The following are examples of how secure coding practices that are in place howe
 - 7.6 Third-party code and libraries must be regularly reviewed if a project is in current active development or has any preventative measured maintainance package applied to it.
 
 ## 8. Secure Code Training
+- 8.1 All developers must complete an initial security training course before starting any development work. This is completed upon 383 Projects onboarding process. 
+- 8.2 The company will provide access to online training resources, such as Udemy, for developers to use for their ongoing security education.
+- 8.3 Security training will cover topics such as secure coding practices, vulnerability detection and mitigation, and secure development lifecycles.
+- 8.4 Developers are expected to apply the security best practices they learn in training to their daily work.
+- 8.5 The company will encourage and support developers in obtaining relevant security certifications.
+- 8.6 Developers are encouraged to share security knowledge and best practices with their colleagues, and to discuss security concerns and issues openly with their team leads or security specialists.
 
 ## 9. Outsourced Development
 

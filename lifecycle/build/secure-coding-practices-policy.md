@@ -80,6 +80,11 @@ The following are examples of how secure coding practices that are in place howe
 - 5.5 Developers must report any security vulnerabilities or incidents related to development environments immediately to the appropriate team.
 
 ## 6. Design Phase
+- 6.1 Security requirements must be integrated into the design phase of all software development projects.
+- 6.2 Design reviews should be conducted to identify potential security issues before development begins.
+- 6.3 Design documentation should include security requirements and considerations, such as encryption requirements, access controls, and secure coding practices.
+- 6.4 The design phase should include testing and validation of security controls before development begins.
+- 6.5 Design decisions must be documented and reviewed regularly to ensure they meet the organization's security requirements.
 
 ## 7. Code Repositories
 

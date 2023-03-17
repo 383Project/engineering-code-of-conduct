@@ -71,6 +71,13 @@ Note: These guidelines are not exhaustive and should be supplemented with specif
 - 4.5 Where applicable and a client is subscribed to 383 Projects [maintainance](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/maintainance-policy.md) offering Ongoing Vulnerability Scanning and Testing: Regular vulnerability scanning and testing must be performed post-deployment to identify and address any security issues that may arise.
 
 ## 5. Development Environment
+The following are examples of how secure coding practices that are in place however you can see the full development enviroment policy [here](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/development-enviroments-policy.md).
+
+- 5.1 All development environments must be secured by default and access should be granted on a need-to-know basis. Access to these enviroments will match the controls used within our Github version control document found [here](https://docs.google.com/spreadsheets/d/1FMMUOr2p9ogBBPHKf4qSvZTrQyCUd1Z0cudHJ8x2KdA)
+- 5.2 All development environments must have the latest security updates and patches installed.
+- 5.3 Developers must not use development environments to access or enter sensitive data.
+- 5.4 All data in development environments must be protected with at a minimum a HTACCESS password. There must not be any public facing QA,Staging or development build enviroments. 
+- 5.5 Developers must report any security vulnerabilities or incidents related to development environments immediately to the appropriate team.
 
 ## 6. Design Phase
 

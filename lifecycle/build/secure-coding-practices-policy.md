@@ -120,9 +120,3 @@ The following are examples of how secure coding practices that are in place howe
 - 10.5 Third-party code should not be modified unless it is absolutely necessary, and any modifications should be thoroughly tested and reviewed for security vulnerabilities.
 
 By following this policy, we can ensure that our software products are developed using secure coding practices and protect our customers' data from security vulnerabilities.
-
-
-
-
-
-

@@ -103,6 +103,7 @@ The following are examples of how secure coding practices that are in place howe
 - 8.6 Developers are encouraged to share security knowledge and best practices with their colleagues, and to discuss security concerns and issues openly with their team leads or security specialists.
 
 ## 9. Outsourced Development
+- 9.1 All outsourced development must follow the same secure coding practices and guidelines as internal development teams. Third parties will have access at all times to see the 383 project code of conduct to see the appropriate behaviour, methods and actions that apply when working within the team. The index for the code of conduct can be found [here](https://github.com/383Project/engineering-code-of-conduct).
 
 ## 10. Third-Party Code
 

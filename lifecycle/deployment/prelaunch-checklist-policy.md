@@ -1,10 +1,10 @@
-## Prelaunch Checklist Poilicy
+# Prelaunch Checklist Poilicy
 
 The Pre-Launch Checklist Policy is designed to ensure that every web application developed by our company goes through a thorough quality control process before it is released to the public. This policy outlines the guidelines for completing a pre-launch checklist, which includes tasks to be completed by the project team before the deployment of the application. The checklist is designed to identify and resolve any potential issues or vulnerabilities that may impact the performance or security of the application. By following this policy, we can ensure that every web application we release meets the highest standards of quality and security.
 
 The prelaunch documents can and templates can be viewed here in the 383 Project Confluence area. [Prelaunch Checklist can be found here.](https://383project.atlassian.net/wiki/spaces/OS/pages/1579483164/Pre+Launch+Checklist)
 
-# 1. Guide Lines for Developers
+## 1. Guide Lines for Developers
  - 1.1 The pre-launch checklist will be created by the Project manager on the account. If it does not exist then please request its setup and created for timely completion from the team.
  - 1.2 As a developer, you will be responsible for completing the tasks assigned to you in the pre-launch checklist by the PM, Designer, Other Engineers and QA members.
  - 1.3 You must check-off each completed task that is within your responsibility on the checklist and @ yourself so that viewers can verify which tasks you completed.

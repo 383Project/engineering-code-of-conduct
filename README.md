@@ -46,7 +46,7 @@ Furthermore, we have included information on the best secure coding practices th
     - [User Acceptance testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/user-acceptance-testing-policy.md)
     
      As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Quality Assurance Team Operation Policy](/)
+    - [Quality Assurance Team Operation Policy](https://github.com/383Project/qa-code-of-conduct)
 
   - #### Deployment
     Deployment in the engineering lifecycle refers to the phase where the final product or solution is released, installed, and made available for use by the end-users, including the necessary training, documentation, and support to ensure a successful adoption.

@@ -1,26 +1,44 @@
-#Infrastructure Backups and Restoration Policy
+# Infrastructure Backups and Restoration Policy
 
 This policy document outlines the steps that our organization follows for managing the infrastructure of our web applications. One of the key elements of a robust infrastructure management system is the implementation of an effective backup and restoration policy. In this document, we will outline the various steps and processes that we follow for ensuring that our infrastructure is properly backed up and that we are able to restore it in the event of a disaster.
 
-## Backup Schedule
+## 1. Backup Schedule
+ - 1.1 Daily backups of critical infrastructure components, including databases, configuration files, and application code
+ - 1.2 Automated backups are scheduled to run during off-peak hours to minimize the impact on system performance and user experience
+ - 1.3 Manual backups are performed as needed to ensure all critical components are backed up in a timely manner
+ - 1.4 Backups are performed in multiple tiers to ensure redundancy and reduce the risk of data loss. For example, we may perform a daily backup to a local server and a weekly backup to an off-site location. (Work In Progress to introduce this).
+ - 1.5 Backups are performed on a rolling basis, so that a full backup of all critical components is completed over a specified time period (e.g. one week).
+ - 1.6 Our backup schedule is reviewed regularly to ensure it remains up-to-date and relevant, taking into account changes in our infrastructure or business needs.
+ - 1.7 We have established procedures for notifying key personnel in the event of a failed backup or other issue that could impact the integrity of our backups.
 
-## Backup Retention
+## 2. Backup Retention
+ - 2.1 We retain backups for a period of 35 days to ensure that we have access to recent backups in the event of a disaster or other issue that requires data restoration.
+ - 2.2 Backups that are older than 35 days are automatically deleted, unless they are required for regulatory or legal purposes.
+ - 2.3 In the event that backups are required for regulatory or legal purposes, we have established procedures for storing these backups in a secure location and for ensuring that they are easily accessible if needed.
+ - 2.4 Our backup retention policy is reviewed regularly to ensure that it remains up-to-date and compliant with all relevant regulations and legal requirements.
 
-## Backup Testing Process
+## 3. Backup Testing Process
+ - 3.1 Regular tests are performed to ensure that backups can be restored in the event of a disaster or other issue that requires data restoration.
+ - 3.2 Backup testing is performed on a regular basis, at least once per quarter, to ensure the reliability and accuracy of our backups.
+ - 3.3 Tests are made once per year per application.
+ - 3.4 Testing is performed by a Support team engineer following established procedures, and includes the restoration of data from backups to a test environment to ensure that all critical data and applications can be restored successfully.
+ - 3.5 We maintain a backup testing log that tracks the status of all backup tests, including the date and time of the test, the results of the test, and any issues or errors encountered during the test. (To implement at a later date, for future review).
+ - 3.6 Backup testing logs are reviewed regularly to ensure that all tests are being completed successfully and to identify any issues that may require remediation.(To implement at a later date, for future review).
+ - 3.7 Our backup testing policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
 
-## Backup Integrity Verification
+## 4. Backup Integrity Verification
 
-## Automating Backups
+## 5. Automating Backups
 
-## Manually Performing Backups
+## 6. Manually Performing Backups
 
-## S3 Asset Versioning and Verification
+## 7. S3 Asset Versioning and Verification
 
-## EC2 Snapshots
+## 8. EC2 Snapshots
 
-## Performing Restores
+## 9. Performing Restores
 
-## System Restart and Recovery Procedures
+## 10. System Restart and Recovery Procedures
 
 
 

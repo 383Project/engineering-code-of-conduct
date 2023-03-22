@@ -27,14 +27,25 @@ This policy document outlines the steps that our organization follows for managi
  - 3.7 Our backup testing policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
 
 ## 4. Backup Integrity Verification
+ - 4.1 Annual integrity checks are performed to ensure that backups are free from corruption and can be relied upon in the event of a disaster or other issue that requires data restoration.
+ - 4.2 Integrity checks are performed on all Web application backups we store, including those stored locally and those stored off-site, to ensure that all copies of data are accurate and complete.
+ - 4.3 
 
 ## 5. Automating Backups
 
 ## 6. Manually Performing Backups
 
 ## 7. S3 Asset Versioning and Verification
+- 7.1 We use Amazon S3 to store backup data and other critical assets, and enable versioning to ensure that all versions of our data are retained and can be easily restored as needed.
+- 7.2 We have established procedures for verifying the integrity of S3 assets, including regular checks to ensure that all versions of data are complete and accurate.
+- 7.3 We regularly review our S3 asset versioning and verification procedures to ensure that they remain effective and up-to-date, and to identify any issues that may require remediation.
+- 7.4 We have established procedures for restoring S3 assets, including restoring previous versions of data and verifying the integrity of restored data.
+- 7.5 We use access controls and encryption to ensure the security of S3 assets, and regularly review and update our security policies to ensure that our S3 assets remain protected.
 
 ## 8. EC2 Snapshots
+- 8.1 We use Amazon EC2 snapshots to create backups of our virtual machines (VMs) and ensure that we can restore them quickly in the event of a failure.
+- 8.2 We have established procedures for verifying the integrity of EC2 snapshots, including regular checks to ensure that all snapshots are complete and accurate.
+- 8.3 We use access controls and encryption to ensure the security of EC2 snapshots, and regularly review and update our security policies to ensure that our EC2 snapshots remain protected.
 
 ## 9. Performing Restores
 

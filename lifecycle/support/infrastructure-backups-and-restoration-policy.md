@@ -33,7 +33,26 @@ This policy document outlines the steps that our organization follows for managi
 
 ## 5. Automating Backups
 
+We use automated backup software to ensure that backups are performed consistently and on a regular basis.
+Our automated backup software is configured to perform backups at regular intervals, as defined by our backup schedule.
+We use a variety of backup software tools, including open-source and commercial software, to ensure that we can meet the needs of our diverse range of web applications.
+Our automated backup software is configured to perform differential or incremental backups, which allow us to minimize the amount of data that needs to be backed up and to reduce the time required to perform backups.
+We have established procedures for monitoring and maintaining our automated backup software, including regular software updates and patches to ensure that it remains up-to-date and effective.
+We maintain a log of all automated backups, including the date and time of the backup, the size of the backup file, and any issues or errors encountered during the backup.
+Our automated backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
+
+
+
 ## 6. Manually Performing Backups
+
+In addition to automated backups, we also perform manual backups on a regular basis to ensure that critical data and applications are backed up in a timely manner.
+Manual backups are performed by trained personnel following established procedures, and are typically performed in situations where automated backups may not be sufficient, such as when there are changes to critical data or applications.
+We maintain a log of all manual backups, including the date and time of the backup, the size of the backup file, and any issues or errors encountered during the backup.
+Manual backups are performed using a variety of methods, including file system backups, database backups, and server snapshots.
+We have established procedures for monitoring and maintaining our manual backup procedures, including regular reviews to ensure that backups are being performed effectively and to identify any issues that may require remediation.
+Our manual backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
+
+
 
 ## 7. S3 Asset Versioning and Verification
 - 7.1 We use Amazon S3 to store backup data and other critical assets, and enable versioning to ensure that all versions of our data are retained and can be easily restored as needed.
@@ -49,7 +68,81 @@ This policy document outlines the steps that our organization follows for managi
 
 ## 9. Performing Restores
 
+Restores are the process of retrieving and applying backed-up data and applications to a production environment, typically after a failure or disaster has occurred.
+Our restore process involves identifying the cause of the failure or disaster, identifying the appropriate backup to restore, and applying the backup to the production environment in a controlled and tested manner.
+We have established procedures for performing restores, including prioritizing critical systems and data, identifying dependencies between systems and data, and ensuring that all necessary components are restored in the correct order.
+We regularly test our restore procedures to ensure that they are effective and efficient, and to identify any issues that may require remediation.
+We maintain a log of all restore activities, including the date and time of the restore, the size and type of data being restored, and any issues or errors encountered during the restore process.
+Our restore policy includes procedures for verifying the integrity of restored data, including validating checksums and performing data consistency checks.
+We use access controls and encryption to ensure the security of restored data, and regularly review and update our security policies to ensure that our restored data remains protected.
+Our restore policy includes procedures for communicating with stakeholders and customers in the event of a significant restore event, including providing regular updates on progress and expected restoration times.
+
+
+
+
 ## 10. System Restart and Recovery Procedures
+- 10.1 System restart and recovery procedures are the processes and procedures used to restart and recover our web application infrastructure after a failure or disaster has occurred.
+- 10.2 Our system restart and recovery procedures include identifying the cause of the failure, assessing the impact of the failure, and determining the appropriate actions to restore the system to a fully functional state.
+- 10.3 We maintain a detailed system inventory that includes information on all hardware, software, and network components, as well as their dependencies and configurations.
+- 10.4 We regularly test our system restart and recovery procedures to ensure that they are effective and efficient, and to identify any issues that may require remediation.
+- 10.5 Our system restart and recovery procedures include identifying the critical systems and data that must be restored first, and prioritizing these systems and data for restoration.
+- 10.6 We have established procedures for restarting and recovering our systems, including testing backups, rebuilding configurations, and restoring data from backups.
+- 10.7 We maintain a log of all system restart and recovery activities, including the date and time of the event, the cause of the failure, and the actions taken to restore the system to a fully functional state.
+- 10.8 Our system restart and recovery procedures include procedures for communicating with stakeholders and customers in the event of a significant system outage, including providing regular updates on progress and expected restoration times.
+- 10.9 We use access controls and encryption to ensure the security of our systems and data during the restart and recovery process, and regularly review and update our security policies to ensure that our systems remain protected.
+
+
+
+
+
+NOTES OF THINGS TO PUT INTO THIS DOCUMENT
+
+Testing the Integrity of an EC2 Snapshot:
+
+Log in to the AWS Management Console.
+Navigate to the EC2 Dashboard.
+Select the snapshot you want to test.
+Click on the "Actions" button and select "Create Volume".
+Enter the desired configuration settings, such as the "Volume Type" and "Size".
+Select the appropriate availability zone for the volume.
+Click on the "Create Volume" button to start the volume creation process.
+Once the volume has been created, select it in the Volumes section of the EC2 Dashboard.
+Click on the "Actions" button and select "Attach Volume".
+Select the appropriate instance and device for the volume.
+Connect to the instance and verify that the volume is properly attached and functioning.
+Verify the integrity of the data on the volume, such as by running file system checks or comparing it to the original instance.
+If the data on the volume is consistent with the original instance, the integrity of the snapshot is confirmed.
+Detach and delete the volume once testing is complete.
+Regularly test the integrity of your EC2 snapshots to ensure that they are properly backing up your data and applications.
+Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 snapshots to ensure that you are properly testing and verifying the integrity of your snapshots.
+
+
+Manual Backup of an EC2 Instance:
+
+Connect to the EC2 instance using an SSH client or remote desktop tool.
+Stop any applications or services that could cause data consistency issues during the backup process.
+Determine the location and size of any data and configuration files that need to be backed up.
+Use a backup tool, such as rsync or tar, to create a backup of the necessary files and directories.
+Verify the integrity of the backup by comparing it to the original data and checking for any errors or inconsistencies.
+Transfer the backup to a secure and reliable storage location, such as S3 or an on-premises backup server.
+Regularly test the backup by restoring it to a test environment or secondary instance to ensure that it is properly capturing all necessary data and configurations.
+Update any backup documentation or policies to reflect the manual backup process and schedule.
+Note that the manual backup process may vary depending on the specific application and data being backed up. It's important to carefully review and test your manual backup process to ensure that it is properly capturing all necessary data and configurations, and to regularly review and update your backup policies and procedures to reflect any changes or updates to your infrastructure. Additionally, it's recommended to also use automated backup solutions, such as EC2 snapshots, in conjunction with manual backups to provide additional layers of protection and redundancy.
+
+Setting up an EC2 Snapshot:
+
+Log in to the AWS Management Console.
+Navigate to the EC2 Dashboard.
+Select the instance you want to create a snapshot of.
+Click on the "Actions" button and select "Create Snapshot".
+Enter a descriptive name for the snapshot in the "Snapshot Name" field.
+Review the snapshot configuration settings, such as the "Description" and "Tags", and modify them as needed.
+Click on the "Create Snapshot" button to start the snapshot creation process.
+Monitor the snapshot creation process in the "Snapshots" section of the EC2 Dashboard.
+Once the snapshot has been created, verify its status and properties, such as the size and creation date.
+Use the snapshot to restore the instance to a previous state, or to create a new instance from the snapshot.
+Regularly review your snapshot schedule and retention policies to ensure that you are properly backing up your EC2 instances.
+Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 snapshots to ensure that you are properly configuring and managing your EC2 instances.
 
 
 
@@ -63,24 +156,3 @@ This policy document outlines the steps that our organization follows for managi
 
 
 
-
-
-
-Backup process to be defined as part of this documentation
- 
- 
- The database from database servers are currently being backed up every 24 hours, at 4am GMT, and are held for a maximum of 35 days.
-The backup schedule runs every 24 hours.
-The backups are stored on AWS’ RDS service managed by Amazon which are encrypted.
-Backups are tested regularly by restoring the data to an isolated environment and restoring to verify integrity.
-
-      - [backup schedule]
-      - [backup frequency]
-      - [where are they stored]
-      - [backup testing process in an isolated environment]
-      - [backup integrity varifification]
-      - [S3 Asset versioning and verification]
-      - [Automating backups]
-      - [performing backups]
-      - [performing restores]
-      - [system restart and recovery percedures]

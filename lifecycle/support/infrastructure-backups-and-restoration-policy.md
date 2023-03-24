@@ -47,6 +47,28 @@ This policy document outlines the steps that our organization follows for managi
  - 6.4 Manual backups are performed using a variety of methods, including file system backups, database backups, and server snapshots.
  - 6.5 We have established procedures for monitoring and maintaining our manual backup procedures, including regular reviews to ensure that backups are being performed effectively and to identify any issues that may require remediation.
  - 6.6 Our manual backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
+ - 6.7 The following is the process of performing a manual Backup of an EC2 Instance.
+   - 6.7.1 Connect to the EC2 instance using an SSH client or remote desktop tool.
+   - 6.7.2 Stop any applications or services that could cause data consistency issues during the backup process.
+   - 6.7.3 Determine the location and size of any data and configuration files that need to be backed up.
+   - 6.7.4 Use a backup tool, such as rsync or tar, to create a backup of the necessary files and directories.
+   - 6.7.5 Verify the integrity of the backup by comparing it to the original data and checking for any errors or inconsistencies.
+   - 6.7.6 Transfer the backup to a secure and reliable storage location, such as S3 or an on-premises backup server.
+   - 6.7.7 Regularly test the backup by restoring it to a test environment or secondary instance to ensure that it is properly capturing all necessary data and configurations.
+   - 6.7.8 Update any backup documentation or policies to reflect the manual backup process and schedule.
+   - 6.7.9 Note that the manual backup process may vary depending on the specific application and data being backed up. It's important to carefully review and test your manual backup process to ensure that it is properly capturing all necessary data and configurations, and to regularly review and update your backup policies and procedures to reflect any changes or updates to your infrastructure. Additionally, it's recommended to also use automated backup solutions, such as EC2 snapshots, in conjunction with manual backups to provide additional layers of protection and redundancy.
+- 6.8 A manual backup of a MYSQL Database should be taken by performing a MYSQL Dump. As the backup may contain sensitve production data is it is only to be stored in a secure access controlled location. 
+- 6.9 A manual code backup can be completed by cloning a version from the gitHub repository.
+
+
+
+
+
+
+
+
+
+
 
 ## 7. S3 Asset Versioning and Verification
 - 7.1 We use Amazon S3 to store backup data and other critical assets, and enable versioning to ensure that all versions of our data are retained and can be easily restored as needed.
@@ -120,17 +142,7 @@ Regularly test the integrity of your EC2 snapshots to ensure that they are prope
 Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 snapshots to ensure that you are properly testing and verifying the integrity of your snapshots.
 
 
-Manual Backup of an EC2 Instance:
 
-Connect to the EC2 instance using an SSH client or remote desktop tool.
-Stop any applications or services that could cause data consistency issues during the backup process.
-Determine the location and size of any data and configuration files that need to be backed up.
-Use a backup tool, such as rsync or tar, to create a backup of the necessary files and directories.
-Verify the integrity of the backup by comparing it to the original data and checking for any errors or inconsistencies.
-Transfer the backup to a secure and reliable storage location, such as S3 or an on-premises backup server.
-Regularly test the backup by restoring it to a test environment or secondary instance to ensure that it is properly capturing all necessary data and configurations.
-Update any backup documentation or policies to reflect the manual backup process and schedule.
-Note that the manual backup process may vary depending on the specific application and data being backed up. It's important to carefully review and test your manual backup process to ensure that it is properly capturing all necessary data and configurations, and to regularly review and update your backup policies and procedures to reflect any changes or updates to your infrastructure. Additionally, it's recommended to also use automated backup solutions, such as EC2 snapshots, in conjunction with manual backups to provide additional layers of protection and redundancy.
 
 
 

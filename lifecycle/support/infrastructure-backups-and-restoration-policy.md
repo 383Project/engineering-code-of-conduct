@@ -59,6 +59,19 @@ This policy document outlines the steps that our organization follows for managi
 - 8.1 We use Amazon EC2 snapshots to create backups of our virtual machines (VMs) and ensure that we can restore them quickly in the event of a failure.
 - 8.2 We have established procedures for verifying the integrity of EC2 snapshots, including regular checks to ensure that all snapshots are complete and accurate.
 - 8.3 We use access controls and encryption to ensure the security of EC2 snapshots, and regularly review and update our security policies to ensure that our EC2 snapshots remain protected.
+- 8.4 The Process for setting up an EC2 Snapshot is as follows:
+  - 8.4.1 Log in to the AWS Management Console.
+  - 8.4.2 Navigate to the EC2 Dashboard.
+  - 8.4.3 Select the instance you want to create a snapshot of.
+  - 8.4.4 Click on the "Actions" button and select "Create Snapshot".
+  - 8.4.5 Enter a descriptive name for the snapshot in the "Snapshot Name" field.
+  - 8.4.6 Review the snapshot configuration settings, such as the "Description" and "Tags", and modify them as needed.
+  - 8.4.7 Click on the "Create Snapshot" button to start the snapshot creation process.
+  - 8.4.8 Monitor the snapshot creation process in the "Snapshots" section of the EC2 Dashboard.
+  - 8.4.9 Once the snapshot has been created, verify its status and properties, such as the size and creation date.
+  - 8.4.10 Use the snapshot to restore the instance to a previous state, or to create a new instance from the snapshot.
+  - 8.4.11 Regularly review your snapshot schedule and retention policies to ensure that you are properly backing up your EC2 instances.
+  - 8.4.12 Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 snapshots to ensure that you are properly configuring and managing your EC2 instances.
 
 ## 9. Performing Restores
  - 9.1 Restores are the process of retrieving and applying backed-up data and applications to a production environment, typically after a failure or disaster has occurred.
@@ -119,20 +132,6 @@ Regularly test the backup by restoring it to a test environment or secondary ins
 Update any backup documentation or policies to reflect the manual backup process and schedule.
 Note that the manual backup process may vary depending on the specific application and data being backed up. It's important to carefully review and test your manual backup process to ensure that it is properly capturing all necessary data and configurations, and to regularly review and update your backup policies and procedures to reflect any changes or updates to your infrastructure. Additionally, it's recommended to also use automated backup solutions, such as EC2 snapshots, in conjunction with manual backups to provide additional layers of protection and redundancy.
 
-Setting up an EC2 Snapshot:
-
-Log in to the AWS Management Console.
-Navigate to the EC2 Dashboard.
-Select the instance you want to create a snapshot of.
-Click on the "Actions" button and select "Create Snapshot".
-Enter a descriptive name for the snapshot in the "Snapshot Name" field.
-Review the snapshot configuration settings, such as the "Description" and "Tags", and modify them as needed.
-Click on the "Create Snapshot" button to start the snapshot creation process.
-Monitor the snapshot creation process in the "Snapshots" section of the EC2 Dashboard.
-Once the snapshot has been created, verify its status and properties, such as the size and creation date.
-Use the snapshot to restore the instance to a previous state, or to create a new instance from the snapshot.
-Regularly review your snapshot schedule and retention policies to ensure that you are properly backing up your EC2 instances.
-Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 snapshots to ensure that you are properly configuring and managing your EC2 instances.
 
 
 

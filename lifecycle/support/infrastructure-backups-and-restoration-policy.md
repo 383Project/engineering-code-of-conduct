@@ -3,7 +3,7 @@
 This policy document outlines the steps that our organization follows for managing the infrastructure of our web applications. One of the key elements of a robust infrastructure management system is the implementation of an effective backup and restoration policy. In this document, we will outline the various steps and processes that we follow for ensuring that our infrastructure is properly backed up and that we are able to restore it in the event of a disaster.
 
 ## 1. Backup Schedule
- - 1.1 Daily backups of critical infrastructure components, including databases, configuration files, and application code
+ - 1.1 The schedule of backups of critical infrastructure components, including databases, configuration files, and application code is to be performed daily.
  - 1.2 Automated backups are scheduled to run during off-peak hours to minimize the impact on system performance and user experience
  - 1.3 Manual backups are performed as needed to ensure all critical components are backed up in a timely manner
  - 1.4 Backups are performed in multiple tiers to ensure redundancy and reduce the risk of data loss. For example, we may perform a daily backup to a local server and a weekly backup to an off-site location. (Work In Progress to introduce this).
@@ -32,27 +32,21 @@ This policy document outlines the steps that our organization follows for managi
  - 4.3 
 
 ## 5. Automating Backups
-
-We use automated backup software to ensure that backups are performed consistently and on a regular basis.
-Our automated backup software is configured to perform backups at regular intervals, as defined by our backup schedule.
-We use a variety of backup software tools, including open-source and commercial software, to ensure that we can meet the needs of our diverse range of web applications.
-Our automated backup software is configured to perform differential or incremental backups, which allow us to minimize the amount of data that needs to be backed up and to reduce the time required to perform backups.
-We have established procedures for monitoring and maintaining our automated backup software, including regular software updates and patches to ensure that it remains up-to-date and effective.
-We maintain a log of all automated backups, including the date and time of the backup, the size of the backup file, and any issues or errors encountered during the backup.
-Our automated backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
-
-
+ - 5.1 We use automated backup software to ensure that backups are performed consistently and on a regular basis.
+ - 5.2 Our automated backup software is configured to perform backups at regular intervals, as defined by our backup schedule.
+ - 5.3 We use a variety of backup software tools, including open-source and commercial software, to ensure that we can meet the needs of our diverse range of web applications.
+ - 5.4 Our automated backup software is configured to perform differential or incremental backups, which allow us to minimize the amount of data that needs to be backed up and to reduce the time required to perform backups.
+ - 5.5 We have established procedures for monitoring and maintaining our automated backup software, including regular software updates and patches to ensure that it remains up-to-date and effective.
+ - 5.6 We maintain a log of all automated backups, including the date and time of the backup, the size of the backup file, and any issues or errors encountered during the backup.
+ - 5.7 Our automated backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
 
 ## 6. Manually Performing Backups
-
-In addition to automated backups, we also perform manual backups on a regular basis to ensure that critical data and applications are backed up in a timely manner.
-Manual backups are performed by trained personnel following established procedures, and are typically performed in situations where automated backups may not be sufficient, such as when there are changes to critical data or applications.
-We maintain a log of all manual backups, including the date and time of the backup, the size of the backup file, and any issues or errors encountered during the backup.
-Manual backups are performed using a variety of methods, including file system backups, database backups, and server snapshots.
-We have established procedures for monitoring and maintaining our manual backup procedures, including regular reviews to ensure that backups are being performed effectively and to identify any issues that may require remediation.
-Our manual backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
-
-
+ - 6.1 In addition to automated backups, we also perform manual backups on a regular basis to ensure that critical data and applications are backed up in a timely manner.
+ - 6.2 Manual backups are performed by trained personnel following established procedures, and are typically performed in situations where automated backups may not be sufficient, such as when there are changes to critical data or applications.
+ - 6.3 We maintain a log of all manual backups, including the date and time of the backup, the size of the backup file, and any issues or errors encountered during the backup.
+ - 6.4 Manual backups are performed using a variety of methods, including file system backups, database backups, and server snapshots.
+ - 6.5 We have established procedures for monitoring and maintaining our manual backup procedures, including regular reviews to ensure that backups are being performed effectively and to identify any issues that may require remediation.
+ - 6.6 Our manual backup policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
 
 ## 7. S3 Asset Versioning and Verification
 - 7.1 We use Amazon S3 to store backup data and other critical assets, and enable versioning to ensure that all versions of our data are retained and can be easily restored as needed.
@@ -67,18 +61,14 @@ Our manual backup policy is reviewed regularly to ensure that it remains up-to-d
 - 8.3 We use access controls and encryption to ensure the security of EC2 snapshots, and regularly review and update our security policies to ensure that our EC2 snapshots remain protected.
 
 ## 9. Performing Restores
-
-Restores are the process of retrieving and applying backed-up data and applications to a production environment, typically after a failure or disaster has occurred.
-Our restore process involves identifying the cause of the failure or disaster, identifying the appropriate backup to restore, and applying the backup to the production environment in a controlled and tested manner.
-We have established procedures for performing restores, including prioritizing critical systems and data, identifying dependencies between systems and data, and ensuring that all necessary components are restored in the correct order.
-We regularly test our restore procedures to ensure that they are effective and efficient, and to identify any issues that may require remediation.
-We maintain a log of all restore activities, including the date and time of the restore, the size and type of data being restored, and any issues or errors encountered during the restore process.
-Our restore policy includes procedures for verifying the integrity of restored data, including validating checksums and performing data consistency checks.
-We use access controls and encryption to ensure the security of restored data, and regularly review and update our security policies to ensure that our restored data remains protected.
-Our restore policy includes procedures for communicating with stakeholders and customers in the event of a significant restore event, including providing regular updates on progress and expected restoration times.
-
-
-
+ - 9.1 Restores are the process of retrieving and applying backed-up data and applications to a production environment, typically after a failure or disaster has occurred.
+ - 9.2 Our restore process involves identifying the cause of the failure or disaster, identifying the appropriate backup to restore, and applying the backup to the production environment in a controlled and tested manner.
+ - 9.3 We have established procedures for performing restores, including prioritizing critical systems and data, identifying dependencies between systems and data, and ensuring that all necessary components are restored in the correct order.
+ - 9.4 We regularly test our restore procedures to ensure that they are effective and efficient, and to identify any issues that may require remediation.
+ - 9.5 We maintain a log of all restore activities, including the date and time of the restore, the size and type of data being restored, and any issues or errors encountered during the restore process.
+ - 9.6 Our restore policy includes procedures for verifying the integrity of restored data, including validating checksums and performing data consistency checks.
+ - 9.7 We use access controls and encryption to ensure the security of restored data, and regularly review and update our security policies to ensure that our restored data remains protected.
+ - 9.8 Our restore policy includes procedures for communicating with stakeholders and customers in the event of a significant restore event, including providing regular updates on progress and expected restoration times.
 
 ## 10. System Restart and Recovery Procedures
 - 10.1 System restart and recovery procedures are the processes and procedures used to restart and recover our web application infrastructure after a failure or disaster has occurred.

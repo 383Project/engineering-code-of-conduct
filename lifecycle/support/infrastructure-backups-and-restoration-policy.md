@@ -1,5 +1,4 @@
 # Infrastructure Backups and Restoration Policy
-
 This policy document outlines the steps that our organization follows for managing the infrastructure of our web applications. One of the key elements of a robust infrastructure management system is the implementation of an effective backup and restoration policy. In this document, we will outline the various steps and processes that we follow for ensuring that our infrastructure is properly backed up and that we are able to restore it in the event of a disaster.
 
 ## 1. Backup Schedule
@@ -75,16 +74,6 @@ Detach and delete the volume once testing is complete.
    - 6.7.9 Note that the manual backup process may vary depending on the specific application and data being backed up. It's important to carefully review and test your manual backup process to ensure that it is properly capturing all necessary data and configurations, and to regularly review and update your backup policies and procedures to reflect any changes or updates to your infrastructure. Additionally, it's recommended to also use automated backup solutions, such as EC2 snapshots, in conjunction with manual backups to provide additional layers of protection and redundancy.
 - 6.8 A manual backup of a MYSQL Database should be taken by performing a MYSQL Dump. As the backup may contain sensitve production data is it is only to be stored in a secure access controlled location. 
 - 6.9 A manual code backup can be completed by cloning a version from the gitHub repository.
-
-
-
-
-
-
-
-
-
-
 
 ## 7. S3 Asset Versioning and Verification
 - 7.1 We use Amazon S3 to store backup data and other critical assets, and enable versioning to ensure that all versions of our data are retained and can be easily restored as needed.

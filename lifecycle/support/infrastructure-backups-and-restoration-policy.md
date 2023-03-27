@@ -28,23 +28,18 @@ This policy document outlines the steps that our organization follows for managi
 ## 4. Backup Integrity Verification
  - 4.1 Annual integrity checks are performed to ensure that backups are free from corruption and can be relied upon in the event of a disaster or other issue that requires data restoration.
  - 4.2 Integrity checks are performed on all Web application backups we store, including those stored locally and those stored off-site, to ensure that all copies of data are accurate and complete.
- - 4.3 Testing the Integrity of an EC2 Snapshot:
-  - 4.3.1 Log in to the AWS Management Console.
-  - 4.3.2 Navigate to the EC2 Dashboard.
-  - 4.3.3 Select the snapshot you want to test.
-  - 4.3.4 Click on the "Actions" button and select "Create Volume".
-  - 4.3.5 Enter the desired configuration settings, such as the "Volume Type" and "Size".
-  - 4.3.6 Select the appropriate availability zone for the volume.
-  - 4.3.7 Click on the "Create Volume" button to start the volume creation process.
-  - 4.3.8 Once the volume has been created, select it in the Volumes section of the EC2 Dashboard.
-  - 4.3.9 Click on the "Actions" button and select "Attach Volume".
-  - 4.3.10 Select the appropriate instance and device for the volume.
-  - 4.3.11 Connect to the instance and verify that the volume is properly attached and functioning.
-  - 4.3.12 Verify the integrity of the data on the volume, such as by running file system checks or comparing it to the original instance.
-  - 4.3.13 If the data on the volume is consistent with the original instance, the integrity of the snapshot is confirmed.
-Detach and delete the volume once testing is complete.
-  - 4.3.14 Regularly test the integrity of your EC2 snapshots to ensure that they are properly backing up your data and applications.
-  - 4.3.1Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 snapshots to ensure that you are properly testing and verifying the integrity of your snapshots.
+ - 4.3 Testing the Integrity of an EC2 AMI:
+   - 4.3.1 Log in to the AWS Management Console.
+   - 4.3.2 Navigate to the EC2 Dashboard.
+   - 4.3.3 Select the AMI you want to test.
+   - 4.3.4 Click on the "Launch Instance" button.
+   - 4.3.5 Enter the desired configuration settings, such as the instance type and security group.
+   - 4.3.6 Review and confirm the instance details.
+   - 4.3.7 Launch the instance.
+   - 4.3.8 Once the instance has launched, verify that the data and applications are functioning properly. Confirm that the Web Server is working correctly, that it has access to the source code that's required to host site, and that the server is able to communicate to the RDS database instance.
+   - 4.3.9 If the data and applications on the instance are consistent with the original, the integrity of the AMI is confirmed.
+- 4.4 Regularly test the integrity of your EC2 AMIs to ensure that they are properly backing up your data and applications.
+- 4.5 Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 AMIs to ensure that you are properly testing and verifying the integrity of your backups.
 
 ## 5. Automating Backups
  - 5.1 We use automated backup software to ensure that backups are performed consistently and on a regular basis.

@@ -26,20 +26,29 @@ This policy document outlines the steps that our organization follows for managi
  - 3.7 Our backup testing policy is reviewed regularly to ensure that it remains up-to-date and effective in ensuring the reliability and accuracy of our backups.
 
 ## 4. Backup Integrity Verification
- - 4.1 Annual integrity checks are performed to ensure that backups are free from corruption and can be relied upon in the event of a disaster or other issue that requires data restoration.
- - 4.2 Integrity checks are performed on all Web application backups we store, including those stored locally and those stored off-site, to ensure that all copies of data are accurate and complete.
+ - 4.1 Annual checks are conducted to verify the integrity of backups, ensuring they are free from corruption and can be relied upon in the event of a disaster or other issue requiring data restoration.
+ - 4.2 The integrity of all web application backups, including those stored locally and off-site, is verified to ensure that all copies of data are accurate and complete.
  - 4.3 Testing the Integrity of an EC2 AMI:
    - 4.3.1 Log in to the AWS Management Console.
    - 4.3.2 Navigate to the EC2 Dashboard.
-   - 4.3.3 Select the AMI you want to test.
+   - 4.3.3 Select the AMI to be tested.
    - 4.3.4 Click on the "Launch Instance" button.
    - 4.3.5 Enter the desired configuration settings, such as the instance type and security group.
    - 4.3.6 Review and confirm the instance details.
    - 4.3.7 Launch the instance.
-   - 4.3.8 Once the instance has launched, verify that the data and applications are functioning properly. Confirm that the Web Server is working correctly, that it has access to the source code that's required to host site, and that the server is able to communicate to the RDS database instance.
+   - 4.3.8 Verify that the data and applications are functioning properly. This includes if the webserver software starts with the EC2 instance, if the webserver has access to the source-code on the hard drive, and if the server can properly communicate with the MySQL RDS instance.
    - 4.3.9 If the data and applications on the instance are consistent with the original, the integrity of the AMI is confirmed.
-- 4.4 Regularly test the integrity of your EC2 AMIs to ensure that they are properly backing up your data and applications.
-- 4.5 Note that the exact process may vary depending on the AWS region, instance type, and configuration settings. It's important to review the AWS documentation and best practices for EC2 AMIs to ensure that you are properly testing and verifying the integrity of your backups.
+   - 4.3.10 Confirmation of the integrity of the EC2 AMI is logged for review later.
+ - 4.4 For MySQL backups of RDS databases, the built-in automated backup feature provided by AWS RDS is utilized. These backups are held for a maximum of 35 days.
+ - 4.5 The integrity of RDS backups is verified by restoring them to a separate RDS instance and comparing the data to the original database.
+ - 4.6 To verify the integrity of an RDS backup, follow these steps:
+   - 4.6.1 Create a new RDS instance using the same database engine, version, and parameter group as the original database.
+   - 4.6.2 Restore the backup file to the new RDS instance.
+   - 4.6.3 Compare the data in the restored database to the original database to ensure that they match.
+   - 4.6.4 If the data in the restored database is consistent with the original database, the integrity of the backup is confirmed.
+   - 4.6.5 Confirmation of the integrity of the RDS backup is logged for review later.
+ - 4.7 Regular tests are conducted to verify the integrity of RDS backups, ensuring that they are properly backing up data.
+ - 4.8 It's important to note that the exact process for creating and verifying EC2 AMIs & RDS backups may vary depending on the specific setup and configuration. It is essential to review AWS documentation and best practices for backups and restoration to ensure that backups are properly tested and verified for integrity.
 
 ## 5. Automating Backups
  - 5.1 We use automated backup software to ensure that backups are performed consistently and on a regular basis.

@@ -4,7 +4,9 @@ Software development is a critical activity that requires careful planning and e
 
 This policy is designed to provide guidance on how to create an effective SRS document. It outlines the various sections that should be included in the document, along with guidance on what should be included in each section. By following this policy, software engineers can ensure that the SRS document accurately reflects the needs of the software's intended users, and provides a clear roadmap for the development process.
 
-You can start by creating a copy of the 383 Project SRS template which can be found [here](https://docs.google.com/document/d/19nqB44mCGkqrPqaw36W65zmzyJaBspB3r1XI2M6cdXU).
+You can start by creating a copy of the 383 Project SRS template which can be found [here](https://docs.google.com/document/d/19nqB44mCGkqrPqaw36W65zmzyJaBspB3r1XI2M6cdXU). please note access is restricted and permision will need to be obtained by the head of department.
+
+A Library of all SRS created by the Engineering Team can be found [here](https://docs.google.com/spreadsheets/d/1wfPChoxLXnGXsZMvZrLIiNQipRuOIAB2F68FdNmFf6w/edit?usp=sharing) please note access is restricted and permision will need to be obtained by the head of department.
 
 Note: That access to the above will require permission approval by Head of Engineering or a lead developer.
 

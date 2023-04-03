@@ -37,3 +37,18 @@ At 383 Project, we value the contribution of our engineering team members and un
 
 By following this policy, we can ensure that the transition process for departing engineering team members is as smooth and seamless as possible, while also protecting the interests of the company and clients.
 
+
+## Task List for Manager & Engineer
+
+**Task**|**Completion Date**
+:-----:|:-----:
+Has the employee confirmed that they will not copy or re-use any code written within their work for 383 Project?| 
+Have all licence keys for software purchased for the employee's work at 383 Project been returned?| 
+Has the employee provided high-level documentation around areas of expertise on projects?| 
+Have any immediate known risks been highlighted to the appropriate parties and actions taken to mitigate them?| 
+Has the employee updated any unfinished documentation?| 
+Has the employee recorded any onboarding material, if applicable?| 
+Has coaching or training been provided to relevant team members or a handover process been completed for any direct reports?| 
+Have any necessary handovers been completed to the employee's replacement?| 
+Have appropriate parties been notified and is it permissible to communicate publicly around the company about the employee's departure and data so that they can plan accordingly?| 
+Has the employee agreed to do paired programming to share knowledge where required?| 

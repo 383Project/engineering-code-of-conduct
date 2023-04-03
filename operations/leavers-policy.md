@@ -38,7 +38,7 @@ At 383 Project, we value the contribution of our engineering team members and un
 By following this policy, we can ensure that the transition process for departing engineering team members is as smooth and seamless as possible, while also protecting the interests of the company and clients.
 
 
-## Task List for Manager & Engineer
+## Task List Template for Manager & Engineer
 
 **Task**|**Completion Date**
 :-----:|:-----:

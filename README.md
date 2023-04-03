@@ -86,5 +86,6 @@ In this document there are many areas that are actively being improved or are no
 
 | Policy Document                     | Feature to roll out              | Target Date | Is Complete |
 |-------------------------------------|----------------------------------|-------------|-------------|
-| Software requirements specification | Issuing SRS for all major builds | August 2023 | N           |
+| Software requirements specification | Issuing SRS for all major builds | August 2023 | In Progress |
+| Github Controls                     | User Privillage Controls active  | August 2023 | In Progress |
 

@@ -76,7 +76,7 @@ Furthermore, we have included information on the best secure coding practices th
 - ### General Engineering Operation Procedures
 
   - [Engineering New Starter Onboarding]()
-  - [Engineering Leavers Policy]()
+  - [Engineering Leavers Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/leavers-policy.md)
   - [Engineering Communication Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/communication-policy.md)
   - [Contractor and Third Parties Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/contractor-and-third-parties-policy.md)
   - [Engineering Change Request Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/change-request-policy.md)

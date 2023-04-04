@@ -33,8 +33,8 @@ Furthermore, we have included information on the best secure coding practices th
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     
-    - [Backend Engineering Team Operation Policy](/)
-    - [Frontend Engineering Team Operation Policy](/)
+    - [Backend Engineering Team Operation Policy](/) (Work in Progress)
+    - [Frontend Engineering Team Operation Policy](/) (Work in Progress)
   
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.
@@ -71,7 +71,7 @@ Furthermore, we have included information on the best secure coding practices th
     - [Auditing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/auditing-policy.md)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Support Team Operation Policy](/)
+    - [Support Team Operation Policy](https://github.com/383Project/support_code_of_conduct) (Work In Progress)
 
 - ### General Engineering Operation Procedures
 
@@ -90,4 +90,9 @@ In this document there are many areas that are actively being improved or are no
 |-------------------------------------|----------------------------------|-------------|-------------|
 | Software requirements specification | Issuing SRS for all major builds | April  2023 | In Progress |
 | Github Controls                     | User Privillage Controls active  | August 2023 | In Progress |
+| QA Policies                         | All QA Related Policy            | May 2023    | In Progress |
+| Frontend Operations Guide           | Complete guide                   | Sept 2023   | In Progress |
+| Support Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
+| Backend Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
+
 

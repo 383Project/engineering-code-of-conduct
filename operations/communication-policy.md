@@ -1,4 +1,4 @@
-# Introduction
+# Engineering Communications Policy
 At 383 Project, effective communication is essential to the success of our projects and overall business operations. This Communications Policy outlines the guidelines and expectations for all communication within the company, including but not limited to, verbal communication, email, instant messaging, and documentation.
 
 The purpose of this policy is to ensure that all communication within the company is professional, efficient, and respectful. It also serves to protect the confidentiality and security of company and client information.

@@ -53,32 +53,33 @@ Effective communication is critical to the success of any project, and there are
       -  2.5.2 Keep Github comments and pull request communication professional and respectful.
       -  2.5.3 Link Github pull requests to relevant Jira tickets for tracking and documentation purposes.
       -  2.5.4 Do not share proprietary or confidential information on Github repositories.
+      
+  - ### 2.6 Code Comments
+      -  2.6.1 All code should be properly commented to ensure other developers can easily understand what the code does.
+      -  2.6.2 Code comments should be professional and should not contain any malicous content towards the client or the business.
+      -  2.6.3 Any comments containing inappropriate language, offensive content, or personal attacks will not be tolerated.
+      -  2.6.4 All code comments should be client-friendly and should not contain any confidential information.
+      -  2.6.5 Any confidential information that needs to be documented should be done so in a separate document, according to the company's data protection and non-disclosure policies.
+      -  2.6.6 Code comments should not contain API keys, credentials or other sensitive information. Such information should be stored securely in the appropriate systems and not in the codebase.
+      
+   - ### 2.7 Verbal Communication (In Person / Phone / Video Conference)
+      -  2.7.1 Be mindful of the tone and language used when speaking to team members, clients, and stakeholders.
+      -  2.7.2 Avoid using jargon or technical language that may not be understood by everyone in the conversation.
+      -  2.7.3 Listen actively and attentively to what others are saying, and ask questions to clarify anything that may not be clear.
+      -  2.7.4 Stay on topic and avoid veering off into unrelated subjects.
+      -  2.7.5 Speak clearly and at an appropriate volume, and be aware of any background noise or distractions that may impact the conversation.
+      -  2.7.6 Be respectful of other people's time and availability, and schedule meetings and calls at times that are convenient for everyone involved.
+      -  2.7.7 If any issues or conflicts arise during the conversation, address them in a calm and professional manner.
 
-   - ### 2.6 Verbal Communication
-      -  2.6.1 Be mindful of the tone and language used when speaking to team members, clients, and stakeholders.
-      -  2.6.2 Avoid using jargon or technical language that may not be understood by everyone in the conversation.
-      -  2.6.3 Listen actively and attentively to what others are saying, and ask questions to clarify anything that may not be clear.
-      -  2.6.4 Stay on topic and avoid veering off into unrelated subjects.
-      -  2.6.5 Speak clearly and at an appropriate volume, and be aware of any background noise or distractions that may impact the conversation.
-      -  2.6.6 Be respectful of other people's time and availability, and schedule meetings and calls at times that are convenient for everyone involved.
-      -  2.6.7 If any issues or conflicts arise during the conversation, address them in a calm and professional manner.
-
-   - ### 2.7 Personal Social Media
-      -  2.7.1 Do not use personal social media accounts for any business communication.
-      -  2.7.2 Do not share any confidential information or proprietary information on personal social media accounts.
-      -  2.7.3 Be mindful of any company or client information shared on personal social media accounts and adhere to any NDA agreements.
+   - ### 2.8 Personal Social Media
+      -  2.8.1 Do not use personal social media accounts for any business communication.
+      -  2.8.2 Do not share any confidential information or proprietary information on personal social media accounts.
+      -  2.8.3 Be mindful of any company or client information shared on personal social media accounts and adhere to any NDA agreements.
  
 
-## Email Communication
-## Instant Messaging Communication
-## Video Conferencing Communication
-## Phone Communication
-## Collaboration Tools Communication
-## Social Media Communication
 ## Code Comments Communication
 ## Client Confidentiality
 ## Non-Disclosure Agreements
-## Sharing of Work on Personal Social Media Channels
 ## Training and Guidelines
 ## Enforcement of Policy
-## Updates to Policy
+

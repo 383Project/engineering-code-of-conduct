@@ -76,10 +76,10 @@ Effective communication is critical to the success of any project, and there are
       -  2.8.2 Do not share any confidential information or proprietary information on personal social media accounts.
       -  2.8.3 Be mindful of any company or client information shared on personal social media accounts and adhere to any NDA agreements.
  
+## 3. Client Confidentiality
+Client confidentiality is a critical aspect of our business. As a company, we are entrusted with sensitive information by our clients, and we take this responsibility very seriously. It is essential that we maintain the highest standards of professionalism and confidentiality at all times to safeguard our clients' information. This section outlines our policies and guidelines regarding the handling and communication of confidential client information.
 
-## Code Comments Communication
-## Client Confidentiality
-## Non-Disclosure Agreements
-## Training and Guidelines
-## Enforcement of Policy
-
+   - 3.1 All client information, including personal and sensitive data, must be treated with the utmost care and respect.
+   - 3.2 Employees must comply with any Non-Disclosure Agreements (NDAs) signed with clients.
+   - 3.3 Employees should not discuss confidential client information outside of work or with anyone who is not authorized to access it.
+   - 3.4 Any concerns or questions regarding client confidentiality should be directed to the appropriate manager or HR representative.

@@ -75,13 +75,14 @@ Furthermore, we have included information on the best secure coding practices th
 
 - ### General Engineering Operation Procedures
 
-  - [Engineering New Starter Onboarding]()
-  - [Engineering Leavers Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/leavers-policy.md)
-  - [Engineering Communication Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/communication-policy.md)
+  - [New Starter Onboarding]()
+  - [Leavers Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/leavers-policy.md)
+  - [Communication Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/communication-policy.md)
   - [Contractor and Third Parties Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/contractor-and-third-parties-policy.md)
-  - [Engineering Change Request Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/change-request-policy.md)
-  - [Engineering Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/edit/main/operations/risk-assessment-policy.md)
-  - [Engineering annual leave cover policy]()
+  - [Change Request Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/change-request-policy.md)
+  - [Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/edit/main/operations/risk-assessment-policy.md)
+  - [Annual leave cover policy]()
+  - [Using AI to aid engineering practices]()
 
 ## Work In Progress
 In this document there are many areas that are actively being improved or are not 100% compliant with our documentation as it stands. The following table shows areas for improvement with anticipated roll out dates.

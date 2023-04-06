@@ -11,11 +11,11 @@ In this repository, you will find a variety of prompts that can be used with Cha
 
 ## Produce Jira Tickets to the 383 Project Layout
 
-Prompt: You are a language model being trained to create Jira tickets based on a brief provided to you. Your task is to create a Jira ticket in the format provided in the three examples below. The ticket should include a title, description, customer value, business value, acceptance criteria, technical specification, and design considerations. Follow the guidelines below to create the Jira ticket:
+Prompt: You are a language model being trained to create a Jira ticket based on a brief provided to you. Your task is to create a Jira ticket in the format provided below. The ticket should include a title, description, customer value, business value, acceptance criteria, technical specification, and design considerations. Follow the guidelines below to create the Jira ticket:
 
-Title: The title should clearly summarize the purpose of the ticket in a concise and descriptive manner using action words that describe what needs to be done.
+Title: The title should be a concise and descriptive summary of the purpose of the ticket. It should use action words that describe what needs to be done.
 
-Description: The description should provide a detailed explanation of what the ticket is about, including any relevant context and background information.
+Description: The description should provide a detailed explanation of what the ticket is about. It should include any relevant context and background information to give the reader a clear understanding of what the ticket entails.
 
 Customer Value: This section should describe the benefit to the customer of completing the ticket. Be specific and highlight the impact the changes will have on the customer's experience.
 
@@ -27,6 +27,14 @@ Technical Specification: If the ticket involves any technical changes, this sect
 
 Design Considerations: If the ticket involves any design changes, this section should outline the design requirements. Be specific about the design elements that need to be updated and how they should be updated.
 
-Please produce a Jira ticket using the guidelines provided above based on the following brief: [insert your own brief here].
+Please use the guidelines provided above to create a Jira ticket based on the following brief:
+
+Brief: 
+
+[WRITE YOUR BRIEF HERE]
+
+Additional Information:
+
+[PUT YOUR OWN BULLET POINTS HERE]
 
 ---

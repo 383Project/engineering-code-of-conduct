@@ -1,6 +1,6 @@
-## Day 5 - With Abbie Maddison (QA Manager)
+## Day 5 - With QA
 
-### 9:00am - 9:30am: Introduction and Welcome
+### 9:00am - 9:30am: Introduction and Welcome (Lead QA)
 - Meet and greet with Abbie Maddison and the QA team
 - Overview of the day's schedule and expectations
 

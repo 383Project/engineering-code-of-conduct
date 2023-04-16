@@ -15,7 +15,7 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 - Hands-on coding exercise using HTML and CSS to build a simple web page
 - Introduction to the online quiz project and how it will be implemented over the next four days.
 
-### Day 2 - With Frontend Lead Engineer:
+### Day 2 - With Frontend Engineering:
 - Introduction to the frontend team and their role in engineering
 - Overview of the technologies used for frontend development
 - Explanation of the frameworks used for mobile and web development
@@ -23,7 +23,7 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 - Hands-on exercise in creating a simple web application using React and Next.js
 - Work experience student to begin implementing the frontend design for the online quiz application.
 
-### Day 3 - With Backend Engineer:
+### Day 3 - With Backend Engineering:
 - Introduction to the backend team and their role in engineering
 - Overview of the technologies used for backend development
 - Explanation of the frameworks used for backend development
@@ -31,7 +31,7 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 - Hands-on exercise in building a simple API using Node.js and Laravel
 - Work experience student to begin building the backend for the online quiz application, including setting up the database and API.
 
-### Day 4 - With Lead Support Engineer:
+### Day 4 - With Support Engineering:
 - Introduction to DevOps and support team
 - Overview of the infrastructure and deployment process
 - Explanation of the technologies used for infrastructure creation and management

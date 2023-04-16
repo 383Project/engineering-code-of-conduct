@@ -1,4 +1,4 @@
-## Day 1 - With Andrew (Head of Engineering)
+## Day 1 - With Head of Engineering
 
 ### 9:00am - 9:30am: Introduction and Welcome
 - Meet and greet with the team

@@ -27,15 +27,35 @@ The final product we create will have a minimum functionality of:
 
 ## Technical Requirements
 ### Frontend Technology
-- React, React Native, Javascript, CSS, HTML
-- Frameworks such as Expo for mobile and Next.js
+- Javascript, CSS and HTML
 
 ### Backend Technology
-- PHP and Node.js
-- Laravel and its echo system
+- PHP and Laravel
 
 ### API
 - A single endpoint that provides all 3 quiz questions with their multiple choice options and the correct answer.
+
+```
+{
+  "quiz": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "What is the largest country in the world?",
+      "options": ["Russia", "China", "USA"],
+      "answer": "Russia"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Hg"],
+      "answer": "Au"
+    }
+  ]
+}
+```
 
 ## Assumptions and Dependencies
 - The user has a web browser and internet connection to access the application.

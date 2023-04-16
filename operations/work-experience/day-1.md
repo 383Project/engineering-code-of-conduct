@@ -27,7 +27,7 @@
 ### 3:30pm - 4:30pm: Introduction to the Online Quiz Project
 - Overview of the project's goals and objectives
 - Discussion on how the candidate will contribute to the project over the next four days
-- Explanation of the technologies that will be used for the project, including React and Node.js
+- Explanation of the technologies that will be used for the project.
 
 ### 4:30pm - 5:00pm: Wrap-up and Q&A
 - Recap of the day's activities

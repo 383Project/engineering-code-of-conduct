@@ -83,7 +83,7 @@ Furthermore, we have included information on the best secure coding practices th
   - [Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/edit/main/operations/risk-assessment-policy.md)
   - [Annual leave cover policy]()
   - [Using AI to aid engineering practices]()
-  - [Work Experience Structure]()
+  - [Work Experience Structure](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/overview.md)
 
 ## Work In Progress
 In this document there are many areas that are actively being improved or are not 100% compliant with our documentation as it stands. The following table shows areas for improvement with anticipated roll out dates.

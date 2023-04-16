@@ -1,4 +1,5 @@
-## Work Experience Plan and Online Quiz Project
+## Work Experience with Engineering at 383 Project
+Hello and welcome to our engineering team at 383! We're excited to have you join us for a week of learning and hands-on experience. During your time with us, you'll get a chance to work alongside our engineers and learn about the different stages involved in the engineering lifecycle of a product. You'll also have an opportunity to get your hands dirty with coding exercises and building a mock online quiz application from scratch. Our team will guide you through the different stages of the project, and we encourage you to ask questions and seek clarification whenever you need it. By the end of the week, we hope that you'll have gained valuable insights into what it's like to work as an engineer in the digital product space. Let's get started!
 
 ### Day 1 - With Head of Engineering:
 - Introduction to the company and the engineering team

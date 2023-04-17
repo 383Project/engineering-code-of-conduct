@@ -82,7 +82,7 @@ Furthermore, we have included information on the best secure coding practices th
   - [Change Request Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/change-request-policy.md)
   - [Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/edit/main/operations/risk-assessment-policy.md)
   - [Annual leave cover policy]()
-  - [Using AI to aid engineering practices](https://github.com/383Project/engineering-code-of-conduct/blob/main/ai/overview.md)
+  - [Using AI to aid engineering practices](https://github.com/383Project/engineering-code-of-conduct/blob/main/ai/overview.md) (In Progress)
   - [Work Experience Structure](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/overview.md)
 
 ## Work In Progress

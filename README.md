@@ -33,8 +33,8 @@ Furthermore, we have included information on the best secure coding practices th
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     
-    - [Backend Engineering Team Operation Policy](/) (Work in Progress)
-    - [Frontend Engineering Team Operation Policy](/) (Work in Progress)
+    - [Backend Engineering Team Operation Policy](https://github.com/383Project/backend-code-of-conduct) (Work in Progress)
+    - [Frontend Engineering Team Operation Policy](https://github.com/383Project/frontend-code-of-conduct) (Work in Progress)
   
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.

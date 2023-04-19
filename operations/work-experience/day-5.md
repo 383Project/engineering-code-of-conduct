@@ -1,5 +1,7 @@
 ## Day 5 - With QA
 
+MAKE YOUR CHANGES ON THE FILE YOU WANT 
+
 ### 9:00am - 9:30am: Introduction and Welcome (Lead QA)
 - Meet and greet with Abbie Maddison and the QA team
 - Overview of the day's schedule and expectations

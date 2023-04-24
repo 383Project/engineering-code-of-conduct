@@ -5,7 +5,6 @@ The Online Quiz Project is a web-based application designed to allow users to ta
 
 ## Functional Requirements
 The final product we create will have a minimum functionality of:
-- Admin authentication
 - Quiz will be fixed at 3 questions with a multiple choice of 3 answers.
 - In the admin you can change the text of the questions and the multiple choice answers and select which is the correct multiple choice answer.
 - The API is a single endpoint and provides all 3 questions with their multiple choice options. The API will also detail the correct multiple choice answer.
@@ -30,7 +29,7 @@ The final product we create will have a minimum functionality of:
 - Javascript, CSS and HTML
 
 ### Backend Technology
-- PHP and Laravel
+- PHP and Javascript
 
 ### API
 - A single endpoint that provides all 3 quiz questions with their multiple choice options and the correct answer.

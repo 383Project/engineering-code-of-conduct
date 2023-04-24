@@ -39,11 +39,11 @@ Furthermore, we have included information on the best secure coding practices th
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.
     
-    - [Test Strategy Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/testing-strategy-policy.md)
-    - [Compatability testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/compatabillity-testing-policy.md)
-    - [Resgression testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/regression-testing-policy.md)
-    - [Defect Creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/defect-creation-policy.md)
-    - [User Acceptance testing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/quality-control/user-acceptance-testing-policy.md)
+    - [Test Strategy Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/Test%20Plan%20Policy.md)
+    - [Compatability testing Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/Compatiblity%20Testing%20Policy.md)
+    - [Resgression testing Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/Regression%20Testing%20Policy.md)
+    - [Defect Creation Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/Defect%20Creation%20Policy.md)
+    - [User Acceptance testing Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/User%20Acceptance%20Testing%20Policy.md)
     
      As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
     - [Quality Assurance Team Operation Policy](https://github.com/383Project/qa-code-of-conduct)

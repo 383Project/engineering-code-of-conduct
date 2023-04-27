@@ -14,45 +14,63 @@ At 383 Project, we recognize that secure coding practices are essential to ensur
 
 ## 3. Secure Coding Guidelines 
 
- -  ### 3.1 JavaScript
-    - 3.1.1 Avoid using 'eval()' or 'setTimeout()' with a string argument that contains user input. 
-    - 3.1.2 Use 'encodeURIComponent()' or 'encodeURI()' to encode user input in URLs or HTTP requests.
-    - 3.1.3 Use 'Content-Security-Policy' header to mitigate the risks of cross-site scripting (XSS) attacks.
-    - 3.1.4 Use 'Strict Mode' to enable safer and more optimized code.
-    - 3.1.5 Use built-in security features of the framework you're using (e.g., 'helmet' for Express.js).
-    - 3.1.6 Use 'crypto' module for generating secure random numbers, hashing passwords, and encrypting data.
-    - 3.1.7 Use 'try-catch' blocks for handling errors and prevent information leakage.
+### 3.1  Treat User Input with Caution
+As a developer, always follow the principle of "Never Trust User Input." Ensuring that you thoroughly sanitize user input is a critical step in preventing security vulnerabilities. To enhance the security of your applications, adhere to the following practices:
 
- -  ### 3.2 PHP
-    - 3.2.1 Use prepared statements or PDO (PHP Data Objects) to prevent SQL injection attacks.
-    - 3.2.2 Use 'password_hash()' and 'password_verify()' functions for secure password hashing and storage.
-    - 3.2.3 Use 'filter_var()' or 'preg_match()' to validate user input and prevent common attacks (e.g., XSS, CSRF).
-    - 3.2.4 Use session_regenerate_id() to prevent session fixation attacks.
-    - 3.2.5 Use HTTPS and HSTS (HTTP Strict Transport Security) to secure the communication between the client and the server.
-    - 3.2.6 Use open_basedir and disable_functions directives to restrict access to sensitive files and functions.
-    - 3.2.7 Use 'error_reporting()' to hide error messages from public users and send them to logs instead.
-    
- -  ### 3.3 MySQL
-    - 3.3.1 Use prepared statements or stored procedures to prevent SQL injection attacks.
-    - 3.3.2 Avoid using dynamic SQL queries whenever possible.
-    - 3.3.3 Use strong and unique passwords for database accounts and enable secure connections with SSL/TLS.
-    - 3.3.4 Restrict access to the database only to authorized users and regularly monitor and audit the database logs for suspicious activities.
+- Consistently sanitize user input to avoid potential security issues, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), Remote File Inclusion (RFI), or SQL Injection vulnerabilities.
+- Validate user input by checking for the correct format and range before using it in your application.
+- Similarly, sanitize output before sending it to a web browser, mitigating risks associated with unsanitized data.
 
- -  ### 3.4 Bash Scripting
-    - 3.4.1 Use strict mode to enable safer and more predictable scripts.
-    - 3.4.2 Avoid using unsafe constructs such as eval or backticks.
-    - 3.4.3 Use double quotes to prevent word splitting and pathname expansion.
-    - 3.4.4 Use the exit command to terminate the script when an error occurs.
-    - 3.4.5 Avoid hard-coding sensitive information such as passwords or API keys.
-    - 3.4.6 Use permissions to restrict access to sensitive scripts and files.
+### 3.3 Sanitize Input Early, Sanitize Output Late
+As a developer, you should always remember the adage: "Sanitize input early, sanitize output late." Following this principle will enhance your application's security and usefulness. Here's how to apply it:
+
+- Sanitize user input upon arrival: Data from user inputs, like comments, blog posts, and forms, needs to be sanitized as soon as it enters your application. This step ensures that any potential security risks are addressed before the data interacts with other parts of your system.
+- Sanitize output before sharing: When displaying user-generated content to other visitors, such as comments, posts, or survey results, always sanitize the data again, even if it was already sanitized upon arrival. This practice ensures that the data remains secure throughout its lifecycle.
+- Sanitize output as late as possible: By sanitizing the output just before it's sent to the web browser, you minimize the chances of modifications after the sanitization process. This approach allows you to sanitize data only once, right before it's displayed to users.
+
+### 3.4 Handling Uncontrolled Input
+As a developer, it's essential to remember that user input may not always be under your control. You might receive data from an API, a data feed, or another application, which may or may not have sanitized the data. To maintain your application's security in these situations, follow these steps:
+
+- Re-sanitize external data when possible: Ideally, sanitize any data that enters your application, even if it's from an external source. This ensures that potential security risks are addressed, regardless of the origin of the data.
+- Prioritize output sanitization: If re-sanitizing input isn't feasible due to performance reasons or the complexity of the data, always sanitize the output. This step is crucial for maintaining security, as external data might contain malicious code.
+- Be vigilant with external sources: Treat data from external sources with the same level of caution as data from your own application. This mindset helps you maintain a secure environment for your application and its users.
+
+### 3.5 Managing Output to External Applications
+As a developer, you may sometimes send user data from your website to an external application, such as through a REST API. To ensure the security of your data and protect users, follow these best practices:
+
+- Sanitize user input early: Always sanitize user input as soon as it arrives in your application. This step helps ensure that any potential security risks are addressed before the data is sent to the external application.
+- Don't assume external sanitization: Never assume that developers using your API or external applications are sanitizing the data on their end. To maintain the highest level of security, sanitize user input data before sending it through the API.
+- Prioritize user safety: By diligently sanitizing user input before sharing it with external applications, you contribute to a safer environment for users of your data and protect them from potential threats.
+
+### 3.6 Sanitizing, Validating, and Escaping Input
+To ensure the safety of data in your application, it's essential to understand the differences between validation, sanitization, and escaping. Here's how to implement these techniques effectively:
+
+- Validation: Confirm that the data is of the correct type and format. For instance, use PHP's is_numeric() function to verify that a cart item count is an integer. If validation fails, return an error message to the user. Validation helps maintain data integrity and prevents errors in your application.
+- Sanitization: Remove any harmful data from user input. This might involve stripping out <script> tags or removing quotes from an HTML attribute. Sanitization ensures that malicious data doesn't compromise your application's security.
+- Escaping: Convert potentially harmful data into a harmless format. For example, if a user submits an input containing a <script> tag, you can escape it by converting the greater and less than signs into their respective HTML entities (< and >). Escaping prevents security vulnerabilities such as XSS attacks.
+ 
+### 3.7 Output Vectors and Vulnerabilities
+When developing applications, it's essential to comprehend the various output vectors and their associated vulnerabilities to ensure a secure environment for your users. This guideline provides a more detailed overview of common output vectors and how to mitigate their potential risks.
+ 
+#### Visitor's Browser
+The most common output vector occurs when a PHP application sends data to a user's web browser. The primary vulnerability in this scenario is Cross-Site Scripting (XSS), which can be exploited by attackers to execute malicious scripts. To address this vulnerability, it's important to validate and sanitize user input before outputting it to the browser.
+ 
+#### Database
+As data exits your application and enters the database, it becomes susceptible to SQL Injection attacks. These attacks can lead to unauthorized data access, modification, or addition. To minimize this risk, ensure that any data sent to your database is safe and secure, preventing unauthorized access or manipulation.
+ 
+#### Files
+PHP applications and plugins often write data to files, which can introduce vulnerabilities if an attacker is able to execute malicious code through unauthorized file access. To mitigate this risk, make sure the data being written to files is safe, and verify that the filenames being used are secure and non-executable.
+ 
+#### Shell Commands
+Shell commands represent another potential output vector in your application, with the associated risk of executing undesirable shell commands using user-data. Generally, it's best to avoid using shell commands in PHP web applications. Instead, opt for built-in PHP functions for tasks like directory listings or file manipulation. However, if it's absolutely necessary to use shell commands that involve external data, employ strict validation, sanitization, and escaping techniques to minimize the risk.
 
 Note: These guidelines are not exhaustive and should be supplemented with specific best practices based on the project's needs and context. The Engineering teams individual departments has further expantion in this area which details can be found here:
 
-[Frontend Engineering Code of Conduct](/)
+[Frontend Engineering Code of Conduct](/) (Work in Progress)
 
-[Backend Engineering Code of Conduct](/)
+[Backend Engineering Code of Conduct](/) (Work in Progress)
 
-[Support Engineering Code of Conduct](/)
+[Support Engineering Code of Conduct](/) (Work in Progress)
 
 ## 4. Security Checkpoints
 

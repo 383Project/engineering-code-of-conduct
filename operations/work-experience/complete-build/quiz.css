@@ -1,0 +1,94 @@
+body {
+  padding: 60px;
+  background-color: #FBF7ED
+}
+
+#quizContainer{
+  align-items: center;
+  border: solid 1px #3F3232;
+  color: #3F3232;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+  justify-content: center;
+  width: 100%;
+}
+
+#quizHeader{
+  font-family: 'Italiana', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+button{
+  background-color: transparent;
+  border: solid 1px #3F3232;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 10px 60px;
+  transition: box-shadow 0.1s ease-in;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 4px 4px 0px 0px #3F3232;
+}
+
+#quizButton{
+  text-align: center;
+}
+
+#quizQuestion{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+#answersContainer{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.answer{
+  cursor: pointer;
+}
+
+#correct{
+color:#639C48
+}
+
+#wrong {
+ color:#B04646;
+}
+
+#scoreLabel{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+#score{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  border: solid 1px #3F3232;
+  margin-top: 20px;
+  padding: 10px 60px;
+}

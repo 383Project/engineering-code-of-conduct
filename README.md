@@ -90,9 +90,9 @@ In this document there are many areas that are actively being improved or are no
 
 | Policy Document                     | Feature to roll out              | Target Date | Is Complete |
 |-------------------------------------|----------------------------------|-------------|-------------|
-| Software requirements specification | Issuing SRS for all major builds | April  2023 | In Progress |
+| Software requirements specification | Issuing SRS for all major builds | April  2023 | Complete    |
 | Github Controls                     | User Privillage Controls active  | August 2023 | In Progress |
-| QA Policies                         | All QA Related Policy            | May 2023    | In Progress |
+| QA Policies                         | All QA Related Policy            | May 2023    | Complete    |
 | Frontend Operations Guide           | Complete guide                   | Sept 2023   | In Progress |
 | Support Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
 | Backend Operations Guide            | Complete guide                   | Sept 2023   | In Progress |

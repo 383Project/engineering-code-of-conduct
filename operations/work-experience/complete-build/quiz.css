@@ -3,7 +3,7 @@ body {
   background-color: #FBF7ED
 }
 
-#quizContainer{
+#container{
   align-items: center;
   border: solid 1px #3F3232;
   color: #3F3232;
@@ -14,7 +14,7 @@ body {
   width: 100%;
 }
 
-#quizHeader{
+#title{
   font-family: 'Italiana', serif;
   font-style: normal;
   font-weight: 400;
@@ -41,11 +41,11 @@ button:hover{
   box-shadow: 4px 4px 0px 0px #3F3232;
 }
 
-#quizButton{
+#buttonContainer{
   text-align: center;
 }
 
-#quizQuestion{
+#question{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -54,7 +54,7 @@ button:hover{
   margin-bottom: 20px;
 }
 
-#answersContainer{
+#answers{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;

@@ -20,32 +20,29 @@ const quizObject = {
 
 let questionsCount = 0;
 let score = 0;
-const title = document.getElementById("quizHeader");
-const button = document.getElementById("quizButton");
-const questionContainer = document.getElementById("quizQuestion");
-const answersContainer = document.getElementById("answersContainer");
-const answerContainers = answersContainer.querySelectorAll(".answer");
-buildQuiz();
+const title = document.getElementById("title");
+const buttonContainer = document.getElementById("buttonContainer");
+const questionContainer = document.getElementById("question");
+const answersContainer = document.getElementById("answers");
 
 function buildQuiz() {
   title.innerText = `Welcome to the Online Quiz Project`;
-  button.innerHTML = `<button onclick='questionPage()'>Let's go!</button>`;
+  buttonContainer.innerHTML = `<button onclick='questionPage()'>Let's go!</button>`;
 }
 
 function questionPage() {
-  const { question, options } = quizObject.quiz[questionsCount];
   title.innerText = `Question ${questionsCount + 1}`;
-  button.innerHTML = `<button onclick='showResultPage()'>Submit</button>`;
+  buttonContainer.innerHTML = `<button onclick='showResultPage()'>Submit</button>`;
 
   if (questionsCount <= quizObject.quiz.length - 1) {
+    const { question, options } = quizObject?.quiz[questionsCount];
+
     questionContainer.innerHTML = question;
     answersContainer.innerHTML = displayRadio(options);
   } else {
     endPage();
   }
 }
-
-function reducerAnswer(questionIndex, answer) {}
 
 function displayRadio(options) {
   return options
@@ -61,18 +58,16 @@ function displayRadio(options) {
 }
 
 function showResultPage() {
-  const button = document.getElementById("quizButton");
+  const answerContainers = answersContainer.querySelectorAll(".answer");
   let answerText = "";
   let answer;
-  //Check answer was submited
+
   answerContainers.forEach((currenAns) => {
     if (currenAns.checked) {
       answer = currenAns.id;
     }
   });
-  console.log({ answerContainers });
 
-  //Check if the submitted answer was right and update the score
   if (answer === quizObject.quiz[questionsCount].answer) {
     answerText = `<p id="correct">Correct answer ! </p>`;
     score++;
@@ -80,17 +75,13 @@ function showResultPage() {
     answerText = `<p id="wrong" >Wrong ! The correct answer was : ${quizObject.quiz[questionsCount].answer} </p>`;
   }
 
-  button.innerHTML = `<button onclick='questionPage()'>Next</button>`;
+  buttonContainer.innerHTML = `<button onclick='questionPage()'>Next</button>`;
   questionContainer.innerHTML = answerText;
   answersContainer.innerText = ``;
   questionsCount++;
 }
 
 function endPage() {
-  const title = document.getElementById("quizHeader");
-  const questionContainer = document.getElementById("quizQuestion");
-  const button = document.getElementById("quizButton");
-
   let scoreText = "";
   switch (score) {
     case 0:
@@ -109,7 +100,10 @@ function endPage() {
       scoreText = "Have you even tried ? ";
       break;
   }
+
   title.innerText = `The End !`;
   questionContainer.innerText = scoreText;
-  button.innerHTML = `<p id="scoreLabel">Your score is: </p><p id="score">${score} out of ${quizObject.quiz.length}</p> `;
+  buttonContainer.innerHTML = `<p id="scoreLabel">Your score is: </p><p id="score">${score} out of ${quizObject.quiz.length}</p> `;
 }
+
+buildQuiz();

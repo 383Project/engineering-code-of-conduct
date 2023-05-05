@@ -1,4 +1,4 @@
-import { quiz } from "./data/data.js";
+import quiz from "./data/data.json";
 
 let questionsCount = 0;
 let score = 0;

@@ -1,4 +1,4 @@
-import quiz from "./data/data.json";
+import quiz from "./data/data.json" assert { type: "json" };
 
 let questionsCount = 0;
 let score = 0;
@@ -9,12 +9,18 @@ const answersContainer = document.getElementById("answers");
 
 function buildQuiz() {
   title.innerText = `Welcome to the Online Quiz Project`;
-  buttonContainer.innerHTML = `<button onclick='questionPage()'>Let's go!</button>`;
+  buttonContainer.innerHTML = `<button>Let's go!</button>`;
+  buttonContainer.onclick = function () {
+    questionPage();
+  };
 }
 
 function questionPage() {
   title.innerText = `Question ${questionsCount + 1}`;
-  buttonContainer.innerHTML = `<button onclick='showResultPage()'>Submit</button>`;
+  buttonContainer.innerHTML = `<button>Submit</button>`;
+  buttonContainer.onclick = function () {
+    showResultPage();
+  };
 
   if (questionsCount <= quiz.length - 1) {
     const { question, options } = quiz[questionsCount];
@@ -58,6 +64,9 @@ function showResultPage() {
   }
 
   buttonContainer.innerHTML = `<button onclick='questionPage()'>Next</button>`;
+  buttonContainer.onclick = function () {
+    questionPage();
+  };
   questionContainer.innerHTML = answerText;
   answersContainer.innerText = ``;
   questionsCount++;

@@ -1,0 +1,17 @@
+export const quiz = () => [
+  {
+    question: "What is the capital of France?",
+    options: ["Paris", "London", "Madrid"],
+    answer: "Paris",
+  },
+  {
+    question: "What is the largest country in the world?",
+    options: ["Russia", "China", "USA"],
+    answer: "Russia",
+  },
+  {
+    question: "What is the chemical symbol for gold?",
+    options: ["Au", "Ag", "Hg"],
+    answer: "Au",
+  },
+];

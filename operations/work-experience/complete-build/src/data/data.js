@@ -1,4 +1,4 @@
-export const quiz = () => [
+export const quiz = [
   {
     question: "What is the capital of France?",
     options: ["Paris", "London", "Madrid"],

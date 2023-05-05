@@ -1,8 +1,7 @@
 {
   "name": "complete-build",
   "version": "1.0.0",
-  "description": "",
-  "main": "quiz.js",
+  "type": "module",
   "scripts": {
     "start": "live-server"
   },

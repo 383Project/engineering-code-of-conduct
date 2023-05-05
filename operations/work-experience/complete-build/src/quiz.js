@@ -1,22 +1,4 @@
-const quizObject = {
-  quiz: [
-    {
-      question: "What is the capital of France?",
-      options: ["Paris", "London", "Madrid"],
-      answer: "Paris",
-    },
-    {
-      question: "What is the largest country in the world?",
-      options: ["Russia", "China", "USA"],
-      answer: "Russia",
-    },
-    {
-      question: "What is the chemical symbol for gold?",
-      options: ["Au", "Ag", "Hg"],
-      answer: "Au",
-    },
-  ],
-};
+import { quiz } from "./data/data.js";
 
 let questionsCount = 0;
 let score = 0;
@@ -34,8 +16,8 @@ function questionPage() {
   title.innerText = `Question ${questionsCount + 1}`;
   buttonContainer.innerHTML = `<button onclick='showResultPage()'>Submit</button>`;
 
-  if (questionsCount <= quizObject.quiz.length - 1) {
-    const { question, options } = quizObject?.quiz[questionsCount];
+  if (questionsCount <= quiz.length - 1) {
+    const { question, options } = quiz[questionsCount];
 
     questionContainer.innerHTML = question;
     answersContainer.innerHTML = displayRadio(options);
@@ -68,11 +50,11 @@ function showResultPage() {
     }
   });
 
-  if (answer === quizObject.quiz[questionsCount].answer) {
+  if (answer === quiz[questionsCount].answer) {
     answerText = `<p id="correct">Correct answer ! </p>`;
     score++;
   } else {
-    answerText = `<p id="wrong" >Wrong ! The correct answer was : ${quizObject.quiz[questionsCount].answer} </p>`;
+    answerText = `<p id="wrong" >Wrong ! The correct answer was : ${quiz[questionsCount].answer} </p>`;
   }
 
   buttonContainer.innerHTML = `<button onclick='questionPage()'>Next</button>`;
@@ -103,7 +85,7 @@ function endPage() {
 
   title.innerText = `The End !`;
   questionContainer.innerText = scoreText;
-  buttonContainer.innerHTML = `<p id="scoreLabel">Your score is: </p><p id="score">${score} out of ${quizObject.quiz.length}</p> `;
+  buttonContainer.innerHTML = `<p id="scoreLabel">Your score is: </p><p id="score">${score} out of ${quiz.length}</p> `;
 }
 
 buildQuiz();

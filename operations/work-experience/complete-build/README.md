@@ -1,3 +1,9 @@
+### Install the project
+
+```
+npm run install
+```
+
 ### Start dev server
 
 ```

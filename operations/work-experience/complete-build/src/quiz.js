@@ -1,42 +1,41 @@
-const quizObject = {
-  quiz: [
-    {
-      question: "What is the capital of France?",
-      options: ["Paris", "London", "Madrid"],
-      answer: "Paris",
-    },
-    {
-      question: "What is the largest country in the world?",
-      options: ["Russia", "China", "USA"],
-      answer: "Russia",
-    },
-    {
-      question: "What is the chemical symbol for gold?",
-      options: ["Au", "Ag", "Hg"],
-      answer: "Au",
-    },
-  ],
-};
+import quiz from "./data/data.json" assert { type: "json" };
 
+//Initialization of a question count and the score to 0
 let questionsCount = 0;
 let score = 0;
+
+//Store the html elements into variables to use them in the different functions
 const title = document.getElementById("title");
 const buttonContainer = document.getElementById("buttonContainer");
 const questionContainer = document.getElementById("question");
 const answersContainer = document.getElementById("answers");
+const button = document.createElement("button");
+buttonContainer.appendChild(button);
 
+//Display the first page of the quiz
 function buildQuiz() {
+  button.innerHTML = "Let's go!";
+  // button.onClick = questionPage;
+
   title.innerText = `Welcome to the Online Quiz Project`;
-  buttonContainer.innerHTML = `<button onclick='questionPage()'>Let's go!</button>`;
+
+  button.onclick = function () {
+    questionPage();
+  };
 }
 
+//Display the page with the multiple choice question
 function questionPage() {
+  console.log("questions");
   title.innerText = `Question ${questionsCount + 1}`;
-  buttonContainer.innerHTML = `<button onclick='showResultPage()'>Submit</button>`;
+  button.innerHTML = `Submit`;
+  button.onclick = function () {
+    showResultPage();
+  };
 
-  if (questionsCount <= quizObject.quiz.length - 1) {
-    const { question, options } = quizObject?.quiz[questionsCount];
-
+  //Check if there is a question left and display it. If not, call endPage()
+  if (questionsCount <= quiz.length - 1) {
+    const { question, options } = quiz[questionsCount];
     questionContainer.innerHTML = question;
     answersContainer.innerHTML = displayRadio(options);
   } else {
@@ -44,6 +43,7 @@ function questionPage() {
   }
 }
 
+//Map into the answers, format them and return them
 function displayRadio(options) {
   return options
     .map((option) => {
@@ -57,30 +57,40 @@ function displayRadio(options) {
     .join("");
 }
 
+//Display the page with the answer after submitting your answer
 function showResultPage() {
   const answerContainers = answersContainer.querySelectorAll(".answer");
   let answerText = "";
   let answer;
 
+  //Store your answer's id into a variable
   answerContainers.forEach((currenAns) => {
     if (currenAns.checked) {
       answer = currenAns.id;
     }
   });
 
-  if (answer === quizObject.quiz[questionsCount].answer) {
+  //Check if your answer's id is the same as the correct and display a different message if your answer is correct or wrong and update your score
+  if (answer === quiz[questionsCount].answer) {
     answerText = `<p id="correct">Correct answer ! </p>`;
+    //Add +1 to your score
     score++;
   } else {
-    answerText = `<p id="wrong" >Wrong ! The correct answer was : ${quizObject.quiz[questionsCount].answer} </p>`;
+    answerText = `<p id="wrong" >Wrong ! The correct answer was : ${quiz[questionsCount].answer} </p>`;
   }
 
-  buttonContainer.innerHTML = `<button onclick='questionPage()'>Next</button>`;
+  button.innerHTML = `Next`;
+  button.onclick = function () {
+    questionPage();
+  };
   questionContainer.innerHTML = answerText;
   answersContainer.innerText = ``;
+
+  //Add +1 to the question count
   questionsCount++;
 }
 
+//Display the last page with a different message depending on your score and display your score
 function endPage() {
   let scoreText = "";
   switch (score) {
@@ -103,7 +113,7 @@ function endPage() {
 
   title.innerText = `The End !`;
   questionContainer.innerText = scoreText;
-  buttonContainer.innerHTML = `<p id="scoreLabel">Your score is: </p><p id="score">${score} out of ${quizObject.quiz.length}</p> `;
+  buttonContainer.innerHTML = `<p id="scoreLabel">Your score is: </p><p id="score">${score} out of ${quiz.length}</p> `;
 }
 
 buildQuiz();

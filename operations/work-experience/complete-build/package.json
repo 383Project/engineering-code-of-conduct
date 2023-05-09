@@ -1,0 +1,13 @@
+{
+  "name": "complete-build",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

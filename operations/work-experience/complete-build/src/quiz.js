@@ -9,21 +9,27 @@ const title = document.getElementById("title");
 const buttonContainer = document.getElementById("buttonContainer");
 const questionContainer = document.getElementById("question");
 const answersContainer = document.getElementById("answers");
+const button = document.createElement("button");
+buttonContainer.appendChild(button);
 
 //Display the first page of the quiz
 function buildQuiz() {
+  button.innerHTML = "Let's go!";
+  // button.onClick = questionPage;
+
   title.innerText = `Welcome to the Online Quiz Project`;
-  buttonContainer.innerHTML = `<button>Let's go!</button>`;
-  buttonContainer.onclick = function () {
+
+  button.onclick = function () {
     questionPage();
   };
 }
 
 //Display the page with the multiple choice question
 function questionPage() {
+  console.log("questions");
   title.innerText = `Question ${questionsCount + 1}`;
-  buttonContainer.innerHTML = `<button>Submit</button>`;
-  buttonContainer.onclick = function () {
+  button.innerHTML = `Submit`;
+  button.onclick = function () {
     showResultPage();
   };
 
@@ -73,8 +79,8 @@ function showResultPage() {
     answerText = `<p id="wrong" >Wrong ! The correct answer was : ${quiz[questionsCount].answer} </p>`;
   }
 
-  buttonContainer.innerHTML = `<button>Next</button>`;
-  buttonContainer.onclick = function () {
+  button.innerHTML = `Next`;
+  button.onclick = function () {
     questionPage();
   };
   questionContainer.innerHTML = answerText;

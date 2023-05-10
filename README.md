@@ -96,5 +96,8 @@ In this document there are many areas that are actively being improved or are no
 | Frontend Operations Guide           | Complete guide                   | Sept 2023   | In Progress |
 | Support Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
 | Backend Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
+| Code of conduct missing content     | Complete all docs                | May 2023    | In Progress |
+| 1 Password Group training.          | Complete Training                | May 2023    | In Progress |
+
 
 

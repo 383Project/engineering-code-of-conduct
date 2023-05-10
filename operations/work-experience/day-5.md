@@ -2,8 +2,8 @@
 
 ### 9:00am - 9:30am: Introduction and Welcome (QA Manager)
 - Meet and greet with Abbie Maddison and the QA team
-       1. Go through what our jobs are and what projects we currently work on
-       2. How we got into QA
+   1. Go through what our jobs are and what projects we currently work on
+   2. How we got into QA
 - Overview of the day's schedule and expectations
 
 ### 9:30am - 10:30am: Introduction to Quality Assurance

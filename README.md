@@ -67,7 +67,6 @@ Furthermore, we have included information on the best secure coding practices th
     - [Infrastructure backups and restoration Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-backups-and-restoration-policy.md)
     - [Infrastructure monitoring Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-monitoring-policy.md)
     - [Handling of information Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/information-policy.md)
-    - [Infrastructure scheduling policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/schedulling-policy.md)
     - [Auditing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/auditing-policy.md)
     
     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:

@@ -63,7 +63,7 @@ Furthermore, we have included information on the best secure coding practices th
     
     - [Maintainance Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/maintainance-policy.md)
     - [Security and Compliance Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/security-and-compliance-policy.md)
-    - [Infrastructure Creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-monitoring-policy.md)
+    - [Infrastructure Creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-creation-policy.md)
     - [Infrastructure backups and restoration Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-backups-and-restoration-policy.md)
     - [Infrastructure monitoring Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-monitoring-policy.md)
     - [Handling of information Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/information-policy.md)

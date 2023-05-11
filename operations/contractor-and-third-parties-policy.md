@@ -19,4 +19,7 @@ j)   Division of responsibility for compliance]
 
     - [the use of outsourced development and a requirement for equivalent security to be addressed in agreements with third party developers] 
     
+    
+    needs to cover guidance around data handeling
+    
 

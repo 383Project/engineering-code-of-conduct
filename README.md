@@ -31,11 +31,6 @@ Furthermore, we have included information on the best secure coding practices th
     - [Recording Technical Debt Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/recording-technical-debt-policy.md)
     - [Documentation creation Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/documentation-policy.md)
     
-    As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    
-    - [Backend Engineering Team Operation Policy](https://github.com/383Project/backend-code-of-conduct) (Work in Progress)
-    - [Frontend Engineering Team Operation Policy](https://github.com/383Project/frontend-code-of-conduct) (Work in Progress)
-  
   - #### Quality Control
     Quality Control in the engineering lifecycle refers to the process of ensuring that the final product or solution meets the expected standards, specifications, and requirements through various testing and inspection methods.
     
@@ -45,9 +40,6 @@ Furthermore, we have included information on the best secure coding practices th
     - [Defect Creation Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/Defect%20Creation%20Policy.md)
     - [User Acceptance testing Policy](https://github.com/383Project/qa-code-of-conduct/blob/main/process/User%20Acceptance%20Testing%20Policy.md)
     
-     As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Quality Assurance Team Operation Policy](https://github.com/383Project/qa-code-of-conduct)
-
   - #### Deployment
     Deployment in the engineering lifecycle refers to the phase where the final product or solution is released, installed, and made available for use by the end-users, including the necessary training, documentation, and support to ensure a successful adoption.
     
@@ -55,9 +47,6 @@ Furthermore, we have included information on the best secure coding practices th
     - [Infrastructure Logging Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/deployment/infrastructure-logging-policy.md)
     - [Deployment Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/deployment/deployment-policy.md)
     
-    As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Support Team Operation Policy](/)
-  
   - #### Support
     Support in the engineering lifecycle refers to the ongoing maintenance and enhancement of the product or solution, including bug fixes, upgrades, and additional features, to ensure that it continues to meet the changing needs and requirements of the end-users.
     
@@ -68,9 +57,6 @@ Furthermore, we have included information on the best secure coding practices th
     - [Infrastructure monitoring Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/infrastructure-monitoring-policy.md)
     - [Handling of information Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/information-policy.md)
     - [Auditing Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/support/auditing-policy.md)
-    
-    As this document covers the minimum global requirements of the whole engineering team futher processes and operation information can be seen an a granular level in the following areas:
-    - [Support Team Operation Policy](https://github.com/383Project/support_code_of_conduct) (Work In Progress)
 
 - ### General Engineering Operation Procedures
 
@@ -80,8 +66,6 @@ Furthermore, we have included information on the best secure coding practices th
   - [Contractor and Third Parties Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/contractor-and-third-parties-policy.md)
   - [Change Request Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/change-request-policy.md)
   - [Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/edit/main/operations/risk-assessment-policy.md)
-  - [Annual leave cover policy]()
-  - [Using AI to aid engineering practices](https://github.com/383Project/engineering-code-of-conduct/blob/main/ai/overview.md) (In Progress)
   - [Work Experience Structure](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/overview.md)
 
 ## Work In Progress

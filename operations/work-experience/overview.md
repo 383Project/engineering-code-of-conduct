@@ -16,9 +16,6 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 
 [Day 1 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-1.md)
 
-[Software Requirements Specification - Quiz Project](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/quiz-srs.md)
-[Wireframes](https://miro.com/app/board/uXjVMPo9MZQ=/)
-
 ### Day 2 - With Frontend Engineering:
 - Introduction to the frontend team and their role in engineering
 - Overview of the technologies used for frontend development

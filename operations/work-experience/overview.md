@@ -21,7 +21,7 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 - Introduction to the frontend team and their role in engineering
 - Overview of the technologies used for frontend development
 - Explanation of the frameworks used for mobile and web development
-- Hands-on coding exercises in using CSS and learning to style a simple web page
+- Hands-on coding exercises continuing HTML and CSS and learning to style a simple web page
 
 [Day 2 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-2.md)
 

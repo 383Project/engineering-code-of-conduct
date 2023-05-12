@@ -1,7 +1,7 @@
 ## One Week Work Experience with Engineering at 383 Project
-Hello and welcome to our engineering team at 383! We're excited to have you join us for a week of learning and hands-on experience. During your time with us, you'll get a chance to work alongside our engineers and learn about the different stages involved in the engineering lifecycle of a product. You'll also have an opportunity to get your hands dirty with coding exercises and building a mock online quiz application from scratch. Our team will guide you through the different stages of the project, and we encourage you to ask questions and seek clarification whenever you need it. By the end of the week, we hope that you'll have gained valuable insights into what it's like to work as an engineer in the digital product space. Let's get started!
+Hello and welcome to our engineering team at 383! We're excited to have you join us for a week of learning and hands-on experience. During your time with us, you'll get a chance to work alongside our engineers and learn about the different stages involved in the engineering lifecycle of a product. You'll also have an opportunity to get your hands dirty with coding exercises and building a mock website from scratch. Our team will guide you through the different stages of the project, and we encourage you to ask questions and seek clarification whenever you need it. By the end of the week, we hope that you'll have gained valuable insights into what it's like to work as an engineer in the digital product space. Let's get started!
 
-Get ready for a week of fun and learning as we build a mock online quiz application together! You'll be introduced to the different stages of the engineering lifecycle and the technologies we use to build cool digital products. With the Frontend Lead Engineer, you'll create the design and user interface of the application, making it look and feel super slick. Then, with the Backend Engineer, you'll bring the application to life by building the backend, setting up the database and API, and making it all work like magic.
+Get ready for a week of fun and learning as we build a mock website together! You'll be introduced to the different stages of the engineering lifecycle and the technologies we use to build cool digital products. With the Frontend Lead Engineer, you'll create the design and user interface of the application, making it look and feel super slick. Then, with the Backend Engineer, you'll bring the application to life by understanding the different areas of the role and learn about APIs.
 
 But that's not all - we'll take things up a notch on Day 4 when you'll work with the Lead Support Engineer to deploy the application to the cloud and make it accessible to the world. Finally, you'll work with the QA Manager to ensure that the application is high-quality and bug-free on Day 5.
 
@@ -10,10 +10,9 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 ### Day 1 - With Head of Engineering:
 - Introduction to the company and the engineering team
 - Overview of the engineering lifecycle and the different stages involved
+- Understanding different people who work with engineering
 - Explanation of the technology used for frontend and backend development
-- Discussion on the importance of secure coding practices and how to maintain code integrity
 - Hands-on coding exercise using HTML and CSS to build a simple web page
-- Introduction to the online quiz project and how it will be implemented over the next four days.
 
 [Day 1 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-1.md)
 

@@ -2,16 +2,16 @@
 
 ## Purpose
 
-The purpose of this Infrastructure Monitoring Policy is to establish guidelines and procedures for monitoring the organization's infrastructure components. This policy ensures system availability, performance optimization, proactive issue identification, and compliance with service level agreements (SLAs).
+The purpose of this Infrastructure Monitoring Policy is to establish guidelines and procedures for monitoring the organization's own and client infrastructure. This policy ensures system availability, performance optimization, proactive issue identification, and compliance with Service Level Agreements (SLAs).
 
 ## Scope
 
 This policy applies to all team members involved in infrastructure monitoring within our organization. The policy covers the following monitoring technologies and services:
 
-- StatusCake for monitoring the uptime performance of websites and reporting downtime incidents via Slack.
-- PagerDuty for reporting downtime incidents to the Lead Support Engineer.
-- Detectify, when paid for by clients, for periodic OWASP Top 10 scans and reporting security incidents.
-- Bespoke internal Server monitoring and cost monitoring tool for tracking resource utilization, cost optimization, and reporting unusual activity or outages to the Lead Support Engineer.
+- StatusCake for monitoring the uptime performance of websites and reporting downtime incidents via Slack & Pager Duty.
+- PagerDuty for reporting downtime, and SLA incidents to the Support Team.
+- Detectify, when paid for by clients, for periodic OWASP Top 10 scans and reporting security vulnerabilities.
+- Bespoke internal Server monitoring and cost monitoring tool for tracking resource utilization, cost forecasting, and reporting unusual activity or outages to the Support Team.
 - Udemy for Business for providing security training materials to all engineers.
 - Role-based access control for managing access to monitoring tools at appropriate levels.
 - The Lead Support Engineer is responsible for the setup and configuration of monitoring services.
@@ -46,16 +46,16 @@ This policy applies to all team members involved in infrastructure monitoring wi
    - Configure notifications via Slack to promptly alert the team about downtime incidents.
 
 3. Incident Reporting:
-   - Utilize PagerDuty for reporting downtime incidents to the Lead Support Engineer.
+   - Utilize PagerDuty for reporting downtime incidents to the Support Team.
    - Follow the defined incident reporting procedures for timely response and resolution.
 
 4. Security Monitoring:
-   - Employ Detectify, when paid for by clients, to perform periodic OWASP Top 10 scans and report security incidents.
+   - Employ Detectify, when paid for by clients, to perform periodic OWASP Top 10 scans and report security vulnerabilities.
    - Collaborate with security personnel to address and resolve identified security vulnerabilities.
 
 5. Internal Server and Cost Monitoring:
    - Leverage the bespoke internal Server monitoring and cost monitoring tool to track resource utilization, cost optimization, and unusual activity or outages.
-   - Configure alerts and notifications to promptly inform the Lead Support Engineer about any anomalies or critical events.
+   - Configure alerts and notifications to promptly inform the Support Team about any anomalies or critical events.
 
 6. Training and Awareness:
    - Utilize Udemy for Business to provide engineers with a wide range of security training materials.
@@ -67,4 +67,6 @@ This policy applies to all team members involved in infrastructure monitoring wi
 
 ## Non-Compliance and Consequences
 
-Non-compliance with this Infrastructure Monitoring Policy may result in
+Non-compliance with this Infrastructure Monitoring Policy may result in data loss, compromised system security, or regulatory violations. Non-compliant individuals may be subject to disciplinary action.
+
+By following this Infrastructure Monitoring Policy, we ensure consistent and secure logging practices, protect log data integrity, and maintain compliance with data protection requirements.

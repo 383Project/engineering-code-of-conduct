@@ -11,8 +11,8 @@
 - Understanding different people who work with engineering
 - Explanation of the technology used for frontend and backend development and understanding your skillset
 
-### 11:30am - 12:30pm: Short Tutorial
-- Short online tutorial on HTML and setting afternoon brief
+### 11:30am - 12:30pm: Designing the web page
+- Wireframing a webpage using Balsamiq mockups
 
 ### 12:30pm - 1:30pm: Lunch
 

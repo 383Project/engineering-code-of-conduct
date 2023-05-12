@@ -45,6 +45,7 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 - Overview of the testing and inspection methods used in quality control
 - Discussion on how to create a test strategy and implement test cases
 - Hands-on testing exercise within QA and testing your website.
+- Wrap up the week with our office manager Natalie Saint to see how your experience with the team went
 
 [Day 5 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-5.md)
 

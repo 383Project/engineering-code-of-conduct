@@ -1,35 +1,25 @@
-## Day 2 - With Frontend Engineer
+## Day 2 - With Frontend of Engineering (Salvo Gustella)
 
-### 9:00am - 9:30am: Introduction and Welcome
-- Meet and greet with Lead Frontend Engineer and the frontend team
-- Overview of the day's schedule and expectations
+### 10am: Arrive at office and meet Salvo Gustella
+- Meet Salvo in the spaces reception for a morning coffee and chat
+- Meet and greet with the people in the office
+- Introduction to the frontend team and their role in engineering
 
-### 9:30am - 10:30am: Introduction to Frontend Development and React
-- Overview of the technologies used for frontend development, including React, React Native, and Javascript
-- Discussion on the importance of responsive design, accessibility, and user experience
+### 10:30am - 11:30am: Introduction to Frontend Engineering
+- Overview of the technologies used for frontend development
+- Explanation of the frameworks used for mobile and web development
+- Discussion on UX and UI design and its importance in frontend development
 
-### 10:30am - 11:00am: Break
-
-### 11:00am - 12:30pm: Building Something Visual
-- Hands-on coding exercise using React and CSS to build a simple web application
-- Discussion on the importance of design principles and how to create visually appealing interfaces
+### 11:30am - 12:30pm: Hands-on Coding Exercise using HTML and CSS
+- Finishing off any remaining HTML from the previous day
 
 ### 12:30pm - 1:30pm: Lunch
 
-### 1:30pm - 3:00pm: Working on the Online Quiz Project
-- Review of the project requirements and goals
-- Hands-on coding exercise using React to build the frontend for the Online Quiz Project
+### 1:30pm - 3:45pm: Hands-on Coding using CSS to style your website
+- making the website look great using CSS
 
-### 3:00pm - 3:30pm: Break
-
-### 3:30pm - 4:30pm: Connecting the Frontend to the Backend
-- Discussion on the importance of APIs and how they facilitate communication between the frontend and backend
-- Introduction to the API that will be used for the online quiz project
-- Hands-on coding exercise using React to connect to the API
-
-### 4:30pm - 5:00pm: Wrap-up and Q&A
+### 3:45pm - 4:00pm: Wrap-up and Q&A
 - Recap of the day's activities
-- Opportunity to ask questions and clarify any doubts
+- Opportunity to ask question
 
-Throughout the day, the work experience candidate will have the opportunity to learn about frontend development, including the technologies used for web and mobile development, responsive design, and accessibility. They will also gain hands-on experience building a simple web application and mobile application using Expo, and will work on building the frontend for the Online Quiz Project, as well as learn how to connect their frontend work to the API that will be used for the project.
-
+Throughout the day, the work experience candidate will have the opportunity to interact with the team, learn about the company's mission and values, and get hands-on experience with HTML, CSS, and secure coding practices. They will also be introduced to the online quiz project and the technologies that will be used to build it.

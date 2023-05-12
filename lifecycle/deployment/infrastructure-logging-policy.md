@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this logging policy is to define the guidelines and procedures for logging activities and storing log data for our infrastructure and third-party services. This policy covers logging practices for code changes, server error messages, exception messages, server logs, engineer responsibilities, audit log reports, and confidential information handling.
+The purpose of this logging policy is to define the guidelines and procedures for logging activities and storing log data for our infrastructure and third-party services. This policy covers logging practices for code and infrastructure changes, website access and error tracking, engineer responsibilities, audit log reports, and confidential information handling.
 
 ## Scope
 
@@ -15,16 +15,18 @@ The following logging practices are in place for our infrastructure and third-pa
 - Code Changes:
   - All logging for our third-party services can be found in the applications themselves.
   - GitHub holds a full historical record of all code changes and actions performed.
-  - Engineers are expected to utilize appropriate logging mechanisms within the applications for capturing relevant information.
+  - Engineers are expected to utilize the pr-review-requests Slack channel to initiate peer code reviews.
 
 - Server Error Messages and Exception Messages:
-  - BugSnag and Sentry are used to record samples of server error messages and activity.
+  - BugSnag and Sentry are used to capture code error messages and present them in a human friendly way.
+  - BugSnag and Sentry remove the need for direct access to the server, reducing risk to exposing the servers.
   - BugSnag and Sentry hold a full historical record of exception messages.
-  - Logging is implemented across production, QA, and staging servers to capture error messages and exceptions.
+  - Logging is implemented across Production, QA, and Staging servers to capture access activity and error messages.
 
 - Server Logs:
   - Server logs can be found on the EC2 servers directly.
-  - Engineers review these logs in the event of failure or suspicious activity flagged by PagerDuty, Status Cake, or internally raised incidents.
+  - Server logs are rotated based on file size. Once a log file exceeds 1MB in size a new log file is created and utilised instead. Old log files are compressed to reduce file size, and a maximum of 30 log files are kept (excluding the current active one).
+  - Engineers review these logs in the event of failure or suspicious activity flagged by Status Cake, or internally raised incidents.
 
 ## Engineer Responsibilities
 

@@ -9,6 +9,7 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 
 ### Day 1 - With Head of Engineering:
 - Introduction to the company and the engineering team
+- The different types of engineers in the team and what they do
 - Overview of the engineering lifecycle and the different stages involved
 - Understanding different people who work with engineering
 - Explanation of the technology used for frontend and backend development
@@ -20,40 +21,31 @@ Throughout the week, our team will be your trusty guides, showing you the ropes,
 - Introduction to the frontend team and their role in engineering
 - Overview of the technologies used for frontend development
 - Explanation of the frameworks used for mobile and web development
-- Discussion on UX and UI design and its importance in frontend development
-- Hands-on exercise in creating a simple web application using React and Next.js
-- Work experience student to begin implementing the frontend design for the online quiz application.
+- Hands-on coding exercises in using CSS and learning to style a simple web page
 
 [Day 2 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-2.md)
 
 ### Day 3 - With Backend Engineering:
 - Introduction to the backend team and their role in engineering
 - Overview of the technologies used for backend development
-- Explanation of the frameworks used for backend development
-- Discussion on the importance of secure coding practices in backend development
-- Hands-on exercise in building a simple API using Node.js and Laravel
-- Work experience student to begin building the backend for the online quiz application, including setting up the database and API.
+- How big websites are structures, why we use APIs
+- Hands-on coding exercise on continuing to style the simple web page
 
 [Day 3 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-3.md)
 
-### Day 4 - With Support Engineering:
-- Introduction to DevOps and support team
-- Overview of the infrastructure and deployment process
-- Explanation of the technologies used for infrastructure creation and management
-- Discussion on how to handle information and infrastructure backups and restoration
-- Hands-on exercise in deploying the web application built on Day 2 and Day 3 to a cloud hosting platform such as AWS
-- Work experience student to deploy the online quiz application to a cloud hosting platform and ensure it is accessible to users.
+### Day 4 - With Head of Engineering:
+- Introduction web hosting
+- Overview of the tools we use to host a website
+- Hands-on coding exercise on finishing the styling of the website or hosting it online with our Support Engineer.
 
 [Day 4 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-4.md)
 
 ### Day 5 - With QA:
 - Introduction to the quality control process and its importance in engineering
 - Overview of the testing and inspection methods used in quality control
-- Explanation of the technologies and tools used for testing
 - Discussion on how to create a test strategy and implement test cases
-- Hands-on testing exercise of the online quiz application built on Day 2-4
-- Work experience student to perform quality assurance testing on the online quiz application and fix any bugs or issues that arise.
+- Hands-on testing exercise within QA and testing your website.
 
 [Day 5 Agenda](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/day-5.md)
 
-Throughout the week, the work experience student should be encouraged to ask questions and seek clarification on any topic they are not familiar with. At the end of each day, a debrief session should be held to summarize what was covered, what was learned, and any takeaways for the student. Additionally, the work experience student should receive guidance and support from the engineering team in implementing the online quiz application, including regular check-ins and code reviews.
+Throughout the week, the work experience student should be encouraged to ask questions and seek clarification on any topic they are not familiar with. At the end of each day, a debrief session should be held to summarize what was covered, what was learned, and any takeaways for the student. Additionally, the work experience student should receive guidance and support from the engineering team a small web application, including regular check-ins and code reviews.

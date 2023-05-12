@@ -1,6 +1,7 @@
-## Day 1 - With Head of Engineering
+## Day 1 - With Head of Engineering (Andrew Yardley)
 
 ### 10am: Introduction and Welcome (With Andrew and Glen)
+- Meet Andrew in the spaces reception for a morning coffee and chat
 - Meet and greet with the people in the office
 - Overview of the week's schedule and expectations
 

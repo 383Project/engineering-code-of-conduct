@@ -13,7 +13,7 @@ This policy applies to all projects and team members involved in the deployment 
 The deployment process follows the steps outlined below:
 
 1. Docker Image and Configuration:
-   - All projects should have a Docker image that replicates the same configuration as the production server.
+   - All projects should have a Docker image that approximates the same configuration as the production server.
    - The support team or lead backend engineer initially sets up and configures the Docker image to ensure consistency.
 
 2. Branch Configuration in Git:
@@ -22,10 +22,12 @@ The deployment process follows the steps outlined below:
 
 3. Infrastructure Setup in AWS Cloud Services:
    - For new builds and clients, the support team configures the infrastructure based on the agreed signed-off quotation within AWS Cloud Services.
+   - All projects must have their own dedicated AWS account, even if there are one or more existing accounts belonging to the same client.
 
 4. Circle CI Integration:
    - The support team configures and integrates Circle CI into the project.
    - A build and deployment script is created in Circle CI to trigger builds when future pull requests are merged into the three branch types (QA, Staging, and Production).
+   - Circle CI configurations must rely on the organization's deployment package to remove inconsistancies between deployments and allow for speedier response times from the Support Team.
 
 5. Production Deployment Approval:
    - The Production branch is always protected with an approval mechanism within Circle CI.
@@ -37,6 +39,8 @@ The deployment process follows the steps outlined below:
 
 7. Pipeline Maintenance:
    - The support team is responsible for the upkeep and maintenance of pipelines and configurations for all projects.
+   - All projects must utlisize the lastest version of the organizastion's deployment package where possible.
+   - Additional requests of the organizastion's deployment package cannot be unjustly rejected without cause.
 
 8. Monitoring and Issue Resolution:
    - All production sites are monitored using Status Cake, which observes the website's status.
@@ -45,7 +49,7 @@ The deployment process follows the steps outlined below:
 
 9. Rollback and Recovery:
    - In cases where a feature causes a breakage or an urgent rollback or recovery is required, Circle CI provides the ability to handle rollbacks.
-   - The support team and lead backend engineer have the ability to initiate rollbacks within Circle CI, leveraging its deployment history.
+   - All developers with access to a git repository have the ability to initiate rollbacks within Circle CI, leveraging its deployment history.
 
 ## Non-Compliance
 

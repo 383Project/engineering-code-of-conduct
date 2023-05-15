@@ -17,8 +17,6 @@ Furthermore, we have included information on the best secure coding practices th
     - [Process of creating a formal estimation](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/estimation-process.md)
     - [Process of creating a formal infrastructure quote](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/infrastructure-quote.md)
     - [Creation of Software requirements specification](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/software-requirements-specification.md)
-    - [Creation of Network Diagrams](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/network-diagrams.md)
-    - [Creation of Flow Diagrams](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/discovery/flow-diagrams.md)
   
   - #### Build
     Build in the engineering lifecycle refers to the phase where the design and development of the project take place, including the creation of prototypes and the implementation of software and hardware.

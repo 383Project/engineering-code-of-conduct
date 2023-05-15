@@ -2,33 +2,32 @@
 
 ## Purpose
 
-The purpose of this Server Maintenance Policy is to define the procedures and guidelines for maintaining server hardware and software to ensure the reliability, availability, and security of server resources. This policy applies to all servers, including physical and virtual servers, and all personnel responsible for server maintenance.
+The purpose of this Server Maintenance Policy is to define the procedures and guidelines for maintaining server hardware and software to ensure the reliability, availability, and security of server resources. This policy applies to all servers with an accompanying maintenance agreement, including physical and virtual servers, and all personnel responsible for server maintenance.
 
 ## Scope
 
-This policy covers all aspects of server maintenance, including routine maintenance tasks, change management, security measures, and monitoring and reporting.
+This policy covers all aspects of server maintenance, including routine maintenance tasks, change management, security measures, and monitoring and reporting. 
 
 ## Responsibilities
 
 The following individuals and teams are responsible for server maintenance:
 
-- IT staff: responsible for performing routine maintenance tasks, monitoring server performance, and implementing changes to server hardware and software.
-- System administrators: responsible for maintaining server hardware and software, configuring servers, and ensuring server security.
+- The Support Team: responsible for performing routine maintenance tasks, monitoring server performance, maintaining server hardware and software, implementing changes to server hardware and software, configuring servers, and ensuring server security.
 - Third-party vendors or contractors: responsible for providing technical support, maintenance, or other services related to server hardware and software.
+
+## Maintenance Schedule
+
+A regular maintenance schedule is available to any client on agreement of a Maintenance Contract. A schedule for maintenance should be agreed upon with the client but it is the organisations recommendation to happen once every 3 months. Each maintenance schedule will be established for performing routine maintenance tasks, taking into account factors such as the criticality of server resources, the impact of downtime on business operations, and any maintenance windows that may be required to avoid disrupting users. Maintenance schedules should be reviewed periodically and updated as necessary.
 
 ## Maintenance Procedures
 
 The following procedures must be performed regularly to ensure the reliability and availability of server resources:
 
-- Hardware maintenance: Regular checks should be conducted to ensure that server hardware is functioning properly, including monitoring hardware components such as hard drives, memory, and power supplies. Hardware maintenance tasks should include cleaning the servers, checking for physical damage, and replacing faulty components.
+- Hardware maintenance: To be conducted by AWS, and Rackspace.
 - Software maintenance: Regular updates and patches should be applied to server software, including operating systems, applications, and other software components. Software maintenance tasks should include monitoring software performance, scanning for viruses and malware, and removing unnecessary software.
 - Backups: Regular backups of server data should be performed to ensure that critical data is not lost due to hardware or software failures or human error. Backup procedures should include verifying backup data, storing backups securely, and testing backup restoration procedures.
 - Monitoring: Regular monitoring of server performance should be performed to detect potential issues before they cause server downtime or data loss. Monitoring procedures should include setting up monitoring tools and alerts, tracking server performance metrics, and reviewing server logs for potential issues.
 - Testing: Regular testing of server functionality should be performed to ensure that server resources are functioning as intended. Testing procedures should include testing server backups, stress testing servers, and testing recovery procedures.
-
-## Maintenance Schedule
-
-A regular maintenance schedule should be established for performing routine maintenance tasks, taking into account factors such as the criticality of server resources, the impact of downtime on business operations, and any maintenance windows that may be required to avoid disrupting users. Maintenance schedules should be reviewed periodically and updated as necessary.
 
 ## Change Management
 

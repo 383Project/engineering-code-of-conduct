@@ -2,59 +2,63 @@
 
 ## Purpose
 
-The purpose of this Security and Compliance Policy for Engineering Support Team is to establish guidelines and procedures for maintaining the security and compliance of our systems and applications. This policy covers the areas of intrusion detection, server clock synchronization, vulnerability management, required application security knowledge, vulnerability logging, and timelines for notification and response.
+The purpose of this Security and Compliance Policy is to outline the guidelines and best practices for software engineers when developing and maintaining hosted websites that utilize cloud services such as Amazon Web Services and Rackspace. This policy aims to ensure the security, privacy, and compliance of our systems and data.
 
 ## Scope
 
-This policy applies to all members of the Engineering Support Team, including system administrators, network administrators, and other IT personnel responsible for maintaining the security and compliance of our systems and applications.
+This policy applies to all software engineers involved in the development, deployment, and maintenance of hosted websites utilizing cloud services. It encompasses all phases of the software development lifecycle, including design, coding, testing, and deployment.
 
 ## Intrusion Detection
 
-The Engineering Support Team is responsible for implementing and maintaining an effective intrusion detection system to protect our systems and data from unauthorized access. This includes monitoring network traffic, system logs, and other security events to detect and respond to potential security incidents. The following procedures should be followed:
+Software engineers must implement and maintain effective intrusion detection mechanisms to monitor the hosted websites. This includes:
 
-- Implement an intrusion detection system to monitor network traffic and system logs for potential security incidents.
-- Define and implement incident response procedures to respond to potential security incidents in a timely and effective manner.
-- Regularly review intrusion detection logs to identify potential security incidents and take appropriate action.
+- Setting up robust network monitoring systems
+- Implementing intrusion detection and prevention systems (IDPS)
+- Regularly reviewing and analyzing logs for potential security incidents
 
 ## Server Clock on Servers
 
-All servers must be synchronized to a reliable time source to ensure accurate timestamping of security events. The Engineering Support Team is responsible for configuring and maintaining the time synchronization settings on all servers. The following procedures should be followed:
+All servers used in the hosting environment must have synchronized time settings to ensure accurate logging, audit trails, and security event correlation. Software engineers should:
 
-- Configure all servers to synchronize with a reliable time source.
-- Regularly check the time synchronization settings on all servers to ensure that they are functioning properly.
-- Address any time synchronization issues promptly to ensure accurate timestamping of security events.
+- Configure the servers to synchronize their clocks with a reliable time source, such as a Network Time Protocol (NTP) server
 
 ## Vulnerability Management
 
-The Engineering Support Team is responsible for identifying and addressing vulnerabilities in our systems and applications to ensure their security and compliance. This includes regularly scanning for vulnerabilities, prioritizing and addressing identified vulnerabilities based on their severity and potential impact, and ensuring that security patches and updates are promptly applied to our systems. The following procedures should be followed:
+Regular vulnerability assessments and penetration testing should be conducted to identify and mitigate potential security weaknesses. Software engineers are responsible for:
 
-- Implement a vulnerability management program to regularly scan for vulnerabilities in our systems and applications.
-- Prioritize and address identified vulnerabilities based on their severity and potential impact.
-- Ensure that security patches and updates are promptly applied to our systems.
-- Regularly review vulnerability management logs to identify potential vulnerabilities and take appropriate action.
+- Promptly patching and updating software, frameworks, libraries, and operating systems to address identified vulnerabilities
 
 ## Required Application Security Knowledge
 
-The Engineering Support Team is required to have a strong understanding of application security principles and practices, including secure coding practices, secure configuration management, and secure software development lifecycles. They should also stay up to date with the latest security threats and vulnerabilities, and be familiar with relevant security standards and regulations. The following procedures should be followed:
+Software engineers must possess and maintain a strong understanding of application security principles, best practices, and secure coding guidelines. They should:
 
-- Implement a training program to ensure that all members of the Engineering Support Team have a strong understanding of application security principles and practices.
-- Regularly review and update the training program to ensure that it reflects the latest security threats and vulnerabilities.
-- Ensure that all members of the Engineering Support Team are familiar with relevant security standards and regulations.
+- Be aware of common security vulnerabilities, such as cross-site scripting (XSS), SQL injection, and insecure direct object references
+- Employ appropriate security controls to prevent and mitigate such risks
 
 ## Vulnerability Logging
 
-All identified vulnerabilities must be logged and tracked to ensure that they are properly addressed in a timely manner. The following information should be collected for each vulnerability:
+Software engineers must maintain a comprehensive log of all identified vulnerabilities, including:
 
-- Description of the issue
-- Date, time, and location of the issue
-- Person who discovered the issue
-- How the issue was discovered
-- Known evidence of the issue
-- The affected system(s)
-- Affected number of users
+- Nature of the vulnerability
+- Affected systems
+- Severity
+- Remediation actions taken
 
 ## Timelines for Notification and Response
 
-The Engineering Support Team is responsible for promptly notifying relevant stakeholders of security incidents or vulnerabilities and responding to them in a timely manner. The following timelines should be followed:
+In the event of a security incident or suspected breach, software engineers must adhere to predefined timelines for notification and response. This includes:
 
-- High severity incidents or vulnerabilities: immediate notification and response
+- Promptly reporting security incidents to the designated incident response team
+- Initiating containment measures
+- Conducting investigations
+- Implementing remediation actions to restore system security and integrity
+
+## Non-Compliance
+
+Non-compliance with this Security and Compliance Policy may result in disciplinary actions, including but not limited to warnings, suspension, or termination of employment. It is the responsibility of software engineers to:
+
+- Familiarize themselves with this policy
+- Actively adhere to its guidelines
+- Report any potential violations or concerns to the appropriate authority
+
+This Security and Compliance Policy provides a framework for ensuring the security and compliance of hosted websites utilizing cloud services. It is essential that all software engineers understand and comply with these guidelines to protect the confidentiality, integrity, and availability of our systems and data.

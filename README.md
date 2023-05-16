@@ -71,13 +71,13 @@ In this document there are many areas that are actively being improved or are no
 | Policy Document                     | Feature to roll out              | Target Date | Is Complete |
 |-------------------------------------|----------------------------------|-------------|-------------|
 | Software requirements specification | Issuing SRS for all major builds | April  2023 | Complete    |
-| Github Controls                     | User Privillage Controls active  | August 2023 | In Progress |
+| Github Controls                     | User Privillage Controls active  | May 2023    | Complete    |
 | QA Policies                         | All QA Related Policy            | May 2023    | Complete    |
 | Frontend Operations Guide           | Complete guide                   | Sept 2023   | In Progress |
 | Support Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
 | Backend Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
-| Code of conduct missing content     | Complete all docs                | May 2023    | In Progress |
-| 1 Password Group training.          | Complete Training                | May 2023    | In Progress |
+| Code of conduct missing content     | Complete all docs                | May 2023    | Complete    |
+| 1 Password Group training.          | Complete Training                | May 2023    | Complete    |
 
 
 

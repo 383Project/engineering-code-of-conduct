@@ -1,65 +1,50 @@
-#THESE ARE JUST NOTES AND AREAS TO BE PRODUCED TO MEET ISO 27001
+# Change Request Policy
 
+## 1. Policy Statement
 
-Change Management
+The Change Request Policy establishes guidelines and procedures for managing and implementing software changes within the organization. This policy ensures that changes are properly evaluated, approved, documented, and tested to minimize risks and maintain the integrity of the software systems.
 
-A change request may arise for many reasons including the following 
+## 2. Change Management
 
-New or changed legislation
-Changed business requirements
-Changes to infrastructure  
+- Change requests may arise for various reasons, including new or changed legislation, changed business requirements, changes to infrastructure, incidents or problems, new software functionality, hosting infrastructure upgrades, and retirement of services.
+- Change management is handled and controlled directly within the Jira Service Desk, covering incidents, problems, new software functionality, and hosting infrastructure upgrades.
+- Implemented software changes are controlled directly within GitHub, using pull requests, code reviews, and appropriate labeling to categorize the changes.
+- Standard changes, such as anti-virus updates, vulnerability patching, hot fixes, and software upgrades, are exempt from this procedure.
 
-Change Management is handled and controlled directly within the Jira Service desk for the following: 
-An incident or problem
-New software functionality
-Hosting infrastructure upgrades
-Retirement of service
+## 3. Categories of Change Requests
 
+The following categories of change requests are used to classify and manage software changes within the organization:
 
-Implemented Software changes are controlled directly within Github where a full change log can be found. Github changes are implemented through Pull Requests and appropriate reviews and labeling to categorise the change.
-The following changes are considered standard and are therefore not subject to this procedure:
-Anti-virus updates
-Vulnerability patching, hot fixes
-Software upgrades
+- Major Update
+- Feature
+- Bug Fixes
+- Documentation
+- Styles
+- Code Refactoring
+- Performance improvements
+- Tests
+- Build
+- Continuous Integration Updates
+- Revert
 
+## 4. Approval Process
 
-The following categories of change will be used of a change request:
-Major
-Update
-All infrastructure upgrades, updates and retirement change require Lead Engineer approval.
-All Major and process changes require senior management approval.
-Software updates are version controlled, application readme documentation is updated and old documentation is archived.
-The following categories of change are labeled within GitHub code changes. 
+- All software changes require approval from a Senior Engineer or above before being deployed to the production environment.
+- Major updates and process changes also require approval from senior management.
+- Legislation and business change requirements follow the ISMS REC 12.1.1 change request form, which includes approval and consideration of costs, benefits, and potential impacts.
+- Change requests for incidents, problems, new software functionality, and hosting infrastructure upgrades are made through the appropriate Jira channel, with approval obtained from the project manager under the oversight of the information security officer.
+- Change requests for software changes managed via GitHub do not require completion of the change request form.
 
-Feature
-Bug Fixes
-Documentation
-Styles
-Code Refactoring
-Performance improvements
-Tests
-Build
-Continueous Integration Updates
-Revert
+## 5. Testing and Rollback
 
-All software changes made require Senior Engineer or above approval prior to being launched in a production environment.
-The originator of a change request for legislation and business change requirements completes the change request form ISMS REC 12.1.1 and obtains approval for the change, taking into account the costs of the exercise, the potential benefits, etc.
-All other change requests managed through Jira the change request is made via the appropriate channel where approval is required though the project manager with the oversight of the information security officer. 
-Software change requests are considered standard practice and are managed via GitHub. Software changes do not require completion of the change request form.
-Change requests and approvals for legislation and business change requirements are raised and stored in the “Change Request” folder on the company shared drive.
-The change initiator is responsible for carrying out a risk assessment to identify potential risks, their impacts and to identify controls in line with the organisation’s risk management framework.
-A testing plan, complete with clear acceptance criteria including business and technical criteria must be documented prior to commencing change testing through our Jira tickets.
-A rollback plan must be documented prior to a major (feature) change being implemented. A major change is considered a refactor of code, or an addition or modification to a core feature of the site/service.
-Once the change has been reviewed and is proved to be effective (working in line with the test criteria) the approver authorises its transfer to the operational environment. 
-Standard changes - these are “business as usual” changes which are expected to make up the majority of the change requests that are logged and handled through the change management process as described in this document. Although not emergencies, they will be prioritised in order that resources can be allocated in as effective a manner as possible.
-Major changes will be logged within the change management process but referred to the Project Stakeholders as their scope and implications will generally encompass a wider audience. They can be raised as Epic Jira ticket with their own user story and acceptance criteria in which sub tasks can be added to. However, note that a Epic may generate further change requests that may be managed within the change management process as normal changes.
-Emergency changes - whilst all changes likely to be required should be foreseen and planned, there will be occasions when business requirements demand that changes be made in an emergency situation.  Such changes are those requests which impact on internal or external ‘live’ systems and require implementation in order to resolve (or prevent) a current high priority incident or problem.  In such cases a change request must be raised immediately within the Jira service desk or directly with the 383 employee who can escalate the issue and create a jira support ticket. If the full change details are not available the Lead Support Engineer must be notified.  This is to ensure that all parties are aware at the earliest opportunity.  From initial logging of the change, the principles of the normal change management process should be observed as far as is realistic, however, emergency changes may require swift approval from the Lead Support Engineer.  If an emergency change cannot be formally authorised after reasonable efforts have been made to follow the process (e.g. out of hours) a decision may be made as to whether this change will be implemented.  However, details of the change must still be recorded and the change management process followed retrospectively to ensure that records are maintained accurately and the success or failure of the change can be reviewed.
+- A testing plan with clear acceptance criteria, including business and technical criteria, must be documented before commencing change testing.
+- A rollback plan must be documented for major (feature) changes, which involve refactoring code or modifying core features.
+- After review and successful testing, the approver authorizes the transfer of the change to the operational environment.
 
-    - [An incident or problem]
-      - [New software functionality]
-        - [Git Commit messaging]
-        - [pull request and code review]
-        - [Major functionality roll back plan] 
-      - [New or changed legislation]
-      - [Changed business requirements]
-      - [Retirement of service] 
+## 6. Standard, Major, and Emergency Changes
+
+- Standard changes, categorized as "business as usual," are expected to make up the majority of change requests. They follow the normal change management process.
+- Major changes, encompassing a wider audience, are logged within the change management process and referred to project stakeholders as Epic Jira tickets.
+- Emergency changes may be required to address high-priority incidents or problems. They follow the change management process, but with swift approval from the Lead Support Engineer. If formal authorization is not possible, the change is still recorded, and the change management process is followed retrospectively.
+
+Please note that this policy should be reviewed and customized to fit your organization's specific context, legal requirements, and compliance obligations. It is important to seek legal advice and consult with relevant stakeholders to ensure the policy aligns with your organization's needs and industry regulations.

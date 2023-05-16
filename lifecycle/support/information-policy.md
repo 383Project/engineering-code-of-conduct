@@ -51,10 +51,11 @@ Handling of Information Policy outlines guidelines and procedures for the proper
 
 - The use of production databases:
   - The use of production databases is strictly prohibited when building new functionality or features in a long-term development environment.
-  - Development teams must utilize separate development or staging databases for testing and development purposes.
-  - Production databases should only be accessed for specific security patching or debugging purposes where data is likely to be the cause.
+  - Development teams must utilize separate development or QA databases for testing and development purposes.
+  - Production databases should only be accessed for specific security patching or debugging purposes where data is likely to be the cause. This requires the presence of 2 engineers, one of which needs to be a mid-level engineer or higher, for validation and verifcation of the processes before action is taken.
   - When accessing production databases for these purposes, every effort should be made to avoid accessing or exposing sensitive data.
-  - Once the debugging or security patching is complete and a fix is in place, any data accessed from the production database must be immediately removed from the developer's local computer.
+  - When working on copies of production database data, all personally identifiable data must be anonymised before importing it into a local development database.
+  - Once the debugging or security patching is complete and a fix is in place, any personally identifiable data accessed from the production database must be immediately removed from the developer's local computer or anonymised making it unidentifiable.
 
 - Access to GitHub:
   - Access to GitHub repositories is granted on a need-to-know basis.

@@ -11,7 +11,7 @@ The objectives of the Risk Assessment Policy are as follows:
 1. Identify and assess potential risks that could impact the development and delivery of digital products.
 2. Prioritize risks based on their likelihood and potential impact.
 3. Implement measures to mitigate identified risks and minimize their impact.
-4. Ensure compliance with ISO127001 and GDPR requirements.
+4. Ensure compliance with ISO27001 and GDPR requirements.
 5. Foster a culture of risk awareness and proactive risk management within the engineering team.
 
 ## Risk Assessment Process

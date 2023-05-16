@@ -71,7 +71,3 @@ This policy applies to all engineering teams and personnel within our organizati
    - Plan and execute audits in accordance with the established audit plan and methodology.
    - Document findings and provide actionable recommendations to improve engineering practices.
    - Monitor the progress of corrective actions and conduct follow-up audits as required.
-
-## Policy Review
-
-This Engineering Audit Policy will be reviewed periodically, at least annually, or as triggered by significant changes in engineering practices, industry standards, or regulatory requirements. The

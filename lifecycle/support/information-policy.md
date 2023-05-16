@@ -77,7 +77,7 @@ Handling of Information Policy outlines guidelines and procedures for the proper
   - Minimize the collection and storage of personally identifiable information (PII) to only what is necessary for the intended purpose.
 
 - Secure Development Environment:
-  - See our secure development environment policy here.
+  - See our secure development environments policy [here](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/development-enviroments-policy.md).
 
 - Test Data Management:
   - Use anonymized or synthetic test data instead of real production data whenever possible to minimize the exposure of sensitive information during development and testing.

@@ -84,7 +84,3 @@ This policy applies to all team members involved in the creation, setup, and mod
 
 4. Logging of Change:
    - After the change has been completed a change log entry must be added to the Infrastructure Change Log Google form to document the change for the fiance team to review.
-
-## Non-Compliance and Consequences
-
-Non-compliance with this Infrastructure Creation & Modification Policy may result in inconsistent, insecure,

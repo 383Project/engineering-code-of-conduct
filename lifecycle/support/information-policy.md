@@ -70,7 +70,7 @@ Handling of Information Policy outlines guidelines and procedures for the proper
   - Any accidental exposure or unauthorized disclosure of confidential data must be reported immediately to the designated security officer or incident response team for appropriate action.
 
 - Secure Coding Practices:
-  - See our secure coding policy here.
+  - See our secure coding practices policy [here](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/build/secure-coding-practices-policy.md).
 
 - Data Privacy and Consent:
   - Respect user privacy and obtain appropriate consent for collecting, processing, and storing personal data in compliance with applicable privacy laws and regulations.

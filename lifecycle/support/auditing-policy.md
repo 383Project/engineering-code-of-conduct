@@ -1,5 +1,7 @@
 # Engineering Audit Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Policy Statement
 
 This Engineering Audit Policy outlines the guidelines and procedures for conducting audits to assess the effectiveness and compliance of engineering practices within our organization. The policy emphasizes the importance of maintaining high standards, ensuring operational efficiency, and fostering continuous improvement.
@@ -71,3 +73,5 @@ This policy applies to all engineering teams and personnel within our organizati
    - Plan and execute audits in accordance with the established audit plan and methodology.
    - Document findings and provide actionable recommendations to improve engineering practices.
    - Monitor the progress of corrective actions and conduct follow-up audits as required.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

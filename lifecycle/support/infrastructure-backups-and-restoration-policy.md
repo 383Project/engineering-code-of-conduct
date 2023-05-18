@@ -1,4 +1,7 @@
 # Infrastructure Backups and Restoration Policy
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 This policy document outlines the steps that our organization follows for managing the infrastructure of our web applications. One of the key elements of a robust infrastructure management system is the implementation of an effective backup and restoration policy. In this document, we will outline the various steps and processes that we follow for ensuring that our infrastructure is properly backed up and that we are able to restore it in the event of a disaster.
 
 ## 1. Backup Schedule
@@ -124,3 +127,5 @@ This policy document outlines the steps that our organization follows for managi
 - 10.7 We maintain a log of all system restart and recovery activities, including the date and time of the event, the cause of the failure, and the actions taken to restore the system to a fully functional state.
 - 10.8 Our system restart and recovery procedures include procedures for communicating with stakeholders and customers in the event of a significant system outage, including providing regular updates on progress and expected restoration times.
 - 10.9 We use access controls and encryption to ensure the security of our systems and data during the restart and recovery process, and regularly review and update our security policies to ensure that our systems remain protected.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

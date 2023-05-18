@@ -1,5 +1,7 @@
 # Error Handling Exceptions Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 The purpose of this policy is to ensure that our software systems we build at 383 Project handle errors and exceptions in a consistent and effective manner, with the aim of minimizing system downtime, data loss, and user frustration. By implementing this policy, we can improve the reliability, security, and usability of our software products.
 
@@ -28,6 +30,4 @@ To ensure that errors and exceptions are handled effectively, the following guid
   - 4.2 Error messages must not expose sensitive information, such as passwords, credit card numbers, or personal information.
   - 4.3 In cases where errors or exceptions are caused by security breaches or attacks, appropriate security measures, such as intrusion detection and response systems, must be implemented.
 
-
-
-
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

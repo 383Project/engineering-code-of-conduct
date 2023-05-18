@@ -1,4 +1,7 @@
 # Secure Coding Practices Policy
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 At 383 Project, we recognize that secure coding practices are essential to ensure the confidentiality, integrity, and availability of our software products and protect our customers' data. This policy outlines our secure coding practices for Javascript and PHP programming languages
 
 ## 1. Purpose 
@@ -138,3 +141,5 @@ The following are examples of how secure coding practices that are in place howe
 - 10.5 Third-party code should not be modified unless it is absolutely necessary, and any modifications should be thoroughly tested and reviewed for security vulnerabilities.
 
 By following this policy, we can ensure that our software products are developed using secure coding practices and protect our customers' data from security vulnerabilities.
+ 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

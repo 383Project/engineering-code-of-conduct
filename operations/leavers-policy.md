@@ -1,4 +1,7 @@
 # Leavers Policy for Engineering Team
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 At 383 Project, we value the contribution of our engineering team members and understand that team members may decide to move on from their role with us. In order to ensure a smooth transition and protect the interests of our company and clients, we have established the following leavers policy for our engineering team members:
 
 ## 1. Code Re-use
@@ -52,3 +55,5 @@ Has coaching or training been provided to relevant team members or a handover pr
 Have any necessary handovers been completed to the employee's replacement?| 
 Have appropriate parties been notified and is it permissible to communicate publicly around the company about the employee's departure and data so that they can plan accordingly?| 
 Has the employee agreed to do paired programming to share knowledge where required?| 
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

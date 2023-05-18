@@ -47,3 +47,5 @@ If the estimation is over 20% of the client's intended budget before sending it 
 On the Estimate tab, if the Project risk score is below 50%, this should be highlighted to the commercial contact and raised again if the opportunity is pursued. The risk will also need to be recorded as the delivery stages of the project if the opportunity has been won.
 
 Following these steps will help ensure that your estimation process is as accurate and efficient as possible, and will help you to produce estimates that are more likely to meet the client's expectations and budget.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

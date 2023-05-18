@@ -1,4 +1,7 @@
 # Engineering Communications Policy
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 At 383 Project, effective communication is essential to the success of our projects and overall business operations. This Communications Policy outlines the guidelines and expectations for all communication within the company, including but not limited to, verbal communication, email, instant messaging, and documentation.
 
 The purpose of this policy is to ensure that all communication within the company is professional, efficient, and respectful. It also serves to protect the confidentiality and security of company and client information.
@@ -83,3 +86,5 @@ Client confidentiality is a critical aspect of our business. As a company, we ar
    - 3.2 Employees must comply with any Non-Disclosure Agreements (NDAs) signed with clients.
    - 3.3 Employees should not discuss confidential client information outside of work or with anyone who is not authorized to access it.
    - 3.4 Any concerns or questions regarding client confidentiality should be directed to the appropriate manager or HR representative.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

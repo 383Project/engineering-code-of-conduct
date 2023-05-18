@@ -1,4 +1,6 @@
-Handling of Information Policy
+#Handling of Information Policy
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
 
 ## Policy Statement
 
@@ -86,3 +88,5 @@ Handling of Information Policy outlines guidelines and procedures for the proper
 - Third-Party Libraries and Dependencies
   - Vet and assess the security and privacy practices of third-party libraries, frameworks, and dependencies before integrating them into the codebase.
   - Regularly update and patch third-party components to address known security vulnerabilities.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

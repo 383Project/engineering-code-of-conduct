@@ -1,5 +1,7 @@
 # Logging Policy for Infrastructure and Third-Party Services
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 
 The purpose of this logging policy is to define the guidelines and procedures for logging activities and storing log data for our infrastructure and third-party services. This policy covers logging practices for code and infrastructure changes, website access and error tracking, engineer responsibilities, audit log reports, and confidential information handling.
@@ -48,3 +50,5 @@ The following practices are implemented for audit log reports and handling confi
 Non-compliance with this logging policy may result in data loss, compromised system security, or regulatory violations. Non-compliant individuals may be subject to disciplinary action.
 
 By following this Logging Policy for Infrastructure and Third-Party Services, we ensure consistent and secure logging practices, protect log data integrity, and maintain compliance with data protection requirements.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

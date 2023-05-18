@@ -1,5 +1,7 @@
 # Contractor and Third-Party Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## 1. Policy Statement
 
 The Contractor and Third-Party Policy establishes guidelines and requirements for engaging contractors and third-party providers to ensure the protection of sensitive information, maintain information security, and uphold intellectual property rights. This policy covers the selection, management, and contractual obligations of contractors and third-party providers.
@@ -54,3 +56,4 @@ The Contractor and Third-Party Policy establishes guidelines and requirements fo
 - Contractors have agreed-upon notice periods as specified within the framework agreement.
 - Clear procedures should be established for the termination or transition of relationships with contractors and third-party providers, including any necessary handover activities.
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

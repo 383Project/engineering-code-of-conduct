@@ -1,5 +1,7 @@
 # Deployment Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 
 The purpose of this Deployment Policy is to define guidelines and procedures for the deployment process of projects within our organization. This policy covers the use of Docker images for configuration consistency, branch configuration in Git repositories, infrastructure setup in AWS Cloud Services, Circle CI integration for build and deployment automation, approval mechanism for production deployments, access control management, maintenance of pipelines and configurations, monitoring of production sites, issue resolution, and rollbacks.
@@ -56,3 +58,5 @@ The deployment process follows the steps outlined below:
 Non-compliance with this Deployment Policy may result in deployment errors, inconsistencies, or delays, impacting project timelines and quality. Non-compliant individuals may be subject to disciplinary action.
 
 By following this Deployment Policy, we ensure a standardized and efficient deployment process, improved configuration consistency, automated build and deployment workflows, proper monitoring, and timely issue resolution and rollbacks.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

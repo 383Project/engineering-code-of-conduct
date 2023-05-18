@@ -1,5 +1,7 @@
 # Infrastructure Quote Process Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 
 The purpose of this policy is to define the guidelines and procedures for the infrastructure estimation process. This policy covers the estimation process for infrastructure created and managed through AWS Cloud Services, utilizing our own Hosting infrastructure calculator.
@@ -40,3 +42,5 @@ The infrastructure estimation process follows the steps outlined below:
 Non-compliance with this policy may result in delays in the estimation process, inaccuracies in infrastructure estimations, financial discrepancies, and potential negative impact on client relations. Non-compliant individuals may be subject to disciplinary action.
 
 By following this Infrastructure Estimation Process Policy, we ensure a standardized and efficient approach to estimate infrastructure costs accurately and provide reliable quotes to our clients.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

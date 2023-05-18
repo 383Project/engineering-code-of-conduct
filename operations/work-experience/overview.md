@@ -1,4 +1,7 @@
 ## One Week Work Experience with Engineering at 383 Project
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 Hello and welcome to our engineering team at 383! We're excited to have you join us for a week of learning and hands-on experience. During your time with us, you'll get a chance to work alongside our engineers and learn about the different stages involved in the engineering lifecycle of a product. You'll also have an opportunity to get your hands dirty with coding exercises and building a mock website from scratch. Our team will guide you through the different stages of the project, and we encourage you to ask questions and seek clarification whenever you need it. By the end of the week, we hope that you'll have gained valuable insights into what it's like to work as an engineer in the digital product space. Let's get started!
 
 Get ready for a week of fun and learning as we build a mock website together! You'll be introduced to the different stages of the engineering lifecycle and the technologies we use to build cool digital products. With the Frontend Lead Engineer, you'll create the design and user interface of the application, making it look and feel super slick. Then, with the Backend Engineer, you'll bring the application to life by understanding the different areas of the role and learn about APIs.

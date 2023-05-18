@@ -1,5 +1,7 @@
 # Code Review Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 The "Code Review" policy is established to provide guidelines for the code review process at 383 Project as part of the [Engineering code of conduct](https://github.com/383Project/engineering-code-of-conduct). The policy outlines the standards, roles and responsibilities, compliance and audit, and the code review process that is to be followed to ensure the quality, security, and reliability of our software products. The policy applies to all code changes made to software products in 383 Project, and it is the responsibility of all developers to adhere to the policy to maintain high-quality software products.
 
 ## 1. Purpose
@@ -59,3 +61,5 @@ This policy applies to all code changes made to software products in 383 Project
 This policy will be reviewed and updated on a regular basis by the Engineering department to ensure that it remains relevant and effective.
 
 By following this policy, we can ensure that all code changes are reviewed thoroughly, and any issues or defects are identified and resolved promptly. This will help us to maintain high quality, secure, and reliable software products that meet the needs of our clients and stakeholders.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

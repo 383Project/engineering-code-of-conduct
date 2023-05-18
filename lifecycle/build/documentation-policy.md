@@ -1,4 +1,7 @@
 # Documentation Policy
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 At 383 Project, we believe that good documentation is essential for the success of any project. It ensures that knowledge is shared, progress is tracked, and that stakeholders have a clear understanding of what has been done and what still needs to be accomplished. This policy sets out the guidelines for creating and maintaining project documentation, including the structure and format to be followed, and the tools and resources available to assist engineers in this task.
 
 ## 1. Documentation Creation
@@ -36,3 +39,4 @@ Engineers are responsible for the following when it comes to project documentati
 
 By following these guidelines for documentation creation and structure, we can ensure that project documentation is properly created, maintained, and accessible to all stakeholders. This will help to ensure the success of our projects and the continued growth and success of our organization.
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

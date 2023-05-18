@@ -1,5 +1,7 @@
 # Infrastructure Monitoring Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 
 The purpose of this Infrastructure Monitoring Policy is to establish guidelines and procedures for monitoring the organization's own and client infrastructure. This policy ensures system availability, performance optimization, proactive issue identification, and compliance with Service Level Agreements (SLAs).
@@ -70,3 +72,5 @@ This policy applies to all team members involved in infrastructure monitoring wi
 Non-compliance with this Infrastructure Monitoring Policy may result in data loss, compromised system security, or regulatory violations. Non-compliant individuals may be subject to disciplinary action.
 
 By following this Infrastructure Monitoring Policy, we ensure consistent and secure logging practices, protect log data integrity, and maintain compliance with data protection requirements.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

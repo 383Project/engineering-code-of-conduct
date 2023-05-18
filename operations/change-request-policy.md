@@ -1,5 +1,7 @@
 # Change Request Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## 1. Policy Statement
 
 The Change Request Policy establishes guidelines and procedures for managing and implementing software changes within the organization. This policy ensures that changes are properly evaluated, approved, documented, and tested to minimize risks and maintain the integrity of the software systems.
@@ -48,3 +50,5 @@ The following categories of change requests are used to classify and manage soft
 - Emergency changes may be required to address high-priority incidents or problems. They follow the change management process, but with swift approval from the Lead Support Engineer. If formal authorization is not possible, the change is still recorded, and the change management process is followed retrospectively.
 
 Please note that this policy should be reviewed and customized to fit your organization's specific context, legal requirements, and compliance obligations. It is important to seek legal advice and consult with relevant stakeholders to ensure the policy aligns with your organization's needs and industry regulations.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

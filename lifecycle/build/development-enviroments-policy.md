@@ -1,4 +1,7 @@
 # Development Environments Policy
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 The purpose of this policy is to establish guidelines for the management and security of development environments to ensure that the software development process is carried out in a controlled and secure manner.
 
 ## 1. Secure Development Environments
@@ -27,3 +30,4 @@ The purpose of this policy is to establish guidelines for the management and sec
  - 5.2 All code changes must be tracked and recorded in the code repository, with each commit linked to an issue or feature.
  - 5.3 Must follow all secure coding practices found in our secure coding practices policy found [here](https://github.com/383Project/engineering-code-of-conduct/blob/secure-coding-practices-policy/lifecycle/build/secure-coding-practices-policy.md).
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

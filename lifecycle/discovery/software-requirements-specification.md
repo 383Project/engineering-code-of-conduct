@@ -1,5 +1,7 @@
 # Software Requirements Specification Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 Software development is a critical activity that requires careful planning and execution to ensure that the resulting software product meets the needs of its intended users. The Software Requirements Specification (SRS) is a key document in the software development process, as it sets out the requirements that the software must meet in order to be considered successful.
 
 This policy is designed to provide guidance on how to create an effective SRS document. It outlines the various sections that should be included in the document, along with guidance on what should be included in each section. By following this policy, software engineers can ensure that the SRS document accurately reflects the needs of the software's intended users, and provides a clear roadmap for the development process.
@@ -70,3 +72,5 @@ Note: That access to the above will require permission approval by Head of Engin
    -  Input validation: How will the system validate input to prevent attacks such as SQL injection or cross-site scripting (XSS)?
 
 - By considering security requirements during the design phase, developers can build secure software from the ground up, rather than trying to patch security vulnerabilities later on. This can save time and money in the long run and ensure that the system is secure by design.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

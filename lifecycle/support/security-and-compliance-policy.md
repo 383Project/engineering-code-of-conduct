@@ -1,5 +1,7 @@
 # Security and Compliance Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 
 The purpose of this Security and Compliance Policy is to outline the guidelines and best practices for software engineers when developing and maintaining hosted websites that utilize cloud services such as Amazon Web Services and Rackspace. This policy aims to ensure the security, privacy, and compliance of our systems and data.
@@ -62,3 +64,5 @@ Non-compliance with this Security and Compliance Policy may result in disciplina
 - Report any potential violations or concerns to the appropriate authority
 
 This Security and Compliance Policy provides a framework for ensuring the security and compliance of hosted websites utilizing cloud services. It is essential that all software engineers understand and comply with these guidelines to protect the confidentiality, integrity, and availability of our systems and data.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

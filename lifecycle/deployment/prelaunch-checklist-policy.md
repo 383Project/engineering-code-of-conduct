@@ -1,5 +1,7 @@
 # Prelaunch Checklist Poilicy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 The Pre-Launch Checklist Policy is designed to ensure that every web application developed by our company goes through a thorough quality control process before it is released to the public. This policy outlines the guidelines for completing a pre-launch checklist, which includes tasks to be completed by the project team before the deployment of the application. The checklist is designed to identify and resolve any potential issues or vulnerabilities that may impact the performance or security of the application. By following this policy, we can ensure that every web application we release meets the highest standards of quality and security.
 
 The prelaunch documents can and templates can be viewed here in the 383 Project Confluence area. [Prelaunch Checklist can be found here.](https://383project.atlassian.net/wiki/spaces/OS/pages/1579483164/Pre+Launch+Checklist)
@@ -29,4 +31,4 @@ The prelaunch documents can and templates can be viewed here in the 383 Project 
  - 2.8 If any new issues are identified during the Post-Deployment Security table review, you must ensure that they are resolved to the satisfaction of the client and 383’s Data Protection Officer.
  - 2.9 Finally, you must repeat the process in full for future releases on the same platform.
 
-
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

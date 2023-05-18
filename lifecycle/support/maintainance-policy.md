@@ -1,5 +1,7 @@
 # Server Maintenance Policy
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Purpose
 
 The purpose of this Server Maintenance Policy is to define the procedures and guidelines for maintaining server hardware and software to ensure the reliability, availability, and security of server resources. This policy applies to all servers with an accompanying maintenance agreement, including physical and virtual servers, and all personnel responsible for server maintenance.
@@ -50,3 +52,5 @@ Server performance should be monitored regularly to detect potential issues, and
 ## Non-Compliance
 
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment or legal action.
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

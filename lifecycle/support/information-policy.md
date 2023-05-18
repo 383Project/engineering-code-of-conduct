@@ -1,4 +1,4 @@
-#Handling of Information Policy
+# Handling of Information Policy
 
 [<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
 

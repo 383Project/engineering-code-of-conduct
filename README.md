@@ -9,7 +9,9 @@ Furthermore, we have included information on the best secure coding practices th
 ## Table of contents
 
 - ### The Development Lifecycle
-  The engineering lifecycle refers to the series of processes and activities that an engineering project undergoes from its conceptualization and design to its development, testing, deployment, and maintenance.    
+  The engineering lifecycle refers to the series of processes and activities that an engineering project undergoes from its conceptualization and design to its development, testing, deployment, and maintenance. The documentation found below are engineering policies that surround the various stages of how we opperate. If you are looking for an highlevel overview of the lifecycle you can find this here:
+
+  - [Engineering Lifecycle High level Overview](https://github.com/383Project/engineering-code-of-conduct/blob/main/lifecycle/engineering-lifecycle.md) 
 
   - #### Discovery
     Discovery in the engineering lifecycle refers to the initial phase of the project where requirements are gathered, the problem is defined, and the feasibility of the project is assessed to determine whether it is worth pursuing. The following information for discovery is for a guide purpose only as not every project requires these documents this varies to a project complexity and needs. 

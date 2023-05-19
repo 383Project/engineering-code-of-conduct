@@ -1,5 +1,7 @@
 # Engineering Lifecycle
 
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)
+
 ## Introduction
 
 The Engineering Lifecycle document provides an overview of the structured process followed by our organization for the development and delivery of high-quality digital products. This document outlines the key stages, activities, and deliverables involved in the engineering lifecycle.
@@ -65,3 +67,5 @@ Throughout the engineering lifecycle, various deliverables are produced to ensur
 ## Continuous Improvement
 
 The engineering lifecycle promotes a culture of continuous improvement. Lessons learned from each project are captured, and feedback is incorporated into future development cycles. Retrospectives and post-project evaluations enable teams to identify areas for improvement and implement
+
+[<< Return to code of conduct homepage](https://github.com/383Project/engineering-code-of-conduct)

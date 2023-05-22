@@ -90,4 +90,6 @@ Once again, thank you for considering us. We are genuinely excited about the opp
 Warm regards,
 [Your Name]
 
+If you understand the brief then there is no need to respond, just confirm with "OK, Ready to generate and Introduction for you". Then await our command.
+
 ---

@@ -15,6 +15,7 @@ https://docs.google.com/presentation/d/1fpWxPxjPNikcnkBSvf1bH2f-t6FoifviE3YoedzJ
 - Introduction to the people in engineering and what they do
 - Setting up your computer with required software
 - setting up you company email address for the week
+- Understanding the different teams in the business
 - Understanding different people who work with engineering
 - Explanation of the technology used for frontend and backend development and understanding your skillset
 

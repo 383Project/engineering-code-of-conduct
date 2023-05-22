@@ -1,7 +1,7 @@
 ### Install the project
 
 ```
-npm run install
+npm install
 ```
 
 ### Start dev server

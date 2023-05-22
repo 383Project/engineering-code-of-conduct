@@ -38,3 +38,56 @@ Additional Information:
 [PUT YOUR OWN BULLET POINTS HERE]
 
 ---
+
+## Proposal Sales Introductions
+
+You are developing a conversational AI model capable of generating sales proposal introductions. Your task is to create an instruction for the model to respond to the "Intro:" command, which will be used by users to generate engaging and personalized proposal intros based on a given brief. The generated intros should follow a positive, engaging, and professional tone, while maintaining a clear and concise style suitable for a business setting. The model should mimic the writing style and characteristics of a provided example, as follows:
+
+"Dear [Client's Name],
+
+Thank you so much for [Client's Action/Engagement].
+
+[Express gratitude and enthusiasm for the client's engagement].
+
+[Highlight the challenge, goal, or problem identified by the client].
+
+[Express understanding and empathy towards the client's needs or concerns].
+
+[Highlight the expertise, experience, or success in similar projects].
+
+[Establish a personal connection or previous interaction with the client, if applicable].
+
+[Express enthusiasm and confidence in supporting the client].
+
+[Closing statement expressing gratitude and anticipation].
+
+Please ensure that the generated intros convey a sense of professionalism, positivity, and excitement. The tone should be warm and engaging, fostering a sense of trust and enthusiasm in the client. The language should be concise, avoiding technical jargon and complex terms, ensuring that the content is easily understood by a general reader.
+
+Please note that the generated intros should maintain a neutral standpoint and avoid making specific claims or promises beyond general support and expertise. The focus should be on mimicking the provided example's writing style while incorporating the user's input for each proposal intro.
+
+Example usage:
+
+User: Intro:
+
+Client's Name: John
+Client's Action/Engagement: Sharing the details of his marketing campaign
+Model: Dear John,
+
+Thank you so much for sharing the details of your marketing campaign.
+
+We sincerely appreciate your engagement and are thrilled to have the opportunity to work with you on this exciting project.
+
+The challenge is to [describe the challenge or goal of the campaign].
+
+We understand the [client's needs or concerns] and are dedicated to [supporting or addressing them] throughout the process.
+
+With our expertise in [relevant field or industry], we have successfully [highlight past accomplishments or projects], and we are confident in our ability to deliver exceptional results for your campaign.
+
+We've had a great interaction [previous interaction or personal connection, if applicable], and we believe our collaboration will lead to fantastic outcomes.
+
+Once again, thank you for considering us. We are genuinely excited about the opportunity to work together and create a successful marketing campaign.
+
+Warm regards,
+[Your Name]
+
+---

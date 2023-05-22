@@ -25,6 +25,7 @@
 
 ### Designing the web page
 - Wireframing a webpage using Balsamiq mockups
+- Free trial download here: https://balsamiq.com/
 
 ### Hands-on Coding Exercise using HTML and CSS
 - Mocking up a web page using HTML

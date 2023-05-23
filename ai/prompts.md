@@ -39,7 +39,7 @@ Additional Information:
 
 ---
 
-## Commercial Tool
+## Commercial Support Tool
 
 Hello, I am a commercial representative from a digital product agency called 383 Project, and I am responsible for creating sales materials such as presentations and proposals for new and existing clients at the company. You will be my advisor and help me produce content for these assets. When you create assets for me, I would like you always to apply the following rules: 
 
@@ -55,3 +55,32 @@ When I use the command "Help Me:" to follow my request, I want you to fulfil the
 If you fully understand the brief above, there is no need to respond yet say, "I understand and wait for your first request".
 
 ---
+
+## Commercial Proposal Introduction
+
+Hello, I am a commercial representative from a digital product agency called 383 Project, and I am responsible for creating sales materials such as presentations and proposals. I would like you to produce my introduction pages based on my requirements. Here is a step-by-step guide on how to write an introduction page that I would like you to follow:
+
+- Address the recipient personally: Begin with a "Dear [Recipient's Name]," to make the letter feel personal and direct. It shows that you're writing specifically to them and not just sending out a mass-produced letter.
+- Express gratitude: Thank the recipient for the opportunity to submit a proposal or for sharing project details. This shows respect and appreciation for their time and consideration.
+- Outline the challenge or brief: In one or two sentences, summarize the challenge or project brief shared by the client. This demonstrates that you've understood their needs and are ready to address them.
+- Show excitement and understanding: Mention how thrilled your company is about the potential project. Make sure to demonstrate a clear understanding of the recipient's needs, and share your excitement about how your company can meet those needs.
+- Showcase your experience: Refer to past successful experiences that are relevant to the current proposal. Use these as evidence to demonstrate how your company can provide the solution the recipient needs. Highlight any unique methodologies or strategies that have proven successful.
+- Personal touch: Depending on the relationship with the recipient, add a personal touch or a remark that shows you’ve invested time in understanding not just the project, but also the client.
+- Closing the introduction: Close the introduction by expressing your enthusiasm about the potential to work together and how much you're looking forward to it.
+- Your signature: Sign off with a 'Many thanks', your name, title, email address, and contact number.
+
+Tone of Voice Instructions:
+- Be professional but warm and personable to build rapport.
+- Use an enthusiastic tone to show your excitement about the project.
+- Be confident but not overbearing when mentioning your company's past successes.
+- Write clearly and concisely. Avoid jargon and complex sentences that could be confusing.
+- Be sincere when expressing gratitude and interest in the project.
+R
+emember that your introduction page serves as your first impression, so make it count. Be genuine, professional, and engaging, and make sure your passion for what you do shines through.
+
+When I use the command "Help me:" followed by the requirement, I would like you to produce the Introduction page for my proposal.
+
+---
+
+
+

@@ -1,12 +1,12 @@
 body {
   padding: 60px;
-  background-color: #FBF7ED
+  background-color: #fbf7ed;
 }
 
-#container{
+#container {
   align-items: center;
-  border: solid 1px #3F3232;
-  color: #3F3232;
+  border: solid 1px #3f3232;
+  color: #3f3232;
   display: flex;
   flex-direction: column;
   height: calc(100vh - 120px);
@@ -14,18 +14,22 @@ body {
   width: 100%;
 }
 
-#title{
-  font-family: 'Italiana', serif;
+#title {
+  font-family: "Italiana", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 47px;
 }
 
-button{
-  background-color: transparent;
-  border: solid 1px #3F3232;
-  font-family: 'Roboto', sans-serif;
+button {
+  background: linear-gradient(
+    98.3deg,
+    rgb(0, 0, 0) 10.6%,
+    rgb(255, 0, 0) 97.7%
+  );
+  border: solid 1px #3f3232;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -36,17 +40,17 @@ button{
   transition: box-shadow 0.1s ease-in;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
-  box-shadow: 4px 4px 0px 0px #3F3232;
+  box-shadow: 4px 4px 0px 0px #3f3232;
 }
 
-#buttonContainer{
+#buttonContainer {
   text-align: center;
 }
 
-#question{
-  font-family: 'Roboto', sans-serif;
+#question {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -54,41 +58,41 @@ button:hover{
   margin-bottom: 20px;
 }
 
-#answers{
-  font-family: 'Roboto', sans-serif;
+#answers {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 38px;
 }
 
-.answer{
+.answer {
   cursor: pointer;
 }
 
-#correct{
-color:#639C48
+#correct {
+  color: #639c48;
 }
 
 #wrong {
- color:#B04646;
+  color: #b04646;
 }
 
-#scoreLabel{
-  font-family: 'Roboto', sans-serif;
+#scoreLabel {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 38px;
 }
 
-#score{
-  font-family: 'Roboto', sans-serif;
+#score {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 38px;
-  border: solid 1px #3F3232;
+  border: solid 1px #3f3232;
   margin-top: 20px;
   padding: 10px 60px;
 }

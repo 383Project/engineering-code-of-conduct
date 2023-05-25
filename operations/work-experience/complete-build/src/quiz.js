@@ -17,7 +17,7 @@ function buildQuiz() {
   button.innerHTML = "Let's go!";
   // button.onClick = questionPage;
 
-  title.innerText = `Welcome to the Online Quiz Project`;
+  title.innerText = `Welcome to the Onlline Quiz Project`;
 
   button.onclick = function () {
     questionPage();
@@ -27,7 +27,7 @@ function buildQuiz() {
 //Display the page with the multiple choice question
 function questionPage() {
   console.log("questions");
-  title.innerText = `Question ${questionsCount + 1}`;
+  title.innerText = `Question ${questionsCount + 2}`;
   button.innerHTML = `Submit`;
   button.onclick = function () {
     showResultPage();
@@ -98,7 +98,7 @@ function endPage() {
       scoreText = "Don’t give up,  next time you will do better !";
       break;
     case 1:
-      scoreText = "Not too bad !";
+      scoreText = "Not tooo bad !";
       break;
     case 2:
       scoreText = "You did great !";

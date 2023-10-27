@@ -67,20 +67,9 @@ Furthermore, we have included information on the best secure coding practices th
   - [Risk Assessment Policy](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/risk-assessment-policy.md)
   - [Responsible use of AI within Engineering](https://github.com/383Project/engineering-code-of-conduct/blob/main/ai/overview.md)
   - [Work Experience Structure](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/work-experience/overview.md)
+  - [Leave & Holiday process and Checklist](https://github.com/383Project/engineering-code-of-conduct/blob/main/operations/annual-leave-check-list.md)
 
-## Work In Progress
-In this document there are many areas that are actively being improved or are not 100% compliant with our documentation as it stands. The following table shows areas for improvement with anticipated roll out dates.
 
-| Policy Document                     | Feature to roll out              | Target Date | Is Complete |
-|-------------------------------------|----------------------------------|-------------|-------------|
-| Software requirements specification | Issuing SRS for all major builds | April  2023 | Complete    |
-| Github Controls                     | User Privillage Controls active  | May 2023    | Complete    |
-| QA Policies                         | All QA Related Policy            | May 2023    | Complete    |
-| Frontend Operations Guide           | Complete guide                   | Sept 2023   | In Progress |
-| Support Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
-| Backend Operations Guide            | Complete guide                   | Sept 2023   | In Progress |
-| Code of conduct missing content     | Complete all docs                | May 2023    | Complete    |
-| 1 Password Group training.          | Complete Training                | May 2023    | Complete    |
 
 
 
